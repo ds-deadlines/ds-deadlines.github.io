@@ -1,13 +1,13 @@
-title: AI Conference Deadlines
-description: Countdowns to top CV/NLP/ML/Robotics/AI conference deadlines
+title: DS Conference Deadlines
+description: Countdowns to Distributed Systems, Performance, and Software Engineering conference deadlines
 author: Abhishek Das
 
-domain: "aideadlin.es"
+domain: "ds-deadlines.github.io"
 baseurl: ""
 
-twitter_hashtag: machinelearning
-github_username: paperswithcode
-github_repo: ai-deadlines
+twitter_hashtag: ds-deadlines
+github_username: ds-deadlines
+github_repo: ds-deadlines
 
 markdown: kramdown
 ga_id:
