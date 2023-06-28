@@ -95,6 +95,11 @@
             </div>
             <div class="row">
               <div class="col-12 col-sm-6">
+                {% if conf.name %}
+                <div class="meta">
+                  <span class="conf-name">{{conf.name}}</span>
+                </div>
+                {% endif %}
                 <div class="meta">
                   <span class="conf-date">{{conf.date}}.</span>
                   <span class="conf-place">
