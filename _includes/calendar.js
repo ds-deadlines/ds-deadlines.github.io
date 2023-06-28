@@ -95,6 +95,7 @@ function load_conference_list() {
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
+      rank: "{{conf.rank}}",
       startDate: Date.parse("{{conf.deadline}}"),
       endDate: Date.parse("{{conf.deadline}}"),
     });
@@ -117,6 +118,7 @@ function load_conference_list() {
         date: "{{conf.date}}",
         hindex: "{{conf.hindex}}",
         subject: "{{conf.sub}}",
+        rank: "{{conf.rank}}",
         startDate: Date.parse("{{conf.start}}"),
         endDate: Date.parse("{{conf.end}}"),
       });
