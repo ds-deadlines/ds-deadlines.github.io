@@ -105,6 +105,14 @@
                     {% endif %}
                   </span>
                 </div>
+                {% if conf.rank %}
+                <div class="meta">
+                  Rank: 
+                  {% for rank in conf.rank  %}
+                  <span class="conf-rank {{rank}}-rank">{{rank}}</span>&nbsp;
+                  {% endfor %}
+                </div>
+                {% endif %}
                 {% if conf.note %}
                   <div class="note">
                       <b>Note: </b>{{conf.note}}
