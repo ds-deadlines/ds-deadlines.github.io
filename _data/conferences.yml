@@ -1,4 +1,29 @@
 ---
+- title: IC2E
+  year: 2023
+  id: ic2e23
+  full_name: IEEE International Conference on Cloud Engineering
+  link: https://conferences.computer.org/IC2E/2023/
+  deadline: '2023-04-24 23:59:59'
+  timezone: Europe/Rome
+  place: Boston, Massachusetts, USA 
+  date: September 25-28, 2023
+  start: 2023-09-25
+  end: 2023-09-28
+  sub: [DS, SE]
+- title: SOSP
+  year: 2023
+  id: sosp23
+  full_name: ACM Symposium on Operating Systems Principles (SOSP) 
+  link: https://sosp2023.mpi-sws.org/
+  deadline: '2023-04-17 23:59:59'
+  timezone: Europe/Rome
+  place: Koblenz, Germany
+  date: October 23rd-26th, 2023
+  start: 2023-10-23
+  end: 2023-10-26
+  sub: [DS, SE]
+  rank: [A, A1]
 - title: Middleware
   year: 2023
   id: middleware23
@@ -52,6 +77,59 @@
   start: 2023-09-25
   end: 2023-09-29
   sub: [DS, SE, PER]
+- title: SoCC
+  year: 2023
+  full_name: ACM Symposium on Cloud Computing
+  id: socc23
+  link: https://acmsocc.org/2023
+  deadline: '2023-06-09 23:59:59'
+  timezone: Europe/Rome
+  place: Santa Cruz, California, USA
+  date: October 30th-November 1st, 2023
+  start: 2023-10-30
+  end: 2023-11-01
+  sub: [DS, SE]
+  rank: [B2]
+- title: ICSOC
+  year: 2023
+  full_name: International Conference on Service-Oriented Computing
+  id: icsoc23
+  link: https://icsoc2023.diag.uniroma1.it/call-for-papers/
+  abstract_deadline: '2023-07-03 23:59:59'
+  deadline: '2023-07-10 23:59:59'
+  timezone: Europe/Rome
+  place: Rome
+  date: November 28th-December 1st, 2023
+  start: 2023-11-28
+  end: 2023-12-01
+  sub: [DS, SE]
+  rank: [A, A2]
+- title: ESEC/FSE
+  year: 2023
+  full_name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 
+  id: fse23
+  link: https://2023.esec-fse.org/track/fse-2023-research-papers
+  deadline: '2023-02-02 23:59:59'
+  timezone: Europe/Rome
+  place: San Francisco, California, USA
+  date: December 3rd-9th, 2023
+  start: 2023-12-03
+  end: 2023-12-09
+  sub: [SE]
+  rank: [A, A2]
+- title: CLOUDCOM
+  year: 2023
+  full_name: IEEE International Conference on Cloud Computing Technology and Science (CLOUDCOM)
+  id: cloudcom23
+  link: https://parsec2.unicampania.it/cloudcom2023/
+  deadline: '2023-07-15 23:59:59'
+  timezone: Europe/Rome
+  place: Napoli, Italy
+  date: December 4-6, 2023
+  start: 2023-12-04
+  end: 2023-12-06
+  sub: [DS, SE]
+  rank: [B2]
 - title: USENIX NSDI 
   year: 2024
   full_name: USENIX Symposium on Networked Systems Design and Implementation
@@ -93,6 +171,19 @@
   end: 2024-04-20
   sub: [SE]
   rank: [A, A1]
+- title: EuroSys
+  year: 2024
+  full_name: European Conference on Computer Systems (EuroSys)
+  id: eurosys24
+  link: https://2024.eurosys.org/
+  deadline: '2023-10-19 23:59:59'
+  timezone: Europe/Rome
+  place: Athens, Greece
+  date: April 22nd-25th, 2024
+  start: 2024-04-22
+  end: 2024-04-25
+  sub: [DS, SE]
+  rank: [A, A2]
 - title: WWW
   year: 2024
   full_name: The Web Conference (WWW)
@@ -107,4 +198,17 @@
   end: 2024-05-17
   sub: [DS, SE]
   rank: [A, A1]
-
+- title: OSDI
+  year: 2024
+  full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
+  id: osdi24
+  link: https://www.usenix.org/conference/osdi24/
+  abstract_deadline: '2023-10-30 23:59:59'
+  deadline: '2023-12-07 23:59:59'
+  timezone: Europe/Rome
+  place: Santa Clara, CA, USA
+  date: July 10th–12th, 2024
+  start: 2024-07-10
+  end: 2024-07-12
+  sub: [DS, SE]
+  rank: [A, A1]
