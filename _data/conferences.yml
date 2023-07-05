@@ -34,7 +34,7 @@
   date: December 11-15, 2023
   start: 2023-12-11
   end: 2023-12-15
-  sub: DS
+  sub: [DS, BC, ES]
   rank: [A, A2]
 - title: ACM DEBS 
   year: 2023
@@ -130,6 +130,19 @@
   end: 2023-12-06
   sub: [DS, SE]
   rank: [B2]
+- title: USENIX FAST 
+  year: 2024
+  full_name: USENIX Conference on File and Storage Technologies
+  id: fast24
+  link: https://www.usenix.org/conference/fast24
+  deadline: '2023-09-22 08:59:59'
+  timezone: Europe/Rome
+  place: Santa Clara, California
+  date: February 27-29, 2024
+  start: 2024-02-27
+  end: 2024-02-29
+  sub: [DS, SE, PER]
+  rank: [A, A1]
 - title: USENIX NSDI 
   year: 2024
   full_name: USENIX Symposium on Networked Systems Design and Implementation
@@ -142,7 +155,7 @@
   date: April 16-18, 2024
   start: 2024-04-16
   end: 2024-04-18
-  sub: [DS]
+  sub: [DS, SE, PER]
   rank: [B, A1]
 - title: SAC
   year: 2024
@@ -184,6 +197,36 @@
   end: 2024-04-25
   sub: [DS, SE]
   rank: [A, A2]
+- title: ASPLOS
+  year: 2024
+  full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
+  id: asplos24summer
+  link: https://www.asplos-conference.org/asplos2024/
+  abstract_deadline: '2023-08-03 21:00:00'
+  deadline: '2023-08-10 21:00:00'
+  timezone: Europe/Rome
+  place: San Diego, California, USA
+  date: April 27-May 1, 2024
+  start: 2024-04-27
+  end: 2024-05-01
+  sub: [SE, PER]
+  rank: [A, A1]
+  note: summer review cycle
+- title: ASPLOS
+  year: 2024
+  full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
+  id: asplos24fall
+  link: https://www.asplos-conference.org/asplos2024/
+  abstract_deadline: '2023-11-23 21:00:00'
+  deadline: '2023-11-30 21:00:00'
+  timezone: Europe/Rome
+  place: San Diego, California, USA
+  date: April 27-May 1, 2024
+  start: 2024-04-27
+  end: 2024-05-01
+  sub: [SE, PER]
+  rank: [A, A1]
+  note: fall review cycle
 - title: WWW
   year: 2024
   full_name: The Web Conference (WWW)
@@ -210,5 +253,5 @@
   date: July 10th–12th, 2024
   start: 2024-07-10
   end: 2024-07-12
-  sub: [DS, SE]
+  sub: [DS, SE, PER]
   rank: [A, A1]
