@@ -94,8 +94,7 @@
   rank: [A, A1]
 - title: Euro-Par 
   year: 2023
-  full_name: International European Conference on Parallel
-and Distributed Computing
+  full_name: International European Conference on Parallel and Distributed Computing
   id: europar23
   link: https://2023.euro-par.org/
   abstract_deadline: '2023-02-24 23:59:59'
