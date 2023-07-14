@@ -48,6 +48,19 @@
   end: 2023-10-26
   sub: [DS, SE]
   rank: [A, A1]
+- title: CCS
+  full_name: 30th ACM Conference on Computer and Communications Security 
+  year: 2023
+  id: ccs23
+  link: https://www.sigsac.org/ccs/CCS2023/index.html
+  deadline: '2023-05-04 23:59:59'
+  timezone: Europe/Rome
+  place: Copenhagen, Denmark 
+  date: November 26-30, 2023
+  start: 2023-11-26
+  end: 2023-11-30
+  sub: [BC]
+  rank: [A, A1]
 - title: Middleware
   year: 2023
   id: middleware23
