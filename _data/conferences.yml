@@ -1,4 +1,28 @@
 ---
+- title: EuroS&amp;P
+  year: 2023
+  id: eurosp23
+  full_name: 8th IEEE European Symposium on Security and Privacy
+  link: https://eurosp2023.ieee-security.org/
+  deadline: '2022-10-26 23:59:59'
+  timezone: Europe/Rome
+  place: Delft, Germany
+  date: July 3-7, 2023
+  start: 2023-07-03
+  end: 2023-07-07
+  sub: [BC]
+- title: DAPPS
+  year: 2023
+  id: dapps23
+  full_name: 5th IEEE International Conference on Decentralized Applications and Infrastructures
+  link: https://ieeedapps.com/
+  deadline: '2023-02-26 23:59:59'
+  timezone: Europe/Rome
+  place: Athens, Greece
+  date: July 17-20, 2023
+  start: 2023-07-17
+  end: 2023-07-20
+  sub: [BC]
 - title: IC2E
   year: 2023
   id: ic2e23
@@ -62,7 +86,7 @@
   date: June 19-23, 2023
   start: 2023-06-19
   end: 2023-06-23
-  sub: [DS]
+  sub: [DS, BC]
   rank: [A, A1]
 - title: IEEE/IFIP DSN 
   year: 2023
@@ -198,7 +222,7 @@
   date: December 3rd-9th, 2023
   start: 2023-12-03
   end: 2023-12-09
-  sub: [SE]
+  sub: [SE, BC]
   rank: [A, A2]
 - title: CLOUDCOM
   year: 2023
@@ -333,8 +357,8 @@
   timezone: Europe/Rome
   place: Dublin, Ireland
   date: May 27-31, 2024
-  start: 2023-05-27
-  end: 2023-05-31
+  start: 2024-05-27
+  end: 2024-05-31
   sub: [BC]
 - title: OSDI
   year: 2024
@@ -350,3 +374,19 @@
   end: 2024-07-12
   sub: [DS, SE, PER]
   rank: [A, A1]
+- title: ACM MobiCom
+  year: 2024
+  full_name: ACM Annual International Conference on Mobile Computing and Networking 
+  id: mobicom24
+  link: https://www.sigmobile.org/mobicom/2024/
+  abstract_deadline: '2023-08-18 23:59:59'
+  deadline: '2023-08-25 23:59:59'
+  timezone: Europe/Rome
+  place: Washington, D.C., USA
+  date: October, 2024
+  start: 2024-10-01
+  end: 2024-10-30
+  sub: [DS]
+  rank: [A, A1]
+  note: summer review cycle; conference date to be announced
+
