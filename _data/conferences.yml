@@ -61,6 +61,20 @@
   end: 2023-11-30
   sub: [BC]
   rank: [A, A1]
+- title: OPODIS
+  year: 2023
+  id: opodis23
+  full_name: International Conference on Principles of Distributed Systems
+  link: https://xdefago.github.io/opodis23/
+  abstract_deadline: '2023-08-28 23:59:59'
+  deadline: '2023-09-01 23:59:59'
+  timezone: Europe/Rome
+  place: Tokyo, Japan
+  date: December 6-8, 2023
+  start: 2023-12-06
+  end: 2023-12-08
+  sub: [DS, BC, ES]
+  rank: [B, B2]
 - title: Middleware
   year: 2023
   id: middleware23
