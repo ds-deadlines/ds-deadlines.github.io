@@ -387,6 +387,19 @@
   sub: [SE, PER]
   rank: [A, A1]
   note: fall review cycle
+- title: ICPE
+  year: 2024
+  full_name: ACM/SPEC International Conference on Performance Engineering
+  id: icpe24
+  link: https://icpe2024.spec.org/
+  abstract_deadline: '2023-10-27 23:59:59'
+  deadline: '2023-11-03 23:59:59'
+  timezone: Europe/Rome
+  place: Kensington, London, UK
+  date: May 7-11, 2024
+  start: 2024-05-07
+  end: 2024-05-11
+  sub: [PER, SE]
 - title: WWW
   year: 2024
   full_name: The Web Conference (WWW)
@@ -413,6 +426,20 @@
   start: 2024-05-27
   end: 2024-05-31
   sub: [BC]
+- title: IPDPS 
+  year: 2024
+  full_name:  IEEE International Parallel &amp; Distributed Processing Symposium
+  id: ipdps24
+  link: http://www.ipdps.org/ipdps2024/
+  abstract_deadline: '2023-09-28 23:59:59'
+  deadline: '2023-10-05 23:59:59'
+  timezone: Europe/Rome
+  place: San Francisco, California, USA
+  date: May 27-31, 2024
+  start: 2024-05-27
+  end: 2024-05-31
+  sub: [DS]
+  rank: [A, A1]
 - title: OSDI
   year: 2024
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
