@@ -454,6 +454,20 @@
   end: 2024-07-12
   sub: [DS, SE, PER]
   rank: [A, A1]
+- title: FSE
+  year: 2024
+  full_name: ACM International Conference on the Foundations of Software Engineering (FSE) 
+  id: fse24
+  link: https://conf.researchr.org/track/fse-2024/fse-2024-research-papers
+  abstract_deadline: '2023-09-21 23:59:59'
+  deadline: '2023-09-28 23:59:59'
+  timezone: Europe/Rome
+  place: Porto de Galinas, Brazil
+  date: July 15-19, 2024
+  start: 2024-07-05
+  end: 2024-07-19
+  sub: [SE, BC]
+  rank: [A, A2]
 - title: ACM MobiCom
   year: 2024
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
