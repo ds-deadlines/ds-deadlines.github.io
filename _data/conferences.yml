@@ -454,6 +454,20 @@
   end: 2024-06-07
   sub: [SE, BC, DS]
   rank: [A, A2]
+- title: MobiSys
+  year: 2024
+  full_name: 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024)
+  id: mobisys24
+  link: https://www.sigmobile.org/mobisys/2024/
+  abstract_deadline: '2023-11-23 23:59:59'
+  deadline: '2023-11-30 23:59:59'
+  timezone: Europe/Rome
+  place: Tokyo, Japan
+  date: June 3rd-7th, 2024
+  start: 2024-06-03
+  end: 2024-06-07
+  sub: [SE, DS]
+  rank: [B, A1]
 - title: OSDI
   year: 2024
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
