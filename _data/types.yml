@@ -10,7 +10,10 @@
   color: "#0aefff"
 - name: Performance
   sub: PER
-  color: "#147df5"
+  color: "#0aff99"
 - name: Software Engineering
   sub: SE
-  color: "#0aff99"
+  color: "#ff270a"
+- name: Database and Data Engineering
+  sub: DB
+  color: "#6a0ca8"

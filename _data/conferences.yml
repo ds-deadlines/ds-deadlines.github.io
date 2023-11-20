@@ -1,16 +1,4 @@
 ---
-- title: EuroS&amp;P
-  year: 2023
-  id: eurosp23
-  full_name: 8th IEEE European Symposium on Security and Privacy
-  link: https://eurosp2023.ieee-security.org/
-  deadline: '2022-10-26 23:59:59'
-  timezone: Europe/Rome
-  place: Delft, Germany
-  date: July 3-7, 2023
-  start: 2023-07-03
-  end: 2023-07-07
-  sub: [BC]
 - title: DAPPS
   year: 2023
   id: dapps23
@@ -23,18 +11,6 @@
   start: 2023-07-17
   end: 2023-07-20
   sub: [BC]
-- title: IC2E
-  year: 2023
-  id: ic2e23
-  full_name: IEEE International Conference on Cloud Engineering
-  link: https://conferences.computer.org/IC2E/2023/
-  deadline: '2023-04-24 23:59:59'
-  timezone: Europe/Rome
-  place: Boston, Massachusetts, USA 
-  date: September 25-28, 2023
-  start: 2023-09-25
-  end: 2023-09-28
-  sub: [DS, SE]
 - title: SOSP
   year: 2023
   id: sosp23
@@ -100,76 +76,6 @@
   end: 2023-12-15
   sub: [DS, BC]
   rank: [B]
-- title: ACM DEBS 
-  year: 2023
-  full_name: ACM International Conference on Distributed and Event-based Systems
-  id: debs23
-  link: https://2023.debs.org/
-  abstract_deadline: '2023-02-24 23:59:59'
-  deadline: '2023-06-02 23:59:59'
-  timezone: Europe/Rome
-  place: Neuchatel, Switzerland
-  date: June 27-30, 2023
-  start: 2023-06-27
-  end: 2023-06-30
-  sub: [DS, ES]
-  rank: B2
-- title: ACM PODC 
-  year: 2023
-  full_name: ACM Symposium on Principles of Distributed Computing
-  id: podc23
-  link: https://www.podc.org/
-  abstract_deadline: '2023-01-06 23:59:59'
-  deadline: '2023-01-10 23:59:59'
-  timezone: Europe/Rome
-  place: Orlando, Florida
-  date: June 19-23, 2023
-  start: 2023-06-19
-  end: 2023-06-23
-  sub: [DS, BC]
-  rank: [A, A1]
-- title: IEEE/IFIP DSN 
-  year: 2023
-  full_name:  IEEE/IFIP International Conference on Dependable Systems and Networks
-  id: dsn23
-  link: https://dsn2023.dei.uc.pt/
-  abstract_deadline: '2022-12-07 23:59:59'
-  deadline: '2023-01-28 23:59:59'
-  timezone: Europe/Rome
-  place: Porto, Portugal
-  date: June 27-30, 2023
-  start: 2023-06-27
-  end: 2023-06-30
-  sub: [DS]
-  rank: [A, A1]
-- title: IEEE ICDCS 
-  year: 2023
-  full_name: IEEE International Conference on Distributed Computing Systems
-  id: icdcs23
-  link: https://icdcs2023.icdcs.org/
-  abstract_deadline: '2023-01-14 23:59:59'
-  deadline: '2023-05-21 23:59:59'
-  timezone: America/New_York
-  place: Hong Kong, China
-  date: July 18-21, 2023
-  start: 2023-07-18
-  end: 2023-07-21
-  sub: [DS]
-  rank: [A, A1]
-- title: Euro-Par 
-  year: 2023
-  full_name: International European Conference on Parallel and Distributed Computing
-  id: europar23
-  link: https://2023.euro-par.org/
-  abstract_deadline: '2023-02-24 23:59:59'
-  deadline: '2023-03-03 23:59:59'
-  timezone: Europe/Rome
-  place: Limassol, Cyprus
-  date: August 28-Septembre 1, 2023
-  start: 2023-08-28
-  end: 2023-09-01
-  sub: [DS, PER, SE]
-  rank: [A, A2]
 - title: SIGCOMM 
   year: 2023
   full_name: ACM Special Interest Group on Data Communication
@@ -414,6 +320,19 @@
   end: 2024-05-17
   sub: [DS, SE]
   rank: [A, A1]
+- title: IEEE ICDE 
+  year: 2024
+  full_name:  IEEE International Conference on Data Engineering
+  id: icde24
+  link: https://icde2024.github.io/
+  deadline: '2023-11-24 23:59:59'
+  timezone: Europe/Rome
+  place: Utrecht, Netherlands
+  date: May 13-16, 2024
+  start: 2024-05-13
+  end: 2024-05-16
+  sub: [DB]
+  rank: [A, A1]
 - title: ICBC 
   year: 2024
   full_name: IEEE International Conference on Blockchain and Cryptocurrency
@@ -468,6 +387,75 @@
   end: 2024-06-07
   sub: [SE, DS]
   rank: [B, A1]
+- title: SIGMOD
+  year: 2024
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod24
+  link: https://2024.sigmod.org
+  deadline: '2023-10-15 23:59:59'
+  timezone: Europe/Rome
+  place: Santiamo, Chile
+  date: June 9th-15th, 2024
+  start: 2024-06-09
+  end: 2024-06-15
+  sub: [DB]
+  rank: [A, A1]
+- title: PODS
+  year: 2024
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmodpods24
+  link: https://2024.sigmod.org
+  abstract_deadline: '2023-12-04 23:59:59'
+  deadline: '2023-12-11 23:59:59'
+  timezone: Europe/Rome
+  place: Santiamo, Chile
+  date: June 9th-15th, 2024
+  start: 2024-06-09
+  end: 2024-06-15
+  sub: [DB]
+  rank: [A, A1]
+- title: ACM PODC 
+  year: 2024
+  full_name: ACM Symposium on Principles of Distributed Computing
+  id: podc24
+  link: https://www.podc.org/
+  abstract_deadline: '2024-02-11 23:59:59'
+  deadline: '2024-02-15 23:59:59'
+  timezone: Europe/Rome
+  place: Nantes, France
+  date: June 17-21, 2024
+  start: 2024-06-17
+  end: 2024-06-21
+  sub: [DS, BC]
+  rank: [A, A1]
+- title: IEEE/IFIP DSN 
+  year: 2024
+  full_name:  IEEE/IFIP International Conference on Dependable Systems and Networks
+  id: dsn24
+  link: https://dsn2024uq.github.io/
+  abstract_deadline: '2023-11-29 23:59:59'
+  deadline: '2023-12-06 23:59:59'
+  timezone: Europe/Rome
+  place: Brisbane, Australia
+  date: June 24-27, 2024
+  start: 2024-06-24
+  end: 2024-06-27
+  sub: [DS]
+  rank: [A, A1]
+- title: ACM DEBS 
+  year: 2024
+  full_name: ACM International Conference on Distributed and Event-based Systems
+  id: debs24
+  link: https://2024.debs.org/
+  abstract_deadline: '2024-02-16 23:59:59'
+  deadline: '2024-02-22 23:59:59'
+  timezone: Europe/Rome
+  place: Lyon, France
+  date: June 25-28, 2024
+  start: 2024-06-25
+  end: 2024-06-28
+  sub: [DS, ES]
+  rank: B2
 - title: OSDI
   year: 2024
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
@@ -482,6 +470,18 @@
   end: 2024-07-12
   sub: [DS, SE, PER]
   rank: [A, A1]
+- title: EuroS&amp;P
+  year: 2024
+  id: eurosp24
+  full_name: 9th IEEE European Symposium on Security and Privacy
+  link: https://eurosp2024.ieee-security.org/
+  deadline: '2023-11-02 23:59:59'
+  timezone: Europe/Rome
+  place: Vienna, Austria
+  date: July 8-12, 2024
+  start: 2024-07-08
+  end: 2024-07-12
+  sub: [BC]
 - title: FSE
   year: 2024
   full_name: ACM International Conference on the Foundations of Software Engineering (FSE) 
@@ -496,6 +496,47 @@
   end: 2024-07-19
   sub: [SE, BC]
   rank: [A, A2]
+- title: IEEE ICDCS 
+  year: 2024
+  full_name: IEEE International Conference on Distributed Computing Systems
+  id: icdcs24
+  link: https://icdcs2024.icdcs.org/
+  abstract_deadline: '2024-01-12 23:59:59'
+  deadline: '2024-01-19 23:59:59'
+  timezone: America/New_York
+  place: Jersey City, New Jersey, USA
+  date: July 16-19, 2024
+  start: 2024-07-16
+  end: 2024-07-19
+  sub: [DS]
+  rank: [A, A1]
+- title: Euro-Par 
+  year: 2024
+  full_name: International European Conference on Parallel and Distributed Computing
+  id: europar24
+  link: https://2024.euro-par.org/
+  abstract_deadline: '2024-03-05 23:59:59'
+  deadline: '2024-03-25 23:59:59'
+  timezone: Europe/Rome
+  place: Madrid, Spain
+  date: August 26-30, 2024
+  start: 2024-08-26
+  end: 2024-08-30
+  sub: [DS, PER, SE]
+  rank: [A, A2]
+- title: IC2E
+  year: 2024
+  id: ic2e24
+  full_name: IEEE International Conference on Cloud Engineering
+  link: https://conferences.computer.org/IC2E/2024/
+  abstract_deadline: '2024-04-12 23:59:59'
+  deadline: '2024-04-19 23:59:59'
+  timezone: Europe/Rome
+  place: Paphos, Cyprus
+  date: September 24-27, 2024
+  start: 2024-09-24
+  end: 2024-09-27
+  sub: [DS, SE]
 - title: ACM MobiCom
   year: 2024
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
@@ -511,4 +552,30 @@
   sub: [DS]
   rank: [A, A1]
   note: summer review cycle; conference date to be announced
+- title: Middleware
+  year: 2024
+  id: middleware24r1
+  full_name: ACM/IFIP International Middleware Conference (Fall Deadlines)
+  link: https://middleware-conf.github.io/2024
+  deadline: '2023-12-01 23:59:59'
+  timezone: Europe/Rome
+  place: Hong Kong, China
+  date: December 2nd-6th, 2024
+  start: 2024-12-02
+  end: 2024-12-06
+  sub: [DS, BC, ES]
+  rank: [A, A2]
+- title: Middleware
+  year: 2024
+  id: middleware24r2
+  full_name: ACM/IFIP International Middleware Conference (Spring Deadlines)
+  link: https://middleware-conf.github.io/2024
+  deadline: '2023-05-24 23:59:59'
+  timezone: Europe/Rome
+  place: Hong Kong, China
+  date: December 2nd-6th, 2024
+  start: 2024-12-02
+  end: 2024-12-06
+  sub: [DS, BC, ES]
+  rank: [A, A2]
 
