@@ -359,6 +359,20 @@
   end: 2024-05-31
   sub: [DS]
   rank: [A, A1]
+- title: INFOCOM 
+  year: 2024
+  full_name:  IEEE International Conference on Computer Communications
+  id: infocom24
+  link: https://infocom2024.ieee-infocom.org
+  abstract_deadline: '2023-07-24 23:59:59'
+  deadline: '2023-07-31 23:59:59'
+  timezone: Europe/Rome
+  place: Vancouver, Canada
+  date: May 20-23, 2024
+  start: 2024-05-20
+  end: 2024-05-33
+  sub: [NET]
+  rank: [A, A1]
 - title: CAiSE
   year: 2024
   full_name: 36th International Conference on Advanced Information Systems Engineering (CAiSE'24)

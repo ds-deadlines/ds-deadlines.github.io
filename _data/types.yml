@@ -17,3 +17,6 @@
 - name: Database and Data Engineering
   sub: DB
   color: "#6a0ca8"
+- name: Networking
+  sub: NET
+  color: "#ffd300"
