@@ -242,6 +242,20 @@
   sub: [SE, PER]
   rank: [A, A1]
   note: fall review cycle
+- title: CCGrid
+  year: 2024
+  full_name: IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGrid)
+  id: ccgrid24
+  link: https://2024.ccgrid-conference.org/
+  abstract_deadline: '2023-12-04 23:59:59'
+  deadline: '2023-12-11 23:59:59'
+  timezone: Europe/Rome
+  place: Kensington, London, UK
+  date: May 6-9, 2024
+  start: 2024-05-06
+  end: 2024-05-09
+  sub: [PER, SE, DS]
+  rank: [A, A1, B]
 - title: ICPE
   year: 2024
   full_name: ACM/SPEC International Conference on Performance Engineering
@@ -555,6 +569,34 @@
   end: 2024-08-08
   sub: [DS]
   rank: [A, A1]
+- title: KDD
+  year: 2024
+  id: kdd24r1
+  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (1st review cycle)
+  link: https://kdd2024.kdd.org/
+  abstract_deadline: '2024-02-01 23:59:59'
+  deadline: '2024-02-08 23:59:59'
+  timezone: Europe/Rome
+  place: Barcelona, Spain
+  date: August 25-29, 2024
+  start: 2024-08-25
+  end: 2024-08-29
+  sub: [DB]
+  rank: [A*, A, A1]
+- title: KDD
+  year: 2024
+  id: kdd24r2
+  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2nd review cycle)
+  link: https://kdd2024.kdd.org/
+  abstract_deadline: '2024-08-01 23:59:59'
+  deadline: '2024-08-08 23:59:59'
+  timezone: Europe/Rome
+  place: TBA
+  date: 2025
+  start: 2025-08-01
+  end: 2025-08-01
+  sub: [DB]
+  rank: [A*, A, A1]
 - title: Euro-Par 
   year: 2024
   full_name: International European Conference on Parallel and Distributed Computing
@@ -582,6 +624,19 @@
   start: 2024-09-24
   end: 2024-09-27
   sub: [DS, SE]
+- title: CLUSTER
+  year: 2024
+  id: cluster24
+  full_name: IEEE International Conference on Cluster Computing
+  link: https://clustercomp.org/2024/
+  deadline: '2024-04-25 23:59:59'
+  timezone: Europe/Rome
+  place: Kobe, Japan
+  date: September 24-27, 2024
+  start: 2024-09-24
+  end: 2024-09-27
+  sub: [DS, SE, PER]
+  rank: [A, A2, B]
 - title: ACM MobiCom
   year: 2024
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
