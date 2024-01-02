@@ -378,28 +378,14 @@
   end: 2024-06-07
   sub: [DS]
   rank: [A, A2]
-- title: SIGMOD
+- title: SIGMOD/PODS
   year: 2024
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
   id: sigmod24
   link: https://2024.sigmod.org
   deadline: '2023-10-15 23:59:59'
   timezone: Europe/Rome
-  place: Santiamo, Chile
-  date: June 9th-15th, 2024
-  start: 2024-06-09
-  end: 2024-06-15
-  sub: [DB]
-  rank: [A, A1]
-- title: PODS
-  year: 2024
-  full_name: ACM SIGMOD/PODS International Conference on Management of Data
-  id: sigmodpods24
-  link: https://2024.sigmod.org
-  abstract_deadline: '2023-12-04 23:59:59'
-  deadline: '2023-12-11 23:59:59'
-  timezone: Europe/Rome
-  place: Santiamo, Chile
+  place: Santiago, Chile
   date: June 9th-15th, 2024
   start: 2024-06-09
   end: 2024-06-15
