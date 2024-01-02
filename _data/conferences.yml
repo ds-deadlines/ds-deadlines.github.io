@@ -1,16 +1,4 @@
 ---
-- title: DAPPS
-  year: 2023
-  id: dapps23
-  full_name: 5th IEEE International Conference on Decentralized Applications and Infrastructures
-  link: https://ieeedapps.com/
-  deadline: '2023-02-26 23:59:59'
-  timezone: Europe/Rome
-  place: Athens, Greece
-  date: July 17-20, 2023
-  start: 2023-07-17
-  end: 2023-07-20
-  sub: [BC]
 - title: SOSP
   year: 2023
   id: sosp23
@@ -38,18 +26,6 @@
   end: 2023-12-08
   sub: [DS, BC, ES]
   rank: [B, B2]
-- title: Middleware
-  year: 2023
-  id: middleware23
-  link: https://middleware-conf.github.io/2023/
-  deadline: '2023-06-02 23:59:59'
-  timezone: Europe/Rome
-  place: Bologna, Italy
-  date: December 11-15, 2023
-  start: 2023-12-11
-  end: 2023-12-15
-  sub: [DS, BC, ES]
-  rank: [A, A2]
 - title: HPCC
   year: 2023
   id: hpcc23
@@ -374,6 +350,34 @@
   end: 2024-06-07
   sub: [SE, DS]
   rank: [B, A1]
+- title: HPDC
+  year: 2024
+  full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
+  id: hpdc24
+  link: https://www.hpdc.org/2024
+  abstract:deadline: '2024-01-18 23:59:59'
+  deadline: '2024-01-25 23:59:59'
+  timezone: Europe/Rome
+  place: Pisa, Italy
+  date: June 3rd-7th, 2024
+  start: 2024-06-03
+  end: 2024-06-07
+  sub: [DS, PER]
+  rank: [A, A1]
+- title: ICS
+  year: 2024
+  full_name: ACM International Conference on Supercomputing
+  id: ics24
+  link: https://ics2024.github.io/
+  abstract:deadline: '2024-01-11 23:59:59'
+  deadline: '2024-01-18 23:59:59'
+  timezone: Europe/Rome
+  place: Kyoto, Japan
+  date: June 4th-7th, 2024
+  start: 2024-06-04
+  end: 2024-06-07
+  sub: [DS]
+  rank: [A, A2]
 - title: SIGMOD
   year: 2024
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
@@ -401,6 +405,20 @@
   end: 2024-06-15
   sub: [DB]
   rank: [A, A1]
+- title: Performance
+  year: 2024
+  full_name: ACM SIGMETRICS / IFIP Performance
+  id: sigper24
+  link: http://www.sigmetrics.org/sigmetrics2024/
+  abstract:deadline: '2024-01-24 23:59:59'
+  deadline: '2024-01-31 23:59:59'
+  timezone: Europe/Rome
+  place: Venice, Italy
+  date: June 10th-14th, 2024
+  start: 2024-06-10
+  end: 2024-06-14
+  sub: [PER]
+  rank: [B4]
 - title: ACM PODC 
   year: 2024
   full_name: ACM Symposium on Principles of Distributed Computing
@@ -443,6 +461,20 @@
   end: 2024-06-28
   sub: [DS, ES]
   rank: B2
+- title: ATC
+  year: 2024
+  full_name: USENIX Annual Technical Conference (ATC '24)
+  id: atc24
+  link: https://www.usenix.org/conference/atc24/
+  abstract_deadline: '2024-01-09 23:59:59'
+  deadline: '2024-01-16 23:59:59'
+  timezone: Europe/Rome
+  place: Santa Clara, CA, USA
+  date: July 10th–12th, 2024
+  start: 2024-07-10
+  end: 2024-07-12
+  sub: [DS, SE, PER]
+  rank: [A, A1]
 - title: OSDI
   year: 2024
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
@@ -468,6 +500,18 @@
   date: July 8-12, 2024
   start: 2024-07-08
   end: 2024-07-12
+  sub: [BC]
+- title: DAPPS
+  year: 2024
+  id: dapps24
+  full_name: 6th IEEE International Conference on Decentralized Applications and Infrastructures
+  link: https://ieeedapps.com/
+  deadline: '2024-03-08 23:59:59'
+  timezone: Europe/Rome
+  place: Shanghai, China
+  date: July 15-18, 2024
+  start: 2024-07-15
+  end: 2024-07-18
   sub: [BC]
 - title: FSE
   year: 2024
