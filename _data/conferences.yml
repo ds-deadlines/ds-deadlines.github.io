@@ -305,7 +305,7 @@
   link: https://icbc2025.ieee-icbc.org/
   deadline: '2024-12-23 23:59:59'
   timezone: Europe/Rome
-  place: Dublin, Ireland
+  place: Pisa, Italy
   date: June 2-6, 2025
   start: 2025-06-02
   end: 2025-06-06
@@ -668,4 +668,97 @@
   end: 2024-12-06
   sub: [DS, BC, ES]
   rank: [A, A2]
+- title: Eurocrypt
+  year: 2025
+  id: eurocrypt25
+  full_name: Annual International Conference on the Theory and Applications of Cryptographic Techniques (Eurocrypt)
+  link: https://eurocrypt.iacr.org/2025/
+  deadline: '2024-10-02 23:59:59'
+  timezone: Europe/Rome
+  place: Madrid, Spain
+  date: May 4-8, 2025
+  start: 2025-05-04
+  end: 2025-05-08
+  sub: [CS]
+  rank: [A*, A, A1]
+- title: SP
+  year: 2025
+  id: secpri25
+  full_name: 46th IEEE Symposium on Security and Privacy
+  link: https://sp2025.ieee-security.org/
+  deadline: '2024-11-14 23:59:59'
+  timezone: Europe/Rome
+  place: San Francisco, USA
+  date: May 12-15, 2025
+  start: 2025-05-12
+  end: 2025-05-15
+  sub: [CS]
+  rank: [A*, A, A1]
+- title: FOCS
+  year: 2025
+  id: focs25
+  full_name: IEEE Symposium on Foundations of Computer Science (FOCS)
+  link: https://focs.computer.org/2024/
+  deadline: '2024-04-04 23:59:59'
+  timezone: Europe/Rome
+  place: Chicago, IL, USA
+  date: October 27-30, 2024
+  start: 2024-10-27
+  end: 2024-10-30
+  sub: [CS]
+  rank: [A*, A, A1]
+- title: Asiacrypt
+  year: 2024
+  id: asiacrypt24
+  full_name: Asiacrypt
+  link: https://asiacrypt.iacr.org/2024/
+  deadline: '2024-05-26 23:59:59'
+  timezone: Europe/Rome
+  place: Kolkata, India
+  date: December 9-13, 2024
+  start: 2024-12-09
+  end: 2024-12-13
+  sub: [CS]
+  rank: [A, A1]
+- title: ACNS
+  year: 2024
+  id: acns24f
+  full_name: International Conference on Applied Cryptography and Network Security
+  link: http://jianying.space/acns/
+  deadline: '2024-09-09 23:59:59'
+  timezone: Europe/Rome
+  place: Munich, Germany
+  date: June 23-26, 2025
+  start: 2025-06-23
+  end: 2025-06-26
+  sub: [CS]
+  rank: [B, B1]
+  note: First submission cycle
+- title: ACNS
+  year: 2024
+  id: acns24s
+  full_name: International Conference on Applied Cryptography and Network Security
+  link: http://jianying.space/acns/
+  deadline: '2025-01-13 23:59:59'
+  timezone: Europe/Rome
+  place: Munich, Germany
+  date: June 23-26, 2025
+  start: 2025-06-23
+  end: 2025-06-26
+  sub: [CS]
+  rank: [B, B1]
+  note: Second submission cycle
+- title: CANS
+  year: 2024
+  id: cans24
+  full_name: International Conference on Cryptology And Network Security
+  link: https://2024.cansconference.org/home
+  deadline: '2024-04-24 23:59:59'
+  timezone: Europe/Rome
+  place: Cambridge, UK
+  date: September 24-27, 2024
+  start: 2024-09-24
+  end: 2024-09-27
+  sub: [CS]
+  rank: [B]
 

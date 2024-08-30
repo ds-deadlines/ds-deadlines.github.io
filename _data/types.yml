@@ -20,3 +20,6 @@
 - name: Networking
   sub: NET
   color: "#ffd300"
+- name: Cryptography and Security
+  sub: CS
+  color: "#deff0a"
