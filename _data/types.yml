@@ -1,25 +1,25 @@
 ---
-- name: Distributed Systems
-  sub: DS
-  color: "#ffd300"
 - name: Blockchain
   sub: BC
   color: "#deff0a"
+- name: "Cryptography and Security"
+  sub: CS
+  color: "#deff0a"
+- name: Database and Data Engineering
+  sub: DB
+  color: "#6a0ca8"
+- name: Distributed Systems
+  sub: DS
+  color: "#ffd300"
 - name: Event-based Systems
   sub: ES
   color: "#0aefff"
+- name: Networking
+  sub: NET
+  color: "#ffd300"
 - name: Performance
   sub: PER
   color: "#0aff99"
 - name: Software Engineering
   sub: SE
   color: "#ff270a"
-- name: Database and Data Engineering
-  sub: DB
-  color: "#6a0ca8"
-- name: Networking
-  sub: NET
-  color: "#ffd300"
-- name: Cryptography and Security
-  sub: CS
-  color: "#deff0a"
