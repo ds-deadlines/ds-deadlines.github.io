@@ -325,31 +325,31 @@
   sub: [DS]
   rank: [A, A1]
 - title: INFOCOM 
-  year: 2024
+  year: 2025
   full_name:  IEEE International Conference on Computer Communications
-  id: infocom24
-  link: https://infocom2024.ieee-infocom.org
-  abstract_deadline: '2023-07-24 23:59:59'
-  deadline: '2023-07-31 23:59:59'
+  id: infocom25
+  link: https://infocom2025.ieee-infocom.org
+  abstract_deadline: '2024-07-24 23:59:59'
+  deadline: '2024-07-31 23:59:59'
   timezone: Europe/Rome
-  place: Vancouver, Canada
-  date: May 20-23, 2024
-  start: 2024-05-20
-  end: 2024-05-33
+  place: London, UK
+  date: May 19-22, 2025
+  start: 2025-05-19
+  end: 2025-05-22
   sub: [NET]
   rank: [A, A1]
 - title: CAiSE
-  year: 2024
-  full_name: 36th International Conference on Advanced Information Systems Engineering (CAiSE'24)
-  id: caise24
-  link: https://cyprusconferences.org/caise2024/
-  abstract_deadline: '2023-11-24 23:59:59'
-  deadline: '2023-12-01 23:59:59'
+  year: 2025
+  full_name: 37th International Conference on Advanced Information Systems Engineering (CAiSE'25)
+  id: caise25
+  link: https://cyprusconferences.org/caise2025/
+  abstract_deadline: '2024-11-22 23:59:59'
+  deadline: '2024-12-01 23:59:59'
   timezone: Europe/Rome
-  place: Limassol, Cyprus
-  date: June 3rd-7th, 2024
-  start: 2024-06-03
-  end: 2024-06-07
+  place: Vienna, Austria
+  date: June 16-20, 2025
+  start: 2025-06-16
+  end: 2025-06-20
   sub: [SE, BC, DS]
   rank: [A, A2]
 - title: MobiSys
@@ -394,47 +394,50 @@
   end: 2024-06-07
   sub: [DS]
   rank: [A, A2]
-- title: SIGMOD
-  year: 2024
+- title: SIGMOD/PODS
+  year: 2025
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
-  id: sigmod24
-  link: https://2024.sigmod.org
-  deadline: '2023-10-15 23:59:59'
+  id: sigmod25
+  link: https://2025.sigmod.org
+  abstract_deadline: '2024-10-10 23:59:59'
+  deadline: '2024-10-17 23:59:59'
   timezone: Europe/Rome
-  place: Santiago, Chile
-  date: June 9th-15th, 2024
-  start: 2024-06-09
-  end: 2024-06-15
+  place: Berlin, Germany
+  date: June 22-27, 2025
+  start: 2025-06-22
+  end: 2025-06-27
   sub: [DB]
   rank: [A, A1]
-- title: PODS
-  year: 2024
-  full_name: ACM SIGMOD/PODS International Conference on Management of Data
-  id: sigmodpods24
-  link: https://2024.sigmod.org
-  abstract_deadline: '2023-12-04 23:59:59'
-  deadline: '2023-12-11 23:59:59'
+- title: SIGMETRICS
+  year: 2025
+  full_name: ACM SIGMETRICS
+  id: sigper25f
+  link: http://www.sigmetrics.org/sigmetrics2025/
+  abstract_deadline: '2024-10-02 23:59:59'
+  deadline: '2024-10-09 23:59:59'
   timezone: Europe/Rome
-  place: Santiago, Chile
-  date: June 9th-15th, 2024
-  start: 2024-06-09
-  end: 2024-06-15
-  sub: [DB]
-  rank: [A, A1]
-- title: Performance
-  year: 2024
-  full_name: ACM SIGMETRICS / IFIP Performance
-  id: sigper24
-  link: http://www.sigmetrics.org/sigmetrics2024/
-  abstract:deadline: '2024-01-24 23:59:59'
-  deadline: '2024-01-31 23:59:59'
-  timezone: Europe/Rome
-  place: Venice, Italy
-  date: June 10th-14th, 2024
-  start: 2024-06-10
-  end: 2024-06-14
+  place: Stony Brook, New York, USA
+  date: June 9-13, 2025
+  start: 2025-06-09
+  end: 2025-06-13
   sub: [PER]
   rank: [B4]
+  note: fall submission cycle
+- title: SIGMETRICS
+  year: 2025
+  full_name: ACM SIGMETRICS
+  id: sigper25w
+  link: http://www.sigmetrics.org/sigmetrics2025/
+  abstract_deadline: '2025-01-15 23:59:59'
+  deadline: '2025-01-22 23:59:59'
+  timezone: Europe/Rome
+  place: Stony Brook, New York, USA
+  date: June 9-13, 2025
+  start: 2025-06-10
+  end: 2025-06-13
+  sub: [PER]
+  rank: [B4]
+  note: winter submission cycle
 - title: ACM PODC 
   year: 2024
   full_name: ACM Symposium on Principles of Distributed Computing
@@ -450,17 +453,17 @@
   sub: [DS, BC]
   rank: [A, A1]
 - title: IEEE/IFIP DSN 
-  year: 2024
+  year: 2025
   full_name:  IEEE/IFIP International Conference on Dependable Systems and Networks
-  id: dsn24
-  link: https://dsn2024uq.github.io/
-  abstract_deadline: '2023-11-29 23:59:59'
-  deadline: '2023-12-06 23:59:59'
+  id: dsn25
+  link: https://dsn2025.github.io/
+  abstract_deadline: '2024-11-27 23:59:59'
+  deadline: '2024-12-04 23:59:59'
   timezone: Europe/Rome
-  place: Brisbane, Australia
-  date: June 24-27, 2024
-  start: 2024-06-24
-  end: 2024-06-27
+  place: Naples, Italy
+  date: June 23-26, 2025
+  start: 2025-06-23
+  end: 2025-06-26
   sub: [DS]
   rank: [A, A1]
 - title: ACM DEBS 
@@ -478,31 +481,31 @@
   sub: [DS, ES]
   rank: B2
 - title: ATC
-  year: 2024
-  full_name: USENIX Annual Technical Conference (ATC '24)
-  id: atc24
-  link: https://www.usenix.org/conference/atc24/
-  abstract_deadline: '2024-01-09 23:59:59'
-  deadline: '2024-01-16 23:59:59'
+  year: 2025
+  full_name: USENIX Annual Technical Conference (ATC '25)
+  id: atc25
+  link: htps://www.usenix.org/conference/atc25/
+  abstract_deadline: '2025-01-07 23:59:59'
+  deadline: '2025-01-14 23:59:59'
   timezone: Europe/Rome
-  place: Santa Clara, CA, USA
-  date: July 10th–12th, 2024
-  start: 2024-07-10
-  end: 2024-07-12
-  sub: [DS, SE, PER]
+  place: Boston, MA, USA
+  date: July 7-9, 2025
+  start: 2025-07-07
+  end: 2025-07-09
+  sub: [DS SE, PER]
   rank: [A, A1]
 - title: OSDI
-  year: 2024
-  full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '24)
-  id: osdi24
-  link: https://www.usenix.org/conference/osdi24/
-  abstract_deadline: '2023-10-30 23:59:59'
-  deadline: '2023-12-07 23:59:59'
+  year: 2025
+  full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '25)
+  id: osdi25
+  link: https://www.usenix.org/conference/osdi25/
+  abstract_deadline: '2024-12-03 23:59:59'
+  deadline: '2024-12-10 23:59:59'
   timezone: Europe/Rome
-  place: Santa Clara, CA, USA
-  date: July 10th–12th, 2024
-  start: 2024-07-10
-  end: 2024-07-12
+  place: Boston, MA, USA
+  date: July 7-9, 2025
+  start: 2025-07-07
+  end: 2025-07-09
   sub: [DS, SE, PER]
   rank: [A, A1]
 - title: EuroS&amp;P
@@ -529,32 +532,18 @@
   start: 2024-07-15
   end: 2024-07-18
   sub: [BC]
-- title: FSE
-  year: 2024
-  full_name: ACM International Conference on the Foundations of Software Engineering (FSE) 
-  id: fse24
-  link: https://conf.researchr.org/track/fse-2024/fse-2024-research-papers
-  abstract_deadline: '2023-09-21 23:59:59'
-  deadline: '2023-09-28 23:59:59'
-  timezone: Europe/Rome
-  place: Porto de Galinas, Brazil
-  date: July 15-19, 2024
-  start: 2024-07-15
-  end: 2024-07-19
-  sub: [SE, BC]
-  rank: [A, A2]
 - title: IEEE ICDCS 
-  year: 2024
+  year: 2025
   full_name: IEEE International Conference on Distributed Computing Systems
-  id: icdcs24
-  link: https://icdcs2024.icdcs.org/
-  abstract_deadline: '2024-01-12 23:59:59'
-  deadline: '2024-01-19 23:59:59'
-  timezone: America/New_York
-  place: Jersey City, New Jersey, USA
-  date: July 16-19, 2024
-  start: 2024-07-16
-  end: 2024-07-19
+  id: icdcs25
+  link: https://icdcs2025.icdcs.org/
+  abstract_deadline: '2024-12-04 23:59:59'
+  deadline: '2024-12-11 23:59:59'
+  timezone: Europe/Rome
+  place: Glasgow, Scotland, UK
+  date: July 21-23, 2025
+  start: 2025-07-21
+  end: 2025-07-23
   sub: [DS]
   rank: [A, A1]
 - title: SIGCOMM 
@@ -572,31 +561,17 @@
   sub: [DS]
   rank: [A, A1]
 - title: KDD
-  year: 2024
-  id: kdd24r1
-  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (1st review cycle)
-  link: https://kdd2024.kdd.org/
-  abstract_deadline: '2024-02-01 23:59:59'
-  deadline: '2024-02-08 23:59:59'
-  timezone: Europe/Rome
-  place: Barcelona, Spain
-  date: August 25-29, 2024
-  start: 2024-08-25
-  end: 2024-08-29
-  sub: [DB]
-  rank: [A*, A, A1]
-- title: KDD
-  year: 2024
-  id: kdd24r2
+  year: 2025
+  id: kdd25r2
   full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2nd review cycle)
-  link: https://kdd2024.kdd.org/
-  abstract_deadline: '2024-08-01 23:59:59'
-  deadline: '2024-08-08 23:59:59'
+  link: https://kdd2025.kdd.org/
+  abstract_deadline: '2025-02-01 23:59:59'
+  deadline: '2025-02-08 23:59:59'
   timezone: Europe/Rome
-  place: TBA
-  date: 2025
-  start: 2025-08-01
-  end: 2025-08-01
+  place: Toronto, Canada
+  date: 'August 3-7, 2025'
+  start: 2025-08-03
+  end: 2025-08-07
   sub: [DB]
   rank: [A*, A, A1]
 - title: Euro-Par 
