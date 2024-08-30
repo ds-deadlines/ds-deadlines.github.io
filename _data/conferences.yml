@@ -1,325 +1,327 @@
 ---
 - title: SOSP
-  year: 2023
-  id: sosp23
+  year: 2024
+  id: sosp24
   full_name: ACM Symposium on Operating Systems Principles (SOSP) 
-  link: https://sosp2023.mpi-sws.org/
-  deadline: '2023-04-17 23:59:59'
+  link: https://sigops.org/s/conferences/sosp/2024/
+  deadline: '2024-04-19 23:59:59'
   timezone: Europe/Rome
   place: Koblenz, Germany
-  date: October 23rd-26th, 2023
-  start: 2023-10-23
-  end: 2023-10-26
+  date: November 4-6, 2024
+  start: 2024-11-04
+  end: 2024-11-06
   sub: [DS, SE]
   rank: [A, A1]
 - title: OPODIS
-  year: 2023
-  id: opodis23
+  year: 2024
+  id: opodis24
   full_name: International Conference on Principles of Distributed Systems
-  link: https://xdefago.github.io/opodis23/
-  abstract_deadline: '2023-08-28 23:59:59'
-  deadline: '2023-09-01 23:59:59'
+  link: https://opodis2024.imtlucca.it/
+  abstract_deadline: '2024-08-30 23:59:59'
+  deadline: '2024-09-06 23:59:59'
   timezone: Europe/Rome
-  place: Tokyo, Japan
-  date: December 6-8, 2023
-  start: 2023-12-06
-  end: 2023-12-08
+  place: Lucca, Italy
+  date: December 11-13, 2024
+  start: 2024-12-11
+  end: 2024-12-13
   sub: [DS, BC, ES]
   rank: [B, B2]
 - title: HPCC
-  year: 2023
-  id: hpcc23
+  year: 2024
+  id: hpcc24
   full_name: International Conferences on High Performance Computing and Communications
-  link: http://www.swinflow.org/confs/2023/hpcc/
-  deadline: '2023-09-15 23:59:59'
+  link: http://www.ieee-hust-ncc.org/2024/HPCC/index.html
+  deadline: '2024-09-10 23:59:59'
   timezone: Europe/Rome
-  place: Melbourne, Australia
-  date: December 13-15, 2023
-  start: 2023-12-13
-  end: 2023-12-15
+  place: Wuhan, China
+  date: December 13-15, 2024
+  start: 2024-12-13
+  end: 2024-12-15
   sub: [DS, BC]
   rank: [B]
 - title: IEEE ACSOS 
-  year: 2023
+  year: 2024
   full_name: IEEE International Conference on Autonomic Computing and Self-Organizing Systems
-  id: acsos23
-  link: https://2023.acsos.org/
-  abstract_deadline: '2023-05-12 23:59:59'
-  deadline: '2023-05-19 23:59:59'
+  id: acsos24
+  link: https://2024.acsos.org/
+  abstract_deadline: '2024-05-14 23:59:59'
+  deadline: '2024-05-18 23:59:59'
   timezone: Europe/Rome
-  place: Toronto, Canada
-  date: September 25-29, 2023
-  start: 2023-09-25
-  end: 2023-09-29
+  place: Aarhus, Denmark
+  date: September 16-20, 2024
+  start: 2024-09-16
+  end: 2024-09-20
   sub: [DS, SE, PER]
 - title: DISC 
-  year: 2023
+  year: 2024
   full_name: International Symposium on Distributed Computing
-  id: disc23
-  link: http://www.disc-conference.org/wp/disc2023/
-  abstract_deadline: '2023-05-03 23:59:59'
-  deadline: '2023-05-10 23:59:59'
+  id: disc24
+  link: http://www.disc-conference.org/wp/disc2024/
+  abstract_deadline: '2024-05-07 23:59:59'
+  deadline: '2024-05-14 23:59:59'
   timezone: Europe/Rome
-  place: L'Aquila, Italy
-  date: October 9-13, 2023
-  start: 2023-10-09
-  end: 2023-10-13
+  place: Madrid, Spain
+  date: October 28 - November 1, 2024
+  start: 2024-10-28
+  end: 2024-11-01
   sub: [DS]
   rank: [A, A2]
 - title: MASCOTS 
-  year: 2023
+  year: 2024
   full_name: International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
-  id: mascots23
-  link: http://mascots23.iitis.pl/
-  deadline: '2023-05-19 23:59:59'
+  id: mascots24
+  link: http://mascots24.iitis.pl/
+  deadline: '2024-05-09 23:59:59'
   timezone: Europe/Rome
-  place: Stony Brook, NY, USA
-  date: October 16-18, 2023
-  start: 2023-10-16
-  end: 2023-10-18
+  place: Krakow, Poland
+  date: October 21-23, 2024
+  start: 2024-10-21
+  end: 2024-10-23
   sub: [PER]
   rank: [A, A2]
 - title: SoCC
-  year: 2023
+  year: 2024
   full_name: ACM Symposium on Cloud Computing
-  id: socc23
-  link: https://acmsocc.org/2023
-  deadline: '2023-06-09 23:59:59'
+  id: socc24
+  link: https://acmsocc.org/2024
+  abstract_deadline: '2024-07-08 23:59:59'
+  deadline: '2024-07-15 23:59:59'
   timezone: Europe/Rome
-  place: Santa Cruz, California, USA
-  date: October 30th-November 1st, 2023
-  start: 2023-10-30
-  end: 2023-11-01
+  place: Redmond, WA, USA
+  date: November 20-22, 2024
+  start: 2024-11-20
+  end: 2024-11-22
   sub: [DS, SE]
   rank: [B2]
 - title: ICSOC
-  year: 2023
+  year: 2024
   full_name: International Conference on Service-Oriented Computing
-  id: icsoc23
-  link: https://icsoc2023.diag.uniroma1.it/call-for-papers/
-  abstract_deadline: '2023-07-03 23:59:59'
-  deadline: '2023-07-10 23:59:59'
+  id: icsoc24
+  link: https://icsoc2024.redcad.tn/
+  abstract_deadline: '2024-07-10 23:59:59'
+  deadline: '2024-07-24 23:59:59'
   timezone: Europe/Rome
-  place: Rome
-  date: November 28th-December 1st, 2023
-  start: 2023-11-28
-  end: 2023-12-01
+  place: Tunis, Tunisia
+  date: December 3-6, 2024
+  start: 2024-12-03
+  end: 2024-12-06
   sub: [DS, SE]
   rank: [A, A2]
-- title: ESEC/FSE
-  year: 2023
-  full_name: ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE) 
-  id: fse23
-  link: https://2023.esec-fse.org/track/fse-2023-research-papers
-  deadline: '2023-02-02 23:59:59'
+- title: FSE
+  year: 2025
+  full_name: ACM International Conference on the Foundations of Software Engineering (FSE) 
+  id: fse25
+  link: https://conf.researchr.org/home/fse-2025
+  abstract_deadline: '2024-09-05 23:59:59'
+  deadline: '2024-09-12 23:59:59'
   timezone: Europe/Rome
-  place: San Francisco, California, USA
-  date: December 3rd-9th, 2023
-  start: 2023-12-03
-  end: 2023-12-09
+  place: Trondheim, Norway
+  date: June 23-27, 2025
+  start: 2025-06-23
+  end: 2025-06-27
   sub: [SE, BC]
   rank: [A, A2]
 - title: CLOUDCOM
-  year: 2023
+  year: 2024
   full_name: IEEE International Conference on Cloud Computing Technology and Science (CLOUDCOM)
-  id: cloudcom23
-  link: https://parsec2.unicampania.it/cloudcom2023/
-  deadline: '2023-07-15 23:59:59'
+  id: cloudcom24
+  link: https://www.cloudcom2024.org/
+  deadline: '2024-09-27 23:59:59'
   timezone: Europe/Rome
-  place: Napoli, Italy
-  date: December 4-6, 2023
-  start: 2023-12-04
-  end: 2023-12-06
+  place: Abu Dhabi, UAE
+  date: December 9-11, 2024
+  start: 2024-12-09
+  end: 2024-12-11
   sub: [DS, SE]
   rank: [B2]
 - title: USENIX FAST 
-  year: 2024
+  year: 2025
   full_name: USENIX Conference on File and Storage Technologies
-  id: fast24
-  link: https://www.usenix.org/conference/fast24
-  deadline: '2023-09-22 08:59:59'
+  id: fast25
+  link: https://www.usenix.org/conference/fast25
+  deadline: '2024-09-17 08:59:59'
   timezone: Europe/Rome
   place: Santa Clara, California
-  date: February 27-29, 2024
-  start: 2024-02-27
-  end: 2024-02-29
+  date: February 25-27, 2025
+  start: 2025-02-25
+  end: 2025-02-27
   sub: [DS, SE, PER]
   rank: [A, A1]
 - title: FC 
-  year: 2024
+  year: 2025
   full_name: Financial Cryptography and Data Security
-  id: fc24
-  link: https://fc24.ifca.ai
-  deadline: '2023-09-18 23:59:59'
+  id: fc25
+  link: https://fc25.ifca.ai
+  deadline: '2024-10-08 23:59:59'
   timezone: Europe/Rome
-  place: Caribbean
-  date: March 4-8, 2024
-  start: 2024-03-04
-  end: 2024-03-08
+  place: Miyakojima, Japan
+  date: April 14-18, 2025
+  start: 2025-04-14
+  end: 2025-04-18
   sub: [BC]
   rank: [A]
 - title: USENIX NSDI 
-  year: 2024
+  year: 2025
   full_name: USENIX Symposium on Networked Systems Design and Implementation
-  id: nsdi24
-  link: https://www.usenix.org/conference/nsdi24/
-  abstract_deadline: '2023-09-07 23:59:59'
-  deadline: '2023-09-14 23:59:59'
+  id: nsdi25
+  link: https://www.usenix.org/conference/nsdi25/
+  abstract_deadline: '2024-09-12 23:59:59'
+  deadline: '2024-09-19 23:59:59'
   timezone: Europe/Rome
   place: Santa Clara, California
-  date: April 16-18, 2024
-  start: 2024-04-16
-  end: 2024-04-18
+  date: April 28-30, 2025
+  start: 2025-04-28
+  end: 2025-04-30
   sub: [DS, SE, PER]
   rank: [B, A1]
 - title: SAC
-  year: 2024
+  year: 2025
   full_name: ACM/SIGAPP Symposium On Applied Computing
-  id: sac24
-  link: https://www.sigapp.org/sac/sac2024/
-  abstract_deadline: '2023-10-05 23:59:59'
-  deadline: '2023-09-15 23:59:59'
+  id: sac25
+  link: https://www.sigapp.org/sac/sac2025/
+  deadline: '2024-09-20 23:59:59'
   timezone: Europe/Rome
-  place: Avila, Spain
-  date: April 8-12, 2024
-  start: 2024-04-08
-  end: 2024-04-12
+  place: Catania, Sicily
+  date: March 31 - April 4, 2025
+  start: 2025-03-31
+  end: 2025-04-04
   sub: [DS, BC, SE, PER]
   rank: [B, A1]
 - title: ACM/IEEE ICSE 
-  year: 2024
+  year: 2025
   full_name: ACM/IEEE International Conference on Software Engineering
-  id: icse24
-  link: https://conf.researchr.org/home/icse-2024
-  deadline: '2023-08-01 23:59:59'
+  id: icse25
+  link: https://conf.researchr.org/home/icse-2025
+  deadline: '2024-08-02 23:59:59'
   timezone: Europe/Rome
-  place: Lisbon, Portugal
-  date: April 14-20, 2024
-  start: 2024-04-14
-  end: 2024-04-20
+  place: Ottawa, Ontario, Canada
+  date: April 27-May 3, 2025
+  start: 2025-04-27
+  end: 2025-05-03
   sub: [SE]
   rank: [A, A1]
 - title: EuroSys
-  year: 2024
+  year: 2025
   full_name: European Conference on Computer Systems (EuroSys)
-  id: eurosys24
-  link: https://2024.eurosys.org/
-  deadline: '2023-10-19 23:59:59'
+  id: eurosys25
+  link: https://2025.eurosys.org/
+  abstract_deadline: '2024-10-15 23:59:59'
+  deadline: '2024-10-22 23:59:59'
   timezone: Europe/Rome
-  place: Athens, Greece
-  date: April 22nd-25th, 2024
-  start: 2024-04-22
-  end: 2024-04-25
+  place: Rotterdam, Netherlands
+  date: March 30-April 3, 2025
+  start: 2025-03-30
+  end: 2025-04-03
   sub: [DS, SE]
   rank: [A, A2]
+  note: fall review cycle
 - title: ASPLOS
-  year: 2024
+  year: 2025
   full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-  id: asplos24summer
-  link: https://www.asplos-conference.org/asplos2024/
-  abstract_deadline: '2023-08-03 21:00:00'
-  deadline: '2023-08-10 21:00:00'
+  id: asplos25summer
+  link: https://www.asplos-conference.org/asplos2025/
+  abstract_deadline: '2024-06-17 21:00:00'
+  deadline: '2024-06-24 21:00:00'
   timezone: Europe/Rome
-  place: San Diego, California, USA
-  date: April 27-May 1, 2024
-  start: 2024-04-27
-  end: 2024-05-01
+  place: Rotterdam, Netherlands
+  date: March 30-April 3, 2025
+  start: 2025-03-30
+  end: 2025-04-03
   sub: [SE, PER]
   rank: [A, A1]
   note: summer review cycle
 - title: ASPLOS
-  year: 2024
+  year: 2025
   full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-  id: asplos24fall
-  link: https://www.asplos-conference.org/asplos2024/
-  abstract_deadline: '2023-11-23 21:00:00'
-  deadline: '2023-11-30 21:00:00'
+  id: asplos25fall
+  link: https://www.asplos-conference.org/asplos2025/
+  deadline: '2024-10-18 21:00:00'
   timezone: Europe/Rome
-  place: San Diego, California, USA
-  date: April 27-May 1, 2024
-  start: 2024-04-27
-  end: 2024-05-01
+  place: Rotterdam, Netherlands
+  date: March 30-April 3, 2025
+  start: 2025-03-30
+  end: 2025-04-03
   sub: [SE, PER]
   rank: [A, A1]
   note: fall review cycle
 - title: CCGrid
-  year: 2024
+  year: 2025
   full_name: IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGrid)
-  id: ccgrid24
-  link: https://2024.ccgrid-conference.org/
-  abstract_deadline: '2023-12-04 23:59:59'
-  deadline: '2023-12-11 23:59:59'
+  id: ccgrid25
+  link: https://site.uit.no/ccgrid2025/
+  abstract_deadline: '2024-12-02 23:59:59'
+  deadline: '2024-12-13 23:59:59'
   timezone: Europe/Rome
-  place: Kensington, London, UK
-  date: May 6-9, 2024
-  start: 2024-05-06
-  end: 2024-05-09
+  place: Tromso, Norway
+  date: May 19-22, 2025
+  start: 2025-05-19
+  end: 2025-05-22
   sub: [PER, SE, DS]
   rank: [A, A1, B]
 - title: ICPE
-  year: 2024
+  year: 2025
   full_name: ACM/SPEC International Conference on Performance Engineering
-  id: icpe24
-  link: https://icpe2024.spec.org/
-  abstract_deadline: '2023-10-27 23:59:59'
-  deadline: '2023-11-03 23:59:59'
+  id: icpe25
+  link: https://icpe2025.spec.org/
+  abstract_deadline: '2024-10-18 23:59:59'
+  deadline: '2024-10-25 23:59:59'
   timezone: Europe/Rome
-  place: Kensington, London, UK
-  date: May 7-11, 2024
-  start: 2024-05-07
-  end: 2024-05-11
+  place: Toronto, Canada
+  date: May 5-9, 2025
+  start: 2025-05-05
+  end: 2025-05-09
   sub: [PER, SE]
 - title: WWW
-  year: 2024
+  year: 2025
   full_name: The Web Conference (WWW)
-  id: www24
-  link: https://www2024.thewebconf.org/
-  abstract_deadline: '2023-10-05 23:59:59'
-  deadline: '2023-10-12 23:59:59'
+  id: www25
+  link: https://www2025.thewebconf.org/
+  abstract_deadline: '2024-10-07 23:59:59'
+  deadline: '2024-10-14 23:59:59'
   timezone: Europe/Rome
-  place: Singapore
-  date: May 13-17, 2024
-  start: 2024-05-13
-  end: 2024-05-17
+  place: Sydney, Australia
+  date: April 28-May 2, 2025
+  start: 2025-04-28
+  end: 2025-05-02
   sub: [DS, SE]
   rank: [A, A1]
 - title: IEEE ICDE 
-  year: 2024
+  year: 2025
   full_name:  IEEE International Conference on Data Engineering
-  id: icde24
-  link: https://icde2024.github.io/
-  deadline: '2023-11-24 23:59:59'
+  id: icde25
+  link: https://ieee-icde.org/2025/
+  deadline: '2024-11-25 23:59:59'
   timezone: Europe/Rome
-  place: Utrecht, Netherlands
-  date: May 13-16, 2024
-  start: 2024-05-13
-  end: 2024-05-16
+  place: Hong Kong Sar, China
+  date: May 19-23, 2025
+  start: 2025-05-19
+  end: 2025-05-23
   sub: [DB]
   rank: [A, A1]
 - title: ICBC 
-  year: 2024
+  year: 2025
   full_name: IEEE International Conference on Blockchain and Cryptocurrency
-  id: icbc24
-  link: https://icbc2024.ieee-icbc.org/
-  deadline: '2023-12-03 23:59:59'
+  id: icbc25
+  link: https://icbc2025.ieee-icbc.org/
+  deadline: '2024-12-23 23:59:59'
   timezone: Europe/Rome
   place: Dublin, Ireland
-  date: May 27-31, 2024
-  start: 2024-05-27
-  end: 2024-05-31
+  date: June 2-6, 2025
+  start: 2025-06-02
+  end: 2025-06-06
   sub: [BC]
 - title: IPDPS 
-  year: 2024
+  year: 2025
   full_name:  IEEE International Parallel &amp; Distributed Processing Symposium
-  id: ipdps24
-  link: http://www.ipdps.org/ipdps2024/
-  abstract_deadline: '2023-09-28 23:59:59'
-  deadline: '2023-10-05 23:59:59'
+  id: ipdps25
+  link: http://www.ipdps.org/ipdps2025/
+  abstract_deadline: '2024-10-03 23:59:59'
+  deadline: '2024-10-10 23:59:59'
   timezone: Europe/Rome
-  place: San Francisco, California, USA
-  date: May 27-31, 2024
-  start: 2024-05-27
-  end: 2024-05-31
+  place: Milan, Italy
+  date: June 3-7, 2025
+  start: 2025-06-03
+  end: 2025-06-07
   sub: [DS]
   rank: [A, A1]
 - title: INFOCOM 
