@@ -158,7 +158,7 @@
   date: April 14-18, 2025
   start: 2025-04-14
   end: 2025-04-18
-  sub: [BC]
+  sub: [BC, CS]
   rank: [A]
 - title: USENIX NSDI 
   year: 2025
@@ -668,6 +668,19 @@
   end: 2024-12-06
   sub: [DS, BC, ES]
   rank: [A, A2]
+- title: Crypto
+  year: 2024
+  id: crypto24
+  full_name: Annual International Cryptology Conference (Crypto)
+  link: https://crypto.iacr.org/2024/
+  deadline: '2024-02-13 23:59:59'
+  timezone: Europe/Rome
+  place: Santa Barbara, USA
+  date: August 18-22, 2024
+  start: 2024-08-18
+  end: 2024-08-22
+  sub: [CS]
+  rank: [A*, A, A1]
 - title: Eurocrypt
   year: 2025
   id: eurocrypt25
@@ -761,4 +774,17 @@
   end: 2024-09-27
   sub: [CS]
   rank: [B]
+- title: AFT
+  year: 2024
+  id: aft24
+  full_name: Advances in Financial Technologies
+  link: https://aftconf.github.io/aft24/index.html
+  abstract_deadline: '2024-05-15 23:59:59'
+  deadline: '2024-05-22 23:59:59'
+  timezone: Europe/Rome
+  place: Vienna, Austria
+  date: September 23-25, 2024
+  start: 2024-09-23
+  end: 2024-09-25
+  sub: [CS]
 
