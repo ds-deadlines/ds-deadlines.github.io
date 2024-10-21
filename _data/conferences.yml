@@ -547,17 +547,17 @@
   sub: [DS]
   rank: [A, A1]
 - title: SIGCOMM 
-  year: 2024
+  year: 2025
   full_name: ACM Special Interest Group on Data Communication
-  id: sigcomm24
-  link: http://conferences.sigcomm.org/sigcomm/2024/
-  abstract_deadline: '2024-01-26 23:59:59'
-  deadline: '2024-02-02 23:59:59'
+  id: sigcomm25
+  link: http://conferences.sigcomm.org/sigcomm/2025/
+  abstract_deadline: '2025-01-24 23:59:59'
+  deadline: '2025-01-31 23:59:59'
   timezone: Europe/Rome
-  place: Sydney, Australia
-  date: August 4-8, 2024
-  start: 2024-08-04
-  end: 2024-08-08
+  place: Coimbra, Portugal
+  date: September 8-11, 2025
+  start: 2025-09-08
+  end: 2025-09-11
   sub: [DS]
   rank: [A, A1]
 - title: KDD
@@ -630,18 +630,57 @@
   rank: [A, A1]
   note: summer review cycle; conference date to be announced
 - title: CCS
-  full_name: 31st ACM Conference on Computer and Communications Security 
-  year: 2024
-  id: ccs24
-  link: https://www.sigsac.org/ccs/CCS2024/index.html
-  deadline: '2024-01-28 23:59:59'
+  full_name: 32nd ACM Conference on Computer and Communications Security (1st Rev. Cycle)
+  year: 2025
+  id: ccs25r1
+  link: https://www.sigsac.org/ccs/CCS2025/index.html
+  deadline: '2025-01-09 23:59:59'
   timezone: Europe/Rome
-  place: Salt Lake City, U.S.A. 
-  date: October 14-18, 2024
-  start: 2024-10-14
-  end: 2024-10-18
+  place: Taipei, Taiwan 
+  date: October 13-17, 2025
+  start: 2025-10-13
+  end: 2025-10-17
   sub: [BC]
   rank: [A, A1]
+- title: CCS
+  full_name: 32nd ACM Conference on Computer and Communications Security (2nd Rev. Cycle)
+  year: 2025
+  id: ccs25r2
+  link: https://www.sigsac.org/ccs/CCS2025/index.html
+  deadline: '2025-04-14 23:59:59'
+  timezone: Europe/Rome
+  place: Taipei, Taiwan 
+  date: October 13-17, 2025
+  start: 2025-10-13
+  end: 2025-10-17
+  sub: [BC]
+  rank: [A, A1]
+- title: Middleware
+  year: 2025
+  id: middleware25r1
+  full_name: ACM/IFIP International Middleware Conference (Winter Deadlines)
+  link: https://middleware-conf.github.io/2025
+  deadline: '2024-12-13 23:59:59'
+  timezone: Europe/Rome
+  place: Nashville, TN, USA
+  date: December 15-19, 2025
+  start: 2025-12-15
+  end: 2025-12-19
+  sub: [DS, BC, ES]
+  rank: [A, A2]
+- title: Middleware
+  year: 2025
+  id: middleware25r2
+  full_name: ACM/IFIP International Middleware Conference (Summer Deadlines)
+  link: https://middleware-conf.github.io/2025
+  deadline: '2025-05-30 23:59:59'
+  timezone: Europe/Rome
+  place: Nashville, TN, USA
+  date: December 15-19, 2025
+  start: 2025-12-15
+  end: 2025-12-19
+  sub: [DS, BC, ES]
+  rank: [A, A2]
 - title: Middleware
   year: 2024
   id: middleware24r1
