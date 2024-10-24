@@ -467,17 +467,17 @@
   sub: [DS]
   rank: [A, A1]
 - title: ACM DEBS 
-  year: 2024
+  year: 2025
   full_name: ACM International Conference on Distributed and Event-based Systems
-  id: debs24
-  link: https://2024.debs.org/
-  abstract_deadline: '2024-02-16 23:59:59'
-  deadline: '2024-02-22 23:59:59'
+  id: debs25
+  link: https://2025.debs.org/
+  abstract_deadline: '2025-01-31 23:59:59'
+  deadline: '2025-02-07 23:59:59'
   timezone: Europe/Rome
-  place: Lyon, France
-  date: June 25-28, 2024
-  start: 2024-06-25
-  end: 2024-06-28
+  place: Gothenburg, Sweden
+  date: June 10-13, 2025
+  start: 2025-06-10
+  end: 2025-06-13
   sub: [DS, ES]
   rank: B2
 - title: ATC
