@@ -509,16 +509,16 @@
   sub: [DS, SE, PER]
   rank: [A, A1]
 - title: EuroS&amp;P
-  year: 2024
-  id: eurosp24
-  full_name: 9th IEEE European Symposium on Security and Privacy
-  link: https://eurosp2024.ieee-security.org/
-  deadline: '2023-11-02 23:59:59'
+  year: 2025
+  id: eurosp25
+  full_name: IEEE European Symposium on Security and Privacy
+  link: https://eurosp2025.ieee-security.org/
+  deadline: '2024-10-24 23:59:59'
   timezone: Europe/Rome
-  place: Vienna, Austria
-  date: July 8-12, 2024
-  start: 2024-07-08
-  end: 2024-07-12
+  place: Venice, Italy
+  date: June 30-July 4, 2025
+  start: 2025-06-30
+  end: 2025-07-04
   sub: [BC]
 - title: DAPPS
   year: 2024
@@ -708,16 +708,16 @@
   sub: [DS, BC, ES]
   rank: [A, A2]
 - title: Crypto
-  year: 2024
-  id: crypto24
+  year: 2025
+  id: crypto25
   full_name: Annual International Cryptology Conference (Crypto)
-  link: https://crypto.iacr.org/2024/
-  deadline: '2024-02-13 23:59:59'
+  link: https://crypto.iacr.org/2025/
+  deadline: '2025-02-13 23:59:59'
   timezone: Europe/Rome
   place: Santa Barbara, USA
-  date: August 18-22, 2024
-  start: 2024-08-18
-  end: 2024-08-22
+  date: August 17-21, 2025
+  start: 2025-08-17
+  end: 2025-08-21
   sub: [CS]
   rank: [A*, A, A1]
 - title: Eurocrypt
