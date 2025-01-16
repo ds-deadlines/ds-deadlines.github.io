@@ -1,15 +1,16 @@
 ---
 - title: SOSP
-  year: 2024
-  id: sosp24
+  year: 2025
+  id: sosp25
   full_name: ACM Symposium on Operating Systems Principles (SOSP) 
-  link: https://sigops.org/s/conferences/sosp/2024/
-  deadline: '2024-04-19 23:59:59'
+  link: https://sigops.org/s/conferences/sosp/2025/
+  abstract_deadline: '2025-04-10 23:59:59'
+  deadline: '2025-04-17 23:59:59'
   timezone: Europe/Rome
-  place: Koblenz, Germany
-  date: November 4-6, 2024
-  start: 2024-11-04
-  end: 2024-11-06
+  place: Seoul, Republic of Korea
+  date: October 13-16, 2025
+  start: 2025-10-13
+  end: 2025-10-16
   sub: [DS, SE]
   rank: [A, A1]
 - title: OPODIS
@@ -67,16 +68,16 @@
   sub: [DS]
   rank: [A, A2]
 - title: MASCOTS 
-  year: 2024
+  year: 2025
   full_name: International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
-  id: mascots24
-  link: http://mascots24.iitis.pl/
-  deadline: '2024-05-09 23:59:59'
+  id: mascots25
+  link: http://mascots25.iitis.pl/
+  deadline: '2025-05-18 23:59:59'
   timezone: Europe/Rome
-  place: Krakow, Poland
-  date: October 21-23, 2024
-  start: 2024-10-21
-  end: 2024-10-23
+  place: Paris, France
+  date: October 21-23, 2025
+  start: 2025-10-21
+  end: 2025-10-23
   sub: [PER]
   rank: [A, A2]
 - title: SoCC
@@ -521,16 +522,16 @@
   end: 2025-07-04
   sub: [BC]
 - title: DAPPS
-  year: 2024
-  id: dapps24
-  full_name: 6th IEEE International Conference on Decentralized Applications and Infrastructures
+  year: 2025
+  id: dapps25
+  full_name: 7th IEEE International Conference on Decentralized Applications and Infrastructures
   link: https://ieeedapps.com/
-  deadline: '2024-03-08 23:59:59'
+  deadline: '2025-03-15 23:59:59'
   timezone: Europe/Rome
-  place: Shanghai, China
-  date: July 15-18, 2024
-  start: 2024-07-15
-  end: 2024-07-18
+  place: Tucson, Arizona, USA
+  date: July 21-24, 2025
+  start: 2025-07-21
+  end: 2025-07-24
   sub: [BC]
 - title: IEEE ICDCS 
   year: 2025
@@ -575,60 +576,60 @@
   sub: [DB]
   rank: [A*, A, A1]
 - title: Euro-Par 
-  year: 2024
+  year: 2025
   full_name: International European Conference on Parallel and Distributed Computing
-  id: europar24
-  link: https://2024.euro-par.org/
-  abstract_deadline: '2024-03-05 23:59:59'
-  deadline: '2024-03-25 23:59:59'
+  id: europar25
+  link: https://2025.euro-par.org/
+  abstract_deadline: '2025-02-24 23:59:59'
+  deadline: '2025-03-09 23:59:59'
   timezone: Europe/Rome
-  place: Madrid, Spain
-  date: August 26-30, 2024
-  start: 2024-08-26
-  end: 2024-08-30
+  place: Dresden, Germany
+  date: August 25-29, 2025
+  start: 2025-08-25
+  end: 2025-08-29
   sub: [DS, PER, SE]
   rank: [A, A2]
 - title: IC2E
-  year: 2024
-  id: ic2e24
+  year: 2025
+  id: ic2e25
   full_name: IEEE International Conference on Cloud Engineering
-  link: https://conferences.computer.org/IC2E/2024/
-  abstract_deadline: '2024-04-12 23:59:59'
-  deadline: '2024-04-19 23:59:59'
+  link: https://conferences.computer.org/IC2E/2025/
+  abstract_deadline: '2025-04-17 23:59:59'
+  deadline: '2025-04-24 23:59:59'
   timezone: Europe/Rome
   place: Paphos, Cyprus
-  date: September 24-27, 2024
-  start: 2024-09-24
-  end: 2024-09-27
+  date: September 23-26, 2024
+  start: 2025-09-23
+  end: 2025-09-26
   sub: [DS, SE]
 - title: CLUSTER
-  year: 2024
-  id: cluster24
+  year: 2025
+  id: cluster25
   full_name: IEEE International Conference on Cluster Computing
-  link: https://clustercomp.org/2024/
-  deadline: '2024-04-25 23:59:59'
+  link: https://clustercomp.org/2025/
+  deadline: '2025-04-25 23:59:59'
   timezone: Europe/Rome
-  place: Kobe, Japan
-  date: September 24-27, 2024
-  start: 2024-09-24
-  end: 2024-09-27
+  place: Edinburgh, Scotland
+  date: September 2-5, 2025
+  start: 2025-09-02
+  end: 2025-09-05
   sub: [DS, SE, PER]
   rank: [A, A2, B]
 - title: ACM MobiCom
-  year: 2024
+  year: 2025
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
-  id: mobicom24
-  link: https://www.sigmobile.org/mobicom/2024/
-  abstract_deadline: '2023-08-18 23:59:59'
-  deadline: '2023-08-25 23:59:59'
+  id: mobicom25
+  link: https://www.sigmobile.org/mobicom/2025/
+  abstract_deadline: '2025-03-11 23:59:59'
+  deadline: '2025-03-18 23:59:59'
   timezone: Europe/Rome
   place: Washington, D.C., USA
-  date: October, 2024
-  start: 2024-10-01
-  end: 2024-10-30
+  date: November 4-8, 2025
+  start: 2025-11-04
+  end: 2025-11-08
   sub: [DS]
   rank: [A, A1]
-  note: summer review cycle; conference date to be announced
+  note: winter review cycle; conference date to be announced
 - title: CCS
   full_name: 32nd ACM Conference on Computer and Communications Security (1st Rev. Cycle)
   year: 2025
@@ -679,32 +680,6 @@
   date: December 15-19, 2025
   start: 2025-12-15
   end: 2025-12-19
-  sub: [DS, BC, ES]
-  rank: [A, A2]
-- title: Middleware
-  year: 2024
-  id: middleware24r1
-  full_name: ACM/IFIP International Middleware Conference (Fall Deadlines)
-  link: https://middleware-conf.github.io/2024
-  deadline: '2023-12-01 23:59:59'
-  timezone: Europe/Rome
-  place: Hong Kong, China
-  date: December 2nd-6th, 2024
-  start: 2024-12-02
-  end: 2024-12-06
-  sub: [DS, BC, ES]
-  rank: [A, A2]
-- title: Middleware
-  year: 2024
-  id: middleware24r2
-  full_name: ACM/IFIP International Middleware Conference (Spring Deadlines)
-  link: https://middleware-conf.github.io/2024
-  deadline: '2024-05-24 23:59:59'
-  timezone: Europe/Rome
-  place: Hong Kong, China
-  date: December 2nd-6th, 2024
-  start: 2024-12-02
-  end: 2024-12-06
   sub: [DS, BC, ES]
   rank: [A, A2]
 - title: Crypto
