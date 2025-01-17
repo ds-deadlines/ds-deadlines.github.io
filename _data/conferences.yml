@@ -148,6 +148,20 @@
   end: 2025-02-27
   sub: [DS, SE, PER]
   rank: [A, A1]
+- title: USENIX Security 
+  year: 2025
+  full_name: USENIX Security Symposium
+  id: security25
+  link: https://www.usenix.org/conference/usenixsecurity25
+  deadline: '2025-01-22 08:59:59'
+  timezone: Europe/Rome
+  place: Seattle, WA, USA
+  date: August 13-15, 2025
+  start: 2025-08-13
+  end: 2025-08-15
+  sub: [DS, CS]
+  rank: [A*, A, A1]
+  note: Cycle 2
 - title: FC 
   year: 2025
   full_name: Financial Cryptography and Data Security
@@ -372,7 +386,7 @@
   full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
   id: hpdc24
   link: https://www.hpdc.org/2024
-  abstract:deadline: '2024-01-18 23:59:59'
+  abstract_deadline: '2024-01-18 23:59:59'
   deadline: '2024-01-25 23:59:59'
   timezone: Europe/Rome
   place: Pisa, Italy
@@ -382,19 +396,35 @@
   sub: [DS, PER]
   rank: [A, A1]
 - title: ICS
-  year: 2024
+  year: 2025
   full_name: ACM International Conference on Supercomputing
-  id: ics24
-  link: https://ics2024.github.io/
-  abstract:deadline: '2024-01-11 23:59:59'
-  deadline: '2024-01-18 23:59:59'
+  id: ics25c1
+  link: https://hpcrl.github.io/ICS2025-webpage/
+  abstract_deadline: '2025-01-13 23:59:59'
+  deadline: '2025-01-16 23:59:59'
   timezone: Europe/Rome
-  place: Kyoto, Japan
-  date: June 4th-7th, 2024
-  start: 2024-06-04
-  end: 2024-06-07
+  place: Salt Lake City, USA
+  date: June 8-11, 2025
+  start: 2025-06-08
+  end: 2025-06-11
   sub: [DS]
   rank: [A, A2]
+  note: Cycle 1
+- title: ICS
+  year: 2025
+  full_name: ACM International Conference on Supercomputing
+  id: ics25c2
+  link: https://hpcrl.github.io/ICS2025-webpage/
+  abstract_deadline: '2025-02-24 23:59:59'
+  deadline: '2025-02-27 23:59:59'
+  timezone: Europe/Rome
+  place: Salt Lake City, USA
+  date: June 8-11, 2025
+  start: 2025-06-08
+  end: 2025-06-11
+  sub: [DS]
+  rank: [A, A2]
+  note: Cycle 2
 - title: SIGMOD/PODS
   year: 2025
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
