@@ -686,6 +686,18 @@
   end: 2025-10-17
   sub: [BC]
   rank: [A, A1]
+- title: BCCA
+  full_name: 7th International Conference on Blockchain Computing and Applications (BCCA 2025)
+  year: 2025
+  id: bcca25
+  link: https://bcca-conference.org/2025/
+  deadline: '2025-03-15 23:59:59'
+  timezone: Europe/Rome
+  place: Dubrovnik, Croatia
+  date: October 14-18, 2025
+  start: 2025-10-14
+  end: 2025-10-18
+  sub: [BC]
 - title: Middleware
   year: 2025
   id: middleware25r1
