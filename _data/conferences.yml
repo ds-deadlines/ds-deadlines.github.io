@@ -262,17 +262,17 @@
   sub: [PER, SE, DS]
   rank: [A, A1, B]
 - title: ICPE
-  year: 2025
+  year: 2026
   full_name: ACM/SPEC International Conference on Performance Engineering
-  id: icpe25
-  link: https://icpe2025.spec.org/
-  abstract_deadline: '2024-10-18 23:59:59'
-  deadline: '2024-10-25 23:59:59'
+  id: icpe26
+  link: https://icpe2026.spec.org/
+  abstract_deadline: '2025-11-03 23:59:59'
+  deadline: '2025-11-10 23:59:59'
   timezone: Europe/Rome
-  place: Toronto, Canada
-  date: May 5-9, 2025
-  start: 2025-05-05
-  end: 2025-05-09
+  place: Florence, Italy
+  date: May 4-8, 2026
+  start: 2026-05-04
+  end: 2026-05-08
   sub: [PER, SE]
 - title: WWW
   year: 2026
@@ -332,14 +332,14 @@
   year: 2025
   full_name:  IEEE International Parallel &amp; Distributed Processing Symposium
   id: ipdps25
-  link: http://www.ipdps.org/ipdps2025/
-  abstract_deadline: '2024-10-03 23:59:59'
-  deadline: '2024-10-10 23:59:59'
+  link: https://www.ipdps.org/
+  abstract_deadline: '2025-10-02 23:59:59'
+  deadline: '2025-10-09 23:59:59'
   timezone: Europe/Rome
-  place: Milan, Italy
-  date: June 3-7, 2025
-  start: 2025-06-03
-  end: 2025-06-07
+  place: New Orleans, USA
+  date: May 25-29, 2026
+  start: 2026-05-25
+  end: 2026-05-29
   sub: [DS]
   rank: [A, A1]
 - title: INFOCOM 
@@ -631,7 +631,7 @@
   deadline: '2025-04-24 23:59:59'
   timezone: Europe/Rome
   place: Paphos, Cyprus
-  date: September 23-26, 2024
+  date: September 23-26, 2025
   start: 2025-09-23
   end: 2025-09-26
   sub: [DS, SE]
@@ -716,31 +716,35 @@
   sub: [DS, BC, ES]
   rank: [B, B2]
 - title: Middleware
-  year: 2025
-  id: middleware25r1
+  year: 2026
+  id: middleware26r1
   full_name: ACM/IFIP International Middleware Conference (Winter Deadlines)
-  link: https://middleware-conf.github.io/2025
-  deadline: '2024-12-13 23:59:59'
+  link: https://middleware-conf.github.io/2026
+  abstract_deadline: '2025-12-05 23:59:59'
+  deadline: '2025-12-12 23:59:59'
   timezone: Europe/Rome
-  place: Nashville, TN, USA
-  date: December 15-19, 2025
-  start: 2025-12-15
-  end: 2025-12-19
+  place: Terragona, Spain
+  date: November 30-December 4, 2026
+  start: 2026-11-30
+  end: 2026-12-04
   sub: [DS, BC, ES]
   rank: [A, A2]
+  note: Winter Submission Cycle
 - title: Middleware
-  year: 2025
-  id: middleware25r2
-  full_name: ACM/IFIP International Middleware Conference (Summer Deadlines)
-  link: https://middleware-conf.github.io/2025
-  deadline: '2025-05-30 23:59:59'
+  year: 2026
+  id: middleware26r2
+  full_name: ACM/IFIP International Middleware Conference (Winter Deadlines)
+  link: https://middleware-conf.github.io/2026
+  abstract_deadline: '2026-05-29 23:59:59'
+  deadline: '2026-06-05 23:59:59'
   timezone: Europe/Rome
-  place: Nashville, TN, USA
-  date: December 15-19, 2025
-  start: 2025-12-15
-  end: 2025-12-19
+  place: Terragona, Spain
+  date: November 30-December 4, 2026
+  start: 2026-11-30
+  end: 2026-12-04
   sub: [DS, BC, ES]
   rank: [A, A2]
+  note: Summer Submission Cycle
 - title: Crypto
   year: 2025
   id: crypto25
