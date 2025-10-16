@@ -398,32 +398,32 @@
   sub: [DS, PER]
   rank: [A, A1]
 - title: ICS
-  year: 2025
+  year: 2026
   full_name: ACM International Conference on Supercomputing
   id: ics25c1
-  link: https://hpcrl.github.io/ICS2025-webpage/
-  abstract_deadline: '2025-01-13 23:59:59'
-  deadline: '2025-01-16 23:59:59'
+  link: https://dipsa-qub.github.io/ICS2026-webpage/
+  abstract_deadline: '2025-12-09 23:59:59'
+  deadline: '2025-12-16 23:59:59'
   timezone: Europe/Rome
-  place: Salt Lake City, USA
-  date: June 8-11, 2025
-  start: 2025-06-08
-  end: 2025-06-11
+  place: Belfast, Northern Ireland, United Kingdom
+  date: July 6-7, 2026
+  start: 2026-07-06
+  end: 2026-07-09
   sub: [DS]
   rank: [A, A2]
   note: Cycle 1
 - title: ICS
-  year: 2025
+  year: 2026
   full_name: ACM International Conference on Supercomputing
   id: ics25c2
-  link: https://hpcrl.github.io/ICS2025-webpage/
-  abstract_deadline: '2025-02-24 23:59:59'
-  deadline: '2025-02-27 23:59:59'
+  link: https://dipsa-qub.github.io/ICS2026-webpage/
+  abstract_deadline: '2026-02-02 23:59:59'
+  deadline: '2026-02-09 23:59:59'
   timezone: Europe/Rome
-  place: Salt Lake City, USA
-  date: June 8-11, 2025
-  start: 2025-06-08
-  end: 2025-06-11
+  place: Belfast, Northern Ireland, United Kingdom
+  date: July 6-7, 2026
+  start: 2026-07-06
+  end: 2026-07-09
   sub: [DS]
   rank: [A, A2]
   note: Cycle 2
