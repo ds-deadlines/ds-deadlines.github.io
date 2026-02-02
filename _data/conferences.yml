@@ -1,4 +1,19 @@
 ---
+- title: J On The Beach
+  year: 2026
+  id: jotb26
+  full_name: A Pure Tech and Fun Conference for All Things Data
+  link: https://www.jonthebeach.com
+  deadline: 2026-03-31 23:59
+  timezone: Europe/Madrid
+  place: Torremolinos, Malaga. Spain
+  date: October 29-30, 2026
+  start: 2026-10-29
+  end: 2026-10-30
+  paperslink: https://confeti.app
+  pwclink: link-to-papers-with-code.com
+  sub: [DS, SE]
+  note: A fun conference for industry practictioners and academics.
 - title: SOSP
   year: 2026
   id: sosp26
