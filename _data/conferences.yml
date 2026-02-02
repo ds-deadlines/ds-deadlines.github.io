@@ -67,9 +67,9 @@
   sub: [PER]
   rank: [A, A2]
 - title: SoCC
-  year: 2026r1
+  year: 2026
   full_name: ACM Symposium on Cloud Computing
-  id: socc26
+  id: socc26r1
   link: https://acmsocc.org/2026
   abstract_deadline: '2026-02-06 23:59:59'
   deadline: '2026-02-13 23:59:59'
@@ -82,9 +82,9 @@
   rank: [B2]
   note: First round
 - title: SoCC
-  year: 2026r2
+  year: 2026
   full_name: ACM Symposium on Cloud Computing
-  id: socc26
+  id: socc26r2
   link: https://acmsocc.org/2026
   abstract_deadline: '2026-07-07 23:59:59'
   deadline: '2026-07-14 23:59:59'
