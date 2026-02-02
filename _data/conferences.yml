@@ -1,16 +1,16 @@
 ---
 - title: SOSP
-  year: 2025
-  id: sosp25
+  year: 2026
+  id: sosp26
   full_name: ACM Symposium on Operating Systems Principles (SOSP) 
-  link: https://sigops.org/s/conferences/sosp/2025/
-  abstract_deadline: '2025-04-10 23:59:59'
-  deadline: '2025-04-17 23:59:59'
+  link: https://sigops.org/s/conferences/sosp/2026/
+  abstract_deadline: '2026-03-26 23:59:59'
+  deadline: '2026-04-01 23:59:59'
   timezone: Europe/Rome
-  place: Seoul, Republic of Korea
-  date: October 13-16, 2025
-  start: 2025-10-13
-  end: 2025-10-16
+  place: Prague, Czechia
+  date: September 29-October 2, 2026
+  start: 2026-09-29
+  end: 2026-10-02
   sub: [DS, SE]
   rank: [A, A1]
 - title: HPCC
@@ -27,17 +27,17 @@
   sub: [DS, BC]
   rank: [B]
 - title: IEEE ACSOS 
-  year: 2025
+  year: 2026
   full_name: IEEE International Conference on Autonomic Computing and Self-Organizing Systems
-  id: acsos25
-  link: https://conf.researchr.org/home/acsos-2025
-  abstract_deadline: '2025-04-18 23:59:59'
-  deadline: '2025-04-25 23:59:59'
+  id: acsos26
+  link: https://conf.researchr.org/home/acsos-2026
+  abstract_deadline: '2026-04-10 23:59:59'
+  deadline: '2026-04-17 23:59:59'
   timezone: Europe/Rome
-  place: Tokyo, Japan
-  date: Sept 29-Oct 3, 2025
-  start: 2025-09-29
-  end: 2025-10-03
+  place: Cesena, Italy
+  date: September 7-11, 2026
+  start: 2026-09-07
+  end: 2026-09-11
   sub: [DS, SE, PER]
 - title: DISC 
   year: 2025
@@ -54,32 +54,48 @@
   sub: [DS]
   rank: [A, A2]
 - title: MASCOTS 
-  year: 2025
+  year: 2026
   full_name: International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
-  id: mascots25
-  link: http://mascots25.iitis.pl/
-  deadline: '2025-05-18 23:59:59'
+  id: mascots26
+  link: http://mascots26.iitis.pl/
+  deadline: '2026-05-17 23:59:59'
   timezone: Europe/Rome
-  place: Paris, France
-  date: October 21-23, 2025
-  start: 2025-10-21
-  end: 2025-10-23
+  place: Genova, Italy
+  date: October 20-22, 2026
+  start: 2026-10-20
+  end: 2026-10-22
   sub: [PER]
   rank: [A, A2]
 - title: SoCC
-  year: 2025
+  year: 2026r1
   full_name: ACM Symposium on Cloud Computing
-  id: socc25
-  link: https://acmsocc.org/2025
-  abstract_deadline: '2025-07-07 23:59:59'
-  deadline: '2025-07-14 23:59:59'
+  id: socc26
+  link: https://acmsocc.org/2026
+  abstract_deadline: '2026-02-06 23:59:59'
+  deadline: '2026-02-13 23:59:59'
   timezone: Europe/Rome
-  place: Fully virtual
-  date: November 19-21, 2025
-  start: 2025-11-19
-  end: 2025-11-21
+  place: Singapore
+  date: November 18-20, 2026
+  start: 2026-11-18
+  end: 2026-11-20
   sub: [DS, SE]
   rank: [B2]
+  note: First round
+- title: SoCC
+  year: 2026r2
+  full_name: ACM Symposium on Cloud Computing
+  id: socc26
+  link: https://acmsocc.org/2026
+  abstract_deadline: '2026-07-07 23:59:59'
+  deadline: '2026-07-14 23:59:59'
+  timezone: Europe/Rome
+  place: Singapore
+  date: November 18-20, 2026
+  start: 2026-11-18
+  end: 2026-11-20
+  sub: [DS, SE]
+  rank: [B2]
+  note: Second round
 - title: ICSOC
   year: 2025
   full_name: International Conference on Service-Oriented Computing
@@ -385,16 +401,17 @@
   sub: [SE, DS]
   rank: [B, A1]
 - title: HPDC
-  year: 2025
+  year: 2026
   full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
-  id: hpdc25
-  link: https://hpdc.sci.utah.edu/2025/
-  deadline: '2025-02-06 23:59:59'
+  id: hpdc26
+  link: https://hpdc.sci.utah.edu/2026/
+  abstract_deadline: '2026-01-29 23:59:59'
+  deadline: '2026-02-05 23:59:59'
   timezone: Europe/Rome
-  place: Notre Dame, IN, USA
-  date: July 20-23, 2025
-  start: 2025-07-20
-  end: 2025-07-23
+  place: Cleveland, OH, USA
+  date: July 13-16, 2026
+  start: 2026-07-13
+  end: 2026-07-16
   sub: [DS, PER]
   rank: [A, A1]
 - title: ICS
@@ -472,17 +489,17 @@
   rank: [B4]
   note: winter submission cycle
 - title: ACM PODC 
-  year: 2025
+  year: 2026
   full_name: ACM Symposium on Principles of Distributed Computing
-  id: podc25
+  id: podc26
   link: https://www.podc.org/
-  abstract_deadline: '2025-02-04 23:59:59'
-  deadline: '2025-02-08 23:59:59'
+  abstract_deadline: '2026-02-11 23:59:59'
+  deadline: '2026-02-16 23:59:59'
   timezone: Europe/Rome
-  place: Huatulco, Mexico
-  date: June 16-20, 2025
-  start: 2025-06-16
-  end: 2025-06-20
+  place: Egham, England
+  date: July 06-10, 2026
+  start: 2026-06-06
+  end: 2026-06-10
   sub: [DS, BC]
   rank: [A, A1]
 - title: IEEE/IFIP DSN 
@@ -500,17 +517,17 @@
   sub: [DS]
   rank: [A, A1]
 - title: ACM DEBS 
-  year: 2025
+  year: 2026
   full_name: ACM International Conference on Distributed and Event-based Systems
-  id: debs25
-  link: https://2025.debs.org/
-  abstract_deadline: '2025-01-31 23:59:59'
-  deadline: '2025-02-07 23:59:59'
+  id: debs26
+  link: https://2026.debs.org/
+  abstract_deadline: '2026-02-13 23:59:59'
+  deadline: '2026-02-20 23:59:59'
   timezone: Europe/Rome
-  place: Gothenburg, Sweden
-  date: June 10-13, 2025
-  start: 2025-06-10
-  end: 2025-06-13
+  place: Lisbon, Portugal
+  date: June 23-26, 2026
+  start: 2026-06-23
+  end: 2026-06-26
   sub: [DS, ES]
   rank: B2
 - title: ATC
@@ -555,16 +572,16 @@
   end: 2026-07-10
   sub: [BC]
 - title: DAPPS
-  year: 2025
-  id: dapps25
-  full_name: 7th IEEE International Conference on Decentralized Applications and Infrastructures
-  link: https://ieeedapps.com/
-  deadline: '2025-03-15 23:59:59'
+  year: 2026
+  id: dapps26
+  full_name: 8th IEEE International Conference on Decentralized Applications and Infrastructures
+  link: https://cisose.fit.ac.jp/dapps/
+  deadline: '2026-03-15 23:59:59'
   timezone: Europe/Rome
-  place: Tucson, Arizona, USA
-  date: July 21-24, 2025
-  start: 2025-07-21
-  end: 2025-07-24
+  place: Fukuoka, Japan
+  date: July 27-30, 2026
+  start: 2026-07-27
+  end: 2026-07-30
   sub: [BC]
 - title: IEEE ICDCS 
   year: 2026
@@ -581,17 +598,17 @@
   sub: [DS]
   rank: [A, A1]
 - title: SIGCOMM 
-  year: 2025
+  year: 2026
   full_name: ACM Special Interest Group on Data Communication
-  id: sigcomm25
-  link: http://conferences.sigcomm.org/sigcomm/2025/
-  abstract_deadline: '2025-01-24 23:59:59'
-  deadline: '2025-01-31 23:59:59'
+  id: sigcomm26
+  link: http://conferences.sigcomm.org/sigcomm/2026/
+  abstract_deadline: '2026-01-30 23:59:59'
+  deadline: '2025-02-06 23:59:59'
   timezone: Europe/Rome
-  place: Coimbra, Portugal
-  date: September 8-11, 2025
-  start: 2025-09-08
-  end: 2025-09-11
+  place: Denver, Colorado, USA
+  date: August 17-21, 2026
+  start: 2026-08-17
+  end: 2026-08-21
   sub: [DS]
   rank: [A, A1]
 - title: KDD
@@ -609,17 +626,17 @@
   sub: [DB]
   rank: [A*, A, A1]
 - title: Euro-Par 
-  year: 2025
+  year: 2026
   full_name: International European Conference on Parallel and Distributed Computing
   id: europar25
-  link: https://2025.euro-par.org/
-  abstract_deadline: '2025-02-24 23:59:59'
-  deadline: '2025-03-09 23:59:59'
+  link: https://2026.euro-par.org/
+  abstract_deadline: '2026-02-27 23:59:59'
+  deadline: '2026-03-06 23:59:59'
   timezone: Europe/Rome
-  place: Dresden, Germany
-  date: August 25-29, 2025
-  start: 2025-08-25
-  end: 2025-08-29
+  place: Pisa, Italy
+  date: August 24-28, 2026
+  start: 2026-08-24
+  end: 2026-08-28
   sub: [DS, PER, SE]
   rank: [A, A2]
 - title: IC2E
@@ -649,46 +666,50 @@
   sub: [DS, SE, PER]
   rank: [A, A2, B]
 - title: ACM MobiCom
-  year: 2025
+  year: 2026
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
-  id: mobicom25
-  link: https://www.sigmobile.org/mobicom/2025/
-  abstract_deadline: '2025-03-11 23:59:59'
-  deadline: '2025-03-18 23:59:59'
+  id: mobicom26r2
+  link: https://www.sigmobile.org/mobicom/2026/
+  abstract_deadline: '2026-03-06 23:59:59'
+  deadline: '2026-03-13 23:59:59'
   timezone: Europe/Rome
-  place: Washington, D.C., USA
-  date: November 4-8, 2025
-  start: 2025-11-04
-  end: 2025-11-08
+  place: Austin, Texas, USA
+  date: October 26-30, 2026
+  start: 2026-10-26
+  end: 2026-10-30
   sub: [DS]
   rank: [A, A1]
-  note: winter review cycle; conference date to be announced
+  note: winter review cycle
 - title: CCS
-  full_name: 32nd ACM Conference on Computer and Communications Security (1st Rev. Cycle)
-  year: 2025
-  id: ccs25r1
-  link: https://www.sigsac.org/ccs/CCS2025/index.html
-  deadline: '2025-01-09 23:59:59'
+  full_name: ACM Conference on Computer and Communications Security (1st Rev. Cycle)
+  year: 2026
+  id: ccs26r1
+  link: https://www.sigsac.org/ccs/CCS2026
+  abstract_deadline: '2026-01-07 23:59:59'
+  deadline: '2026-01-14 23:59:59'
   timezone: Europe/Rome
-  place: Taipei, Taiwan 
-  date: October 13-17, 2025
-  start: 2025-10-13
-  end: 2025-10-17
+  place: The Hague, The Netherlands 
+  date: November 15-19, 2026
+  start: 2026-11-15
+  end: 2026-11-19
   sub: [BC]
   rank: [A, A1]
+  note: First Review Cycle
 - title: CCS
-  full_name: 32nd ACM Conference on Computer and Communications Security (2nd Rev. Cycle)
-  year: 2025
-  id: ccs25r2
-  link: https://www.sigsac.org/ccs/CCS2025/index.html
-  deadline: '2025-04-14 23:59:59'
+  full_name: ACM Conference on Computer and Communications Security (2nd Rev. Cycle)
+  year: 2026
+  id: ccs26r2
+  link: https://www.sigsac.org/ccs/CCS2026
+  abstract_deadline: '2026-04-22 23:59:59'
+  deadline: '2026-04-29 23:59:59'
   timezone: Europe/Rome
-  place: Taipei, Taiwan 
-  date: October 13-17, 2025
-  start: 2025-10-13
-  end: 2025-10-17
+  place: The Hague, The Netherlands 
+  date: November 15-19, 2026
+  start: 2026-11-15
+  end: 2026-11-19
   sub: [BC]
   rank: [A, A1]
+  note: Second Review Cycle
 - title: BCCA
   full_name: 7th International Conference on Blockchain Computing and Applications (BCCA 2025)
   year: 2025
@@ -746,16 +767,16 @@
   rank: [A, A2]
   note: Summer Submission Cycle
 - title: Crypto
-  year: 2025
-  id: crypto25
+  year: 2026
+  id: crypto26
   full_name: Annual International Cryptology Conference (Crypto)
-  link: https://crypto.iacr.org/2025/
-  deadline: '2025-02-13 23:59:59'
+  link: https://crypto.iacr.org/2026/
+  deadline: '2026-02-12 23:59:59'
   timezone: Europe/Rome
   place: Santa Barbara, USA
-  date: August 17-21, 2025
-  start: 2025-08-17
-  end: 2025-08-21
+  date: August 17-20, 2026
+  start: 2026-08-17
+  end: 2026-08-20
   sub: [CS]
   rank: [A*, A, A1]
 - title: Eurocrypt
@@ -800,7 +821,7 @@
   rank: [A*, A, A1]
 - title: Asiacrypt
   year: 2025
-  id: asiacrypt24
+  id: asiacrypt25
   full_name: Asiacrypt
   link: https://asiacrypt.iacr.org/2025
   deadline: '2025-05-16 23:59:59'
