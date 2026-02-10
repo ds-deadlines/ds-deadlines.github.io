@@ -745,9 +745,9 @@
   deadline: '2025-12-12 23:59:59'
   timezone: Europe/Rome
   place: Terragona, Spain
-  date: November 30-December 4, 2026
-  start: 2026-11-30
-  end: 2026-12-04
+  date: December 14-18, 2026
+  start: 2026-12-14
+  end: 2026-12-18
   sub: [DS, BC, ES]
   rank: [A, A2]
   note: Winter Submission Cycle
@@ -760,9 +760,9 @@
   deadline: '2026-06-05 23:59:59'
   timezone: Europe/Rome
   place: Terragona, Spain
-  date: November 30-December 4, 2026
-  start: 2026-11-30
-  end: 2026-12-04
+  date: December 14-18, 2026
+  start: 2026-12-14
+  end: 2026-12-18
   sub: [DS, BC, ES]
   rank: [A, A2]
   note: Summer Submission Cycle
