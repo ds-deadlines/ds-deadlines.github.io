@@ -544,6 +544,19 @@
   end: 2025-07-09
   sub: [DS, SE, PER]
   rank: [A, A1]
+- title: COMPSAC
+  year: 2026
+  full_name: IEEE International Conference on Computers, Software, and Applications
+  id: compsac26
+  link: https://ieeecompsac.computer.org/2026/
+  deadline: '2026-02-20 23:59:59'
+  timezone: Europe/Rome
+  place: Madrid, Spain
+  date: July 7-10, 2026
+  start: 2026-07-07
+  end: 2026-07-10
+  sub: [BC, CS, NET]
+  rank: [B]
 - title: OSDI
   year: 2026
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '26)
@@ -721,6 +734,18 @@
   date: November 2-6, 2026
   start: 2026-11-02
   end: 2026-11-06
+  sub: [BC]
+- title: Blockchain 
+  year: 2026
+  full_name: IEEE Blockchain Conference
+  id: blockchain26
+  link: https://ieee-smc-2026.web.app/call-for-papers/blockchain
+  deadline: '2026-06-15 23:59:59'
+  timezone: Europe/Rome
+  place: Montbéliard, France
+  date: November 30-December 4, 2026
+  start: 2026-11-30
+  end: 2026-12-04
   sub: [BC]
 - title: OPODIS
   year: 2025
