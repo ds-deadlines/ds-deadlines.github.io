@@ -711,16 +711,16 @@
   rank: [A, A1]
   note: Second Review Cycle
 - title: BCCA
-  full_name: 7th International Conference on Blockchain Computing and Applications (BCCA 2025)
-  year: 2025
-  id: bcca25
-  link: https://bcca-conference.org/2025/
-  deadline: '2025-03-15 23:59:59'
+  full_name: 8th International Conference on Blockchain Computing and Applications (BCCA 2026)
+  year: 2026
+  id: bcca26
+  link: https://bcca-conference.org/2026/
+  deadline: '2026-04-15 23:59:59'
   timezone: Europe/Rome
-  place: Dubrovnik, Croatia
-  date: October 14-18, 2025
-  start: 2025-10-14
-  end: 2025-10-18
+  place: Barcelona, Spain
+  date: November 2-6, 2026
+  start: 2026-11-02
+  end: 2026-11-06
   sub: [BC]
 - title: OPODIS
   year: 2025
