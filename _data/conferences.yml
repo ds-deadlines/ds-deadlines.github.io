@@ -40,17 +40,17 @@
   end: 2026-09-11
   sub: [DS, SE, PER]
 - title: DISC 
-  year: 2025
+  year: 2026
   full_name: International Symposium on Distributed Computing
-  id: disc25
-  link: https://www.disc-conference.org/wp/disc2025/
-  abstract_deadline: '2025-05-20 23:59:59'
-  deadline: '2025-05-23 23:59:59'
+  id: disc26
+  link: https://www.disc-conference.org/wp/disc2026/
+  abstract_deadline: '2026-05-27 23:59:59'
+  deadline: '2026-06-01 23:59:59'
   timezone: Europe/Rome
-  place: Berlin, Germany
-  date: October 27-31, 2025
-  start: 2025-10-27
-  end: 2025-10-31
+  place: Rome, Italy
+  date: November 9-13, 2026
+  start: 2026-11-09
+  end: 2026-11-13
   sub: [DS]
   rank: [A, A2]
 - title: MASCOTS 
@@ -125,16 +125,17 @@
   sub: [SE, BC]
   rank: [A, A2]
 - title: CLOUDCOM
-  year: 2025
+  year: 2026
   full_name: IEEE International Conference on Cloud Computing Technology and Science (CLOUDCOM)
-  id: cloudcom25
-  link: https://www.cloudcom2025.org/
-  deadline: '2025-09-06 23:59:59'
+  id: cloudcom26
+  link: https://www.cloudcom2026.org/
+  abstract_deadline: '2026-06-15 23:59:59'
+  deadline: '2026-07-15 23:59:59'
   timezone: Europe/Rome
-  place: Shenzhen, China
-  date: November 14-16, 2025
-  start: 2025-11-14
-  end: 2025-11-16
+  place: Paris, France
+  date: October 27-29, 2026
+  start: 2026-10-27
+  end: 2026-10-29
   sub: [DS, SE]
   rank: [B2]
 - title: USENIX FAST 
@@ -653,29 +654,30 @@
   sub: [DS, PER, SE]
   rank: [A, A2]
 - title: IC2E
-  year: 2025
-  id: ic2e25
+  year: 2026
+  id: ic2e26
   full_name: IEEE International Conference on Cloud Engineering
-  link: https://conferences.computer.org/IC2E/2025/
-  abstract_deadline: '2025-04-17 23:59:59'
-  deadline: '2025-04-24 23:59:59'
+  link: https://conferences.computer.org/IC2E/2026/
+  abstract_deadline: '2026-04-17 23:59:59'
+  deadline: '2026-04-24 23:59:59'
   timezone: Europe/Rome
-  place: Paphos, Cyprus
-  date: September 23-26, 2025
-  start: 2025-09-23
-  end: 2025-09-26
+  place: Santa Clara, California, USA
+  date: October 13-16, 2026
+  start: 2026-10-13
+  end: 2026-10-16
   sub: [DS, SE]
 - title: CLUSTER
-  year: 2025
-  id: cluster25
+  year: 2026
+  id: cluster26
   full_name: IEEE International Conference on Cluster Computing
-  link: https://clustercomp.org/2025/
-  deadline: '2025-04-25 23:59:59'
+  link: https://clustercomp.org/2026/
+  abstract_deadline: '2026-04-23 23:59:59'
+  deadline: '2026-04-30 23:59:59'
   timezone: Europe/Rome
-  place: Edinburgh, Scotland
-  date: September 2-5, 2025
-  start: 2025-09-02
-  end: 2025-09-05
+  place: Alexandria, Virginia, USA
+  date: September 22-25, 2026
+  start: 2026-09-22
+  end: 2026-09-25
   sub: [DS, SE, PER]
   rank: [A, A2, B]
 - title: ACM MobiCom
@@ -832,16 +834,16 @@
   sub: [CS]
   rank: [A*, A, A1]
 - title: FOCS
-  year: 2025
-  id: focs25
+  year: 2026
+  id: focs26
   full_name: IEEE Symposium on Foundations of Computer Science (FOCS)
-  link: https://focs.computer.org/2025/
-  deadline: '2025-04-03 23:59:59'
+  link: https://focs.computer.org/2026/
+  deadline: '2026-04-01 23:59:59'
   timezone: Europe/Rome
-  place: Sydney, Australia
-  date: December 14-17, 2025
-  start: 2025-12-14
-  end: 2025-12-17
+  place: New York City, USA
+  date: November 8-11, 2026
+  start: 2026-11-08
+  end: 2026-11-11
   sub: [CS]
   rank: [A*, A, A1]
 - title: Asiacrypt
