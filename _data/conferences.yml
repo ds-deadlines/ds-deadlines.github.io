@@ -249,6 +249,36 @@
   sub: [DS, SE]
   rank: [A, A2]
   note: fall review cycle
+- title: EuroSys
+  year: 2027
+  full_name: European Conference on Computer Systems (EuroSys)
+  id: eurosys27s
+  link: https://2026.eurosys.org/
+  abstract_deadline: '2026-05-07 23:59:59'
+  deadline: '2026-05-14 23:59:59'
+  timezone: Europe/Rome
+  place: Rabat, Morocco
+  date: April 19-24, 2027
+  start: 2027-04-19
+  end: 2027-04-24
+  sub: [DS, SE]
+  rank: [A, A2]
+  note: spring review cycle
+- title: EuroSys
+  year: 2027
+  full_name: European Conference on Computer Systems (EuroSys)
+  id: eurosys27f
+  link: https://2026.eurosys.org/
+  abstract_deadline: '2026-09-17 23:59:59'
+  deadline: '2026-09-24 23:59:59'
+  timezone: Europe/Rome
+  place: Rabat, Morocco
+  date: April 19-24, 2027
+  start: 2027-04-19
+  end: 2027-04-24
+  sub: [DS, SE]
+  rank: [A, A2]
+  note: fall review cycle
 - title: ASPLOS
   year: 2026
   full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
