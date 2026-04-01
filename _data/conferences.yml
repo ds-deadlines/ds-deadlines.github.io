@@ -139,18 +139,33 @@
   sub: [DS, SE]
   rank: [B2]
 - title: USENIX FAST 
-  year: 2026
+  year: 2027
   full_name: USENIX Conference on File and Storage Technologies
-  id: fast26
-  link: https://www.usenix.org/conference/fast26
-  deadline: '2025-09-16 08:59:59'
+  id: fast27s
+  link: https://www.usenix.org/conference/fast27
+  deadline: '2025-03-17 08:59:59'
   timezone: Europe/Rome
-  place: Santa Clara, California
-  date: February 24-26, 2026
-  start: 2026-02-24
-  end: 2026-02-26
+  place: Renton, WA, USA
+  date: February 23-25, 2027
+  start: 2027-02-23
+  end: 2027-02-25
   sub: [DS, SE, PER]
   rank: [A, A1]
+  note: spring deadline
+- title: USENIX FAST 
+  year: 2027
+  full_name: USENIX Conference on File and Storage Technologies
+  id: fast27f
+  link: https://www.usenix.org/conference/fast27
+  deadline: '2025-09-15 08:59:59'
+  timezone: Europe/Rome
+  place: Renton, WA, USA
+  date: February 23-25, 2027
+  start: 2027-02-23
+  end: 2027-02-25
+  sub: [DS, SE, PER]
+  rank: [A, A1]
+  note: fall deadline
 - title: USENIX Security 
   year: 2026
   full_name: USENIX Security Symposium
