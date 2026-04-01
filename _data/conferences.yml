@@ -946,15 +946,16 @@
   sub: [CS]
   rank: [B]
 - title: AFT
-  year: 2025
-  id: aft25
+  year: 2026
+  id: aft26
   full_name: Advances in Financial Technologies
-  link: https://aftconf.github.io/aft25/index.html
-  deadline: '2025-05-28 23:59:59'
+  link: https://aftconf.github.io/aft26
+  abstract_deadline: '2026-05-20 23:59:59'
+  deadline: '2026-05-27 23:59:59'
   timezone: Europe/Rome
-  place: Pittsburgh, PA, USA
-  date: October 08-10, 2025
-  start: 2025-10-08
-  end: 2025-10-10
+  place: London, UK
+  date: October 06-09, 2026
+  start: 2026-10-06
+  end: 2026-10-09
   sub: [CS]
 
