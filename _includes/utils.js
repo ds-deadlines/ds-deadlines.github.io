@@ -14,6 +14,21 @@ function addUtcTimeZones() {
   }
 }
 
+// For conferences with a recurring (e.g. monthly) deadline instead of a single
+// fixed one. `deadlineStr` is one known occurrence (same day-of-month/time as
+// all the others); this advances it a month at a time until it's no longer in
+// the past, capped at `untilStr` (the last confirmed occurrence) so a stale,
+// un-updated entry doesn't silently drift into dates nobody ever confirmed.
+function nextRollingOccurrence(deadlineStr, timezone, untilStr) {
+  var occurrence = moment.tz(deadlineStr, timezone);
+  var cap = untilStr ? moment.tz(untilStr, timezone) : null;
+  var now = moment();
+  while (occurrence.isBefore(now) && (!cap || occurrence.isBefore(cap))) {
+    occurrence.add(1, "months");
+  }
+  return occurrence;
+}
+
 function update_filtering(data) {
   var page_url = "{{site.baseurl}}";
   store.set("{{site.domain}}-subs", data.subs);

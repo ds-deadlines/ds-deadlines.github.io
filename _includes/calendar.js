@@ -86,6 +86,11 @@ function load_conference_list() {
   var conf_list_all = [];
   {% for conf in site.data.conferences %}
     // add deadlines in red
+    {% if conf.rolling %}
+    var deadlineTs_{{conf.id}} = nextRollingOccurrence("{{conf.deadline}}", {% if conf.timezone %}"{{conf.timezone}}"{% else %}"America/New_York"{% endif %}, "{{conf.rolling_until}}").valueOf();
+    {% else %}
+    var deadlineTs_{{conf.id}} = Date.parse("{{conf.deadline}}");
+    {% endif %}
     conf_list_all.push({
       id: "{{conf.id}}-deadline",
       abbreviation: "{{conf.id}}",
@@ -96,8 +101,8 @@ function load_conference_list() {
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
       rank: "{{conf.rank}}",
-      startDate: Date.parse("{{conf.deadline}}"),
-      endDate: Date.parse("{{conf.deadline}}"),
+      startDate: deadlineTs_{{conf.id}},
+      endDate: deadlineTs_{{conf.id}},
     });
 
     // add Conferences in chosen color

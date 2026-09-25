@@ -141,7 +141,11 @@ permalink:  /conference/
               {% else %}
                 // adjust date according to deadline timezone
                 var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+                {% if conf.rolling %}
+                var confDeadline = nextRollingOccurrence("{{conf.deadline}}", timezone, "{{conf.rolling_until}}");
+                {% else %}
                 var confDeadline = moment.tz("{{conf.deadline}}", timezone);
+                {% endif %}
 
                 // add calendar 
                 var conferenceDeadlineCalendar = createCalendarFromObject({

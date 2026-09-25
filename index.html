@@ -189,7 +189,11 @@
         {% else %}
           // adjust date according to deadline timezone
           var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          {% if conf.rolling %}
+          var confDate = nextRollingOccurrence("{{conf.deadline}}", timezone, "{{conf.rolling_until}}");
+          {% else %}
           var confDate = moment.tz("{{conf.deadline}}", timezone);
+          {% endif %}
 
           // render countdown timer
           $('#{{conf.id}} .timer').countdown(confDate.toDate(), function (event) {
