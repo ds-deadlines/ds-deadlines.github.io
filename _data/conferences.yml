@@ -14,16 +14,16 @@
   sub: [DS, SE]
   rank: [A, A1]
 - title: HPCC
-  year: 2025
-  id: hpcc25
-  full_name: International Conferences on High Performance Computing and Communications
-  link: https://hpcn.exeter.ac.uk/hpcc2025/
-  deadline: '2025-04-30 23:59:59'
+  year: 2026
+  id: hpcc26
+  full_name: 2026 IEEE International Conference on High Performance Computing and Communications
+  link: https://ieee-hyper-intelligence.org/2026/hpcc/
+  deadline: '2026-08-05 23:59:59'
   timezone: Europe/Rome
-  place: Exter, UK
-  date: August 13-15, 2025
-  start: 2025-08-13
-  end: 2025-08-15
+  place: Luoyang, China
+  date: October 29-November 2, 2026
+  start: 2026-10-29
+  end: 2026-11-02
   sub: [DS, BC]
   rank: [B]
 - title: IEEE ACSOS 
@@ -97,31 +97,45 @@
   rank: [B2]
   note: Second round
 - title: ICSOC
-  year: 2025
+  year: 2026
   full_name: International Conference on Service-Oriented Computing
-  id: icsoc25
-  link: https://icsoc2025.hit.edu.cn/
-  abstract_deadline: '2025-07-07 23:59:59'
-  deadline: '2025-07-21 23:59:59'
+  id: icsoc26r1
+  link: https://icsoc2026.it.p.lodz.pl/
+  deadline: '2026-05-10 23:59:59'
   timezone: Europe/Rome
-  place: Shenzhen, China
-  date: December 1-4, 2025
-  start: 2025-12-01
-  end: 2025-12-04
+  place: Lodz, Poland
+  date: December 1-4, 2026
+  start: 2026-12-01
+  end: 2026-12-04
   sub: [DS, SE]
   rank: [A, A2]
-- title: FSE
+  note: Early Round
+- title: ICSOC
   year: 2026
-  full_name: ACM International Conference on the Foundations of Software Engineering (FSE) 
-  id: fse26
-  link: https://conf.researchr.org/home/fse-2026
-  abstract_deadline: '2025-09-04 23:59:59'
-  deadline: '2025-09-11 23:59:59'
+  full_name: International Conference on Service-Oriented Computing
+  id: icsoc26r2
+  link: https://icsoc2026.it.p.lodz.pl/
+  abstract_deadline: '2026-07-12 23:59:59'
+  deadline: '2026-07-19 23:59:59'
   timezone: Europe/Rome
-  place: Montreal, Canada
-  date: July 05-09, 2026
-  start: 2026-07-05
-  end: 2026-07-09
+  place: Lodz, Poland
+  date: December 1-4, 2026
+  start: 2026-12-01
+  end: 2026-12-04
+  sub: [DS, SE]
+  rank: [A, A2]
+  note: Regular Round
+- title: FSE
+  year: 2027
+  full_name: ACM International Conference on the Foundations of Software Engineering (FSE)
+  id: fse27
+  link: https://conf.researchr.org/home/fse-2027
+  deadline: '2026-10-02 23:59:59'
+  timezone: Europe/Rome
+  place: Shenzhen, China
+  date: July 12-16, 2027
+  start: 2027-07-12
+  end: 2027-07-16
   sub: [SE, BC]
   rank: [A, A2]
 - title: CLOUDCOM
@@ -166,89 +180,75 @@
   sub: [DS, SE, PER]
   rank: [A, A1]
   note: fall deadline
-- title: USENIX Security 
-  year: 2026
+- title: USENIX Security
+  year: 2027
   full_name: USENIX Security Symposium
-  id: security26
-  link: https://www.usenix.org/conference/usenixsecurity26
-  abstract_deadline: '2025-01-29 08:59:59'
-  deadline: '2025-02-05 08:59:59'
+  id: security27
+  link: https://www.usenix.org/conference/usenixsecurity27
+  abstract_deadline: '2027-01-19 23:59:59'
+  deadline: '2027-01-26 23:59:59'
   timezone: Europe/Rome
-  place: Baltimore, MD, USA
-  date: August 12-14, 2026
-  start: 2026-08-12
-  end: 2026-08-14
+  place: Denver, CO, USA
+  date: August 11-13, 2027
+  start: 2027-08-11
+  end: 2027-08-13
   sub: [DS, CS]
   rank: [A*, A, A1]
   note: Cycle 2
-- title: FC 
-  year: 2026
+- title: FC
+  year: 2027
   full_name: Financial Cryptography and Data Security
-  id: fc26
-  link: https://fc26.ifca.ai
-  deadline: '2025-09-16 23:59:59'
+  id: fc27
+  link: https://fc27.ifca.ai
+  deadline: '2026-09-24 23:59:59'
   timezone: Europe/Rome
-  place: St. Kitts
-  date: March 02-06, 2026
-  start: 2026-03-02
-  end: 2026-03-06
+  place: Barbados
+  date: February 08-12, 2027
+  start: 2027-02-08
+  end: 2027-02-12
   sub: [BC, CS]
   rank: [A]
-- title: USENIX NSDI 
-  year: 2026
+- title: USENIX NSDI
+  year: 2027
   full_name: USENIX Symposium on Networked Systems Design and Implementation
-  id: nsdi26
-  link: https://www.usenix.org/conference/nsdi26/
-  abstract_deadline: '2025-09-11 23:59:59'
-  deadline: '2025-09-18 23:59:59'
+  id: nsdi27
+  link: https://www.usenix.org/conference/nsdi27/
+  abstract_deadline: '2026-09-11 05:59:59'
+  deadline: '2026-09-18 05:59:59'
   timezone: Europe/Rome
-  place: Renton, WA, USA
-  date: May 04-06, 2026
-  start: 2026-05-04
-  end: 2026-05-06
+  place: Providence, RI, USA
+  date: May 11-13, 2027
+  start: 2027-05-11
+  end: 2027-05-13
   sub: [DS, SE, PER]
   rank: [B, A1]
+  note: Fall cycle
 - title: SAC
-  year: 2026
+  year: 2027
   full_name: ACM/SIGAPP Symposium On Applied Computing
-  id: sac26
-  link: https://www.sigapp.org/sac/sac2026/
-  deadline: '2025-09-26 23:59:59'
+  id: sac27
+  link: https://www.sigapp.org/sac/sac2027/
+  deadline: '2026-10-02 23:59:59'
   timezone: Europe/Rome
-  place: Thessaloniki, Greece
-  date: March 23-27, 2026
-  start: 2026-03-23
-  end: 2026-03-27
+  place: Gwangju, South Korea
+  date: April 5-9, 2027
+  start: 2027-04-05
+  end: 2027-04-09
   sub: [DS, BC, SE, PER]
   rank: [B, A1]
-- title: ACM/IEEE ICSE 
-  year: 2026
+- title: ACM/IEEE ICSE
+  year: 2027
   full_name: ACM/IEEE International Conference on Software Engineering
-  id: icse26
-  link: https://conf.researchr.org/home/icse-2026
-  deadline: '2025-07-18 23:59:59'
+  id: icse27
+  link: https://conf.researchr.org/home/icse-2027
+  deadline: '2026-06-30 23:59:59'
   timezone: Europe/Rome
-  place: Rio de Kaneiro, Brazil
-  date: April 12-18, 2026
-  start: 2026-04-12
-  end: 2026-05-18
+  place: Dublin, Ireland
+  date: April 25-May 1, 2027
+  start: 2027-04-25
+  end: 2027-05-01
   sub: [SE]
   rank: [A, A1]
-- title: EuroSys
-  year: 2026
-  full_name: European Conference on Computer Systems (EuroSys)
-  id: eurosys26s
-  link: https://2026.eurosys.org/
-  abstract_deadline: '2025-09-18 23:59:59'
-  deadline: '2025-09-25 23:59:59'
-  timezone: Europe/Rome
-  place: Edinburgh, Scotland
-  date: April 27-30, 2026
-  start: 2026-04-27
-  end: 2026-04-30
-  sub: [DS, SE]
-  rank: [A, A2]
-  note: fall review cycle
 - title: EuroSys
   year: 2027
   full_name: European Conference on Computer Systems (EuroSys)
@@ -280,170 +280,167 @@
   rank: [A, A2]
   note: fall review cycle
 - title: ASPLOS
-  year: 2026
+  year: 2027
   full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-  id: asplos26spring
-  link: https://www.asplos-conference.org/asplos2026/
-  abstract_deadline: '2025-03-05 21:00:00'
-  deadline: '2025-03-12 21:00:00'
+  id: asplos27april
+  link: https://www.asplos-conference.org/asplos2027/
+  deadline: '2026-04-15 23:59:59'
   timezone: Europe/Rome
-  place: Pittsburgh, USA
-  date: March 22-26, 2026
-  start: 2026-03-22
-  end: 2026-03-26
+  place: Heraklion, Crete, Greece
+  date: April 11-15, 2027
+  start: 2027-04-11
+  end: 2027-04-15
   sub: [SE, PER]
   rank: [A, A1]
-  note: spring review cycle
+  note: April review cycle
 - title: ASPLOS
-  year: 2026
+  year: 2027
   full_name: ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)
-  id: asplos26summer
-  link: https://www.asplos-conference.org/asplos2026/
-  abstract_deadline: '2025-08-13 21:00:00'
-  deadline: '2025-08-20 21:00:00'
+  id: asplos27sept
+  link: https://www.asplos-conference.org/asplos2027/
+  deadline: '2026-09-09 23:59:59'
   timezone: Europe/Rome
-  place: Pittsburgh, USA
-  date: March 22-26, 2026
-  start: 2026-03-22
-  end: 2026-03-26
+  place: Heraklion, Crete, Greece
+  date: April 11-15, 2027
+  start: 2027-04-11
+  end: 2027-04-15
   sub: [SE, PER]
   rank: [A, A1]
-  note: summer review cycle
+  note: September review cycle
 - title: CCGrid
-  year: 2026
+  year: 2027
   full_name: IEEE/ACM International Symposium on Cluster, Cloud, and Internet Computing (CCGrid)
-  id: ccgrid26
-  link: https://ccgrid2026.cdms.westernsydney.edu.au/
-  abstract_deadline: '2025-12-01 23:59:59'
-  deadline: '2025-12-15 23:59:59'
+  id: ccgrid27
+  link: https://hpcclab.org/ccgrid27/
+  abstract_deadline: '2026-11-24 23:59:59'
+  deadline: '2026-12-01 23:59:59'
   timezone: Europe/Rome
-  place: Sydney, Australia
-  date: May 18-21, 2026
-  start: 2026-05-18
-  end: 2026-05-21
+  place: Dallas-Fort Worth, TX, USA
+  date: May 24-27, 2027
+  start: 2027-05-24
+  end: 2027-05-27
   sub: [PER, SE, DS]
   rank: [A, A1, B]
 - title: ICPE
-  year: 2026
+  year: 2027
   full_name: ACM/SPEC International Conference on Performance Engineering
-  id: icpe26
-  link: https://icpe2026.spec.org/
-  abstract_deadline: '2025-11-03 23:59:59'
-  deadline: '2025-11-10 23:59:59'
+  id: icpe27
+  link: https://icpe2027.spec.org/
+  abstract_deadline: '2026-11-09 23:59:59'
+  deadline: '2026-11-16 23:59:59'
   timezone: Europe/Rome
-  place: Florence, Italy
-  date: May 4-8, 2026
-  start: 2026-05-04
-  end: 2026-05-08
+  place: Gothenburg, Sweden
+  date: May 24-28, 2027
+  start: 2027-05-24
+  end: 2027-05-28
   sub: [PER, SE]
 - title: WWW
-  year: 2026
+  year: 2027
   full_name: The Web Conference (WWW)
-  id: www26
-  link: https://www2026.thewebconf.org/
-  abstract_deadline: '2025-09-30 23:59:59'
-  deadline: '2025-10-07 23:59:59'
+  id: www27
+  link: https://www2027.thewebconf.org/
+  abstract_deadline: '2026-10-18 23:59:59'
+  deadline: '2026-10-25 23:59:59'
   timezone: Europe/Rome
-  place: Dubai, UAE
-  date: April 13-17, 2026
-  start: 2026-04-13
-  end: 2026-04-17
+  place: Dublin, Ireland
+  date: May 10-14, 2027
+  start: 2027-05-10
+  end: 2027-05-14
   sub: [DS, SE]
   rank: [A, A1]
-- title: IEEE ICDE 
-  year: 2026
+- title: IEEE ICDE
+  year: 2027
   full_name:  IEEE International Conference on Data Engineering
-  id: icde26r1
-  link: https://icde2026.github.io/
-  deadline: '2025-06-18 23:59:59'
+  id: icde27r1
+  link: https://icde2027.github.io/
+  deadline: '2026-06-12 02:00:00'
   timezone: Europe/Rome
-  place: Montreal, Canada
-  date: May 4-8, 2026
-  start: 2026-05-04
-  end: 2026-05-08
+  place: Copenhagen, Denmark
+  date: May 17-21, 2027
+  start: 2027-05-17
+  end: 2027-05-21
   sub: [DB]
   rank: [A, A1]
   note: first round
-- title: IEEE ICDE 
-  year: 2026
+- title: IEEE ICDE
+  year: 2027
   full_name:  IEEE International Conference on Data Engineering
-  id: icde26r2
-  link: https://icde2026.github.io/
-  deadline: '2025-10-27 23:59:59'
+  id: icde27r2
+  link: https://icde2027.github.io/
+  deadline: '2026-11-12 02:00:00'
   timezone: Europe/Rome
-  place: Montreal, Canada
-  date: May 4-8, 2026
-  start: 2026-05-04
-  end: 2026-05-08
+  place: Copenhagen, Denmark
+  date: May 17-21, 2027
+  start: 2027-05-17
+  end: 2027-05-21
   sub: [DB]
   rank: [A, A1]
   note: second round
-- title: ICBC 
-  year: 2026
+- title: ICBC
+  year: 2027
   full_name: IEEE International Conference on Blockchain and Cryptocurrency
-  id: icbc26
-  link: https://icbc2026.ieee-icbc.org/
-  deadline: '2026-01-07 23:59:59'
+  id: icbc27
+  link: https://icbc2027.ieee-icbc.org/
+  deadline: 'TBA'
   timezone: Europe/Rome
-  place: Brisbane, Australia
-  date: June 1-5, 2026
-  start: 2026-06-01
-  end: 2026-06-05
+  place: Toronto, Canada
+  date: May 31-June 4, 2027
+  start: 2027-05-31
+  end: 2027-06-04
   sub: [BC]
-- title: IPDPS 
-  year: 2026
+- title: IPDPS
+  year: 2027
   full_name:  IEEE International Parallel &amp; Distributed Processing Symposium
-  id: ipdps26
-  link: https://www.ipdps.org/
-  abstract_deadline: '2025-10-02 23:59:59'
-  deadline: '2025-10-09 23:59:59'
+  id: ipdps27
+  link: https://www.ipdps.org/ipdps2027/2027-call-for-papers.html
+  abstract_deadline: '2026-10-01 23:59:59'
+  deadline: '2026-10-08 23:59:59'
   timezone: Europe/Rome
-  place: New Orleans, USA
-  date: May 25-29, 2026
-  start: 2026-05-25
-  end: 2026-05-29
+  place: Seattle, USA
+  date: June 1-5, 2027
+  start: 2027-06-01
+  end: 2027-06-05
   sub: [DS]
   rank: [A, A1]
-- title: INFOCOM 
-  year: 2026
+- title: INFOCOM
+  year: 2027
   full_name:  IEEE International Conference on Computer Communications
-  id: infocom26
-  link: https://infocom2026.ieee-infocom.org
-  abstract_deadline: '2025-07-24 23:59:59'
-  deadline: '2025-07-31 23:59:59'
+  id: infocom27
+  link: https://infocom2027.ieee-infocom.org
+  abstract_deadline: '2026-07-24 23:59:59'
+  deadline: '2026-07-31 23:59:59'
   timezone: Europe/Rome
-  place: Tokyo, Japan
-  date: May 18-21, 2026
-  start: 2026-05-18
-  end: 2026-05-21
+  place: Honolulu, HI, USA
+  date: May 17-20, 2027
+  start: 2027-05-17
+  end: 2027-05-20
   sub: [NET]
   rank: [A, A1]
 - title: CAiSE
-  year: 2026
-  full_name: 38th International Conference on Advanced Information Systems Engineering (CAiSE'26)
-  id: caise26
-  link: https://cyprusconferences.org/caise2026/
-  abstract_deadline: '2025-11-14 23:59:59'
-  deadline: '2025-11-28 23:59:59'
+  year: 2027
+  full_name: 39th International Conference on Advanced Information Systems Engineering (CAiSE'27)
+  id: caise27
+  link: https://deal.us.es/caise27/
+  deadline: 'TBA'
   timezone: Europe/Rome
-  place: Verona, Italy
-  date: June 08-12, 2026
-  start: 2026-06-08
-  end: 2026-06-12
+  place: Seville, Spain
+  date: June 7-11, 2027
+  start: 2027-06-07
+  end: 2027-06-11
   sub: [SE, BC, DS]
   rank: [A, A2]
 - title: MobiSys
-  year: 2026
+  year: 2027
   full_name: ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)
-  id: mobisys26
-  link: https://www.sigmobile.org/mobisys/2026/
-  abstract_deadline: '2025-11-28 23:59:59'
-  deadline: '2025-12-05 23:59:59'
+  id: mobisys27
+  link: https://www.sigmobile.org/mobisys/2027/
+  abstract_deadline: '2026-11-27 23:59:59'
+  deadline: '2026-12-04 23:59:59'
   timezone: Europe/Rome
-  place: Cambridge, UK
-  date: June 21-25, 2026
-  start: 2026-06-21
-  end: 2026-06-25
+  place: Ho Chi Minh City, Vietnam
+  date: June 21-25, 2027
+  start: 2027-06-21
+  end: 2027-06-25
   sub: [SE, DS]
   rank: [B, A1]
 - title: HPDC
@@ -491,46 +488,47 @@
   rank: [A, A2]
   note: Cycle 2
 - title: SIGMOD/PODS
-  year: 2026
+  year: 2027
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
-  id: sigmod26
-  link: https://2026.sigmod.org
-  abstract_deadline: '2025-10-10 23:59:59'
-  deadline: '2025-10-17 23:59:59'
+  id: sigmod27
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-10-10 23:59:59'
+  deadline: '2026-10-17 23:59:59'
   timezone: Europe/Rome
-  place: Bengaluru, India
-  date: May 31 - June 5, 2026
-  start: 2026-05-31
-  end: 2026-06-05
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
   sub: [DB]
   rank: [A, A1]
+  note: SIGMOD Research Round 4
 - title: SIGMETRICS
-  year: 2026
+  year: 2027
   full_name: ACM SIGMETRICS
-  id: sigper26f
-  link: http://www.sigmetrics.org/sigmetrics2026/
-  abstract_deadline: '2025-10-07 23:59:59'
-  deadline: '2025-10-14 23:59:59'
+  id: sigper27f
+  link: https://www.sigmetrics.org/sigmetrics2027/
+  abstract_deadline: '2026-10-02 23:59:59'
+  deadline: '2026-10-09 23:59:59'
   timezone: Europe/Rome
-  place: Ann Arbor, Michigan, USA
-  date: June 8-12, 2026
-  start: 2026-06-08
-  end: 2026-06-12
+  place: Atlanta, GA, USA
+  date: June 7-11, 2027
+  start: 2027-06-07
+  end: 2027-06-11
   sub: [PER]
   rank: [B4]
   note: fall submission cycle
 - title: SIGMETRICS
-  year: 2026
+  year: 2027
   full_name: ACM SIGMETRICS
-  id: sigper26w
-  link: http://www.sigmetrics.org/sigmetrics2026/
-  abstract_deadline: '2026-01-06 23:59:59'
-  deadline: '2026-01-13 23:59:59'
+  id: sigper27w
+  link: https://www.sigmetrics.org/sigmetrics2027/
+  abstract_deadline: '2027-01-04 23:59:59'
+  deadline: '2027-01-11 23:59:59'
   timezone: Europe/Rome
-  place: Ann Arbor, Michigan, USA
-  date: June 8-12, 2026
-  start: 2026-06-18
-  end: 2026-06-12
+  place: Atlanta, GA, USA
+  date: June 7-11, 2027
+  start: 2027-06-07
+  end: 2027-06-11
   sub: [PER]
   rank: [B4]
   note: winter submission cycle
@@ -548,32 +546,32 @@
   end: 2026-06-10
   sub: [DS, BC]
   rank: [A, A1]
-- title: IEEE/IFIP DSN 
-  year: 2026
+- title: IEEE/IFIP DSN
+  year: 2027
   full_name:  IEEE/IFIP International Conference on Dependable Systems and Networks
-  id: dsn26
-  link: https://dsn2026.github.io/
-  abstract_deadline: '2025-11-27 23:59:59'
-  deadline: '2025-12-04 23:59:59'
+  id: dsn27
+  link: https://dsn2027-berlin.github.io/
+  abstract_deadline: '2026-11-25 23:59:59'
+  deadline: '2026-12-02 23:59:59'
   timezone: Europe/Rome
-  place: Charlotte, USA
-  date: June 22-25, 2026
-  start: 2026-06-22
-  end: 2026-06-25
+  place: Berlin, Germany
+  date: June 22-25, 2027
+  start: 2027-06-22
+  end: 2027-06-25
   sub: [DS]
   rank: [A, A1]
-- title: ACM DEBS 
-  year: 2026
+- title: ACM DEBS
+  year: 2027
   full_name: ACM International Conference on Distributed and Event-based Systems
-  id: debs26
-  link: https://2026.debs.org/
-  abstract_deadline: '2026-02-13 23:59:59'
-  deadline: '2026-02-20 23:59:59'
+  id: debs27
+  link: https://2027.debs.org/
+  abstract_deadline: '2027-02-16 23:59:59'
+  deadline: '2027-02-23 23:59:59'
   timezone: Europe/Rome
-  place: Lisbon, Portugal
-  date: June 23-26, 2026
-  start: 2026-06-23
-  end: 2026-06-26
+  place: Galway, Ireland
+  date: June 29-July 1, 2027
+  start: 2027-06-29
+  end: 2027-07-01
   sub: [DS, ES]
   rank: B2
 - title: ATC
@@ -591,44 +589,44 @@
   sub: [DS, SE, PER]
   rank: [A, A1]
 - title: COMPSAC
-  year: 2026
+  year: 2027
   full_name: IEEE International Conference on Computers, Software, and Applications
-  id: compsac26
-  link: https://ieeecompsac.computer.org/2026/
-  deadline: '2026-02-20 23:59:59'
+  id: compsac27
+  link: https://ieeecompsac.computer.org/2027/
+  deadline: '2027-01-31 23:59:59'
   timezone: Europe/Rome
-  place: Madrid, Spain
-  date: July 7-10, 2026
-  start: 2026-07-07
-  end: 2026-07-10
+  place: Tokyo, Japan
+  date: July 13-16, 2027
+  start: 2027-07-13
+  end: 2027-07-16
   sub: [BC, CS, NET]
   rank: [B]
 - title: OSDI
-  year: 2026
-  full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '26)
-  id: osdi26
-  link: https://www.usenix.org/conference/osdi26/
-  abstract_deadline: '2025-12-04 23:59:59'
-  deadline: '2025-12-11 23:59:59'
+  year: 2027
+  full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '27)
+  id: osdi27
+  link: https://www.usenix.org/conference/osdi27/
+  abstract_deadline: '2026-12-01 23:59:00'
+  deadline: '2026-12-08 23:59:00'
   timezone: Europe/Rome
-  place: Seattle, WA, USA
-  date: July 13-15, 2026
-  start: 2026-07-13
-  end: 2026-07-15
+  place: Baltimore, MD, USA
+  date: July 7-9, 2027
+  start: 2027-07-07
+  end: 2027-07-09
   sub: [DS, SE, PER]
   rank: [A, A1]
 - title: EuroS&amp;P
-  year: 2026
-  id: eurosp26
+  year: 2027
+  id: eurosp27
   full_name: IEEE European Symposium on Security and Privacy
-  link: https://eurosp2026.ieee-security.org/
-  abstract_deadline: '2025-11-13 23:59:59'
-  deadline: '2025-11-20 23:59:59'
+  link: https://eurosp2027.ieee-security.org/
+  abstract_deadline: '2026-11-25 23:59:59'
+  deadline: '2026-12-02 23:59:59'
   timezone: Europe/Rome
-  place: Lisbon, Portugal
-  date: July 6-10, 2026
-  start: 2026-07-06
-  end: 2026-07-10
+  place: Madrid, Spain
+  date: July 5-9, 2027
+  start: 2027-07-05
+  end: 2027-07-09
   sub: [BC]
 - title: DAPPS
   year: 2026
@@ -642,60 +640,58 @@
   start: 2026-07-27
   end: 2026-07-30
   sub: [BC]
-- title: IEEE ICDCS 
-  year: 2026
-  full_name: IEEE International Conference on Distributed Computing Systems
-  id: icdcs26
-  link: https://icdcs2026.icdcs.org/
-  abstract_deadline: '2025-12-05 23:59:59'
-  deadline: '2025-12-12 23:59:59'
+- title: IEEE ICDCS
+  year: 2027
+  full_name: 47th IEEE International Conference on Distributed Computing Systems
+  id: icdcs27
+  link: https://icdcs2027.icdcs.org/
+  deadline: 'TBA'
   timezone: Europe/Rome
-  place: South Korea
-  date: To be announced
-  start: 2026-07-20
-  end: 2026-07-22
+  place: Melbourne, Australia
+  date: July 5-8, 2027
+  start: 2027-07-05
+  end: 2027-07-08
   sub: [DS]
   rank: [A, A1]
-- title: SIGCOMM 
-  year: 2026
+- title: SIGCOMM
+  year: 2027
   full_name: ACM Special Interest Group on Data Communication
-  id: sigcomm26
-  link: http://conferences.sigcomm.org/sigcomm/2026/
-  abstract_deadline: '2026-01-30 23:59:59'
-  deadline: '2025-02-06 23:59:59'
+  id: sigcomm27
+  link: https://conferences.sigcomm.org/sigcomm/2027/
+  deadline: 'TBA'
   timezone: Europe/Rome
-  place: Denver, Colorado, USA
-  date: August 17-21, 2026
-  start: 2026-08-17
-  end: 2026-08-21
+  place: Bangkok, Thailand
+  date: August 8-12, 2027
+  start: 2027-08-08
+  end: 2027-08-12
   sub: [DS]
   rank: [A, A1]
 - title: KDD
-  year: 2026
-  id: kdd26r1
-  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2nd review cycle)
-  link: https://kdd2026.kdd.org/
-  abstract_deadline: '2025-07-24 23:59:59'
-  deadline: '2025-07-31 23:59:59'
+  year: 2027
+  id: kdd27r1
+  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  link: https://kdd2027.kdd.org/
+  abstract_deadline: '2026-07-19 23:59:59'
+  deadline: '2026-07-26 23:59:59'
   timezone: Europe/Rome
-  place: Jeju, Korea
-  date: 'August 9-13, 2026'
-  start: 2026-08-09
-  end: 2026-08-13
+  place: San Jose, CA, USA
+  date: August 1-5, 2027
+  start: 2027-08-01
+  end: 2027-08-05
   sub: [DB]
   rank: [A*, A, A1]
-- title: Euro-Par 
-  year: 2026
+  note: August submission cycle
+- title: Euro-Par
+  year: 2027
   full_name: International European Conference on Parallel and Distributed Computing
-  id: europar25
-  link: https://2026.euro-par.org/
-  abstract_deadline: '2026-02-27 23:59:59'
-  deadline: '2026-03-06 23:59:59'
+  id: europar27
+  link: https://2027.euro-par.org/
+  deadline: 'TBA'
   timezone: Europe/Rome
-  place: Pisa, Italy
-  date: August 24-28, 2026
-  start: 2026-08-24
-  end: 2026-08-28
+  place: Groningen, Netherlands
+  date: August 23-27, 2027
+  start: 2027-08-23
+  end: 2027-08-27
   sub: [DS, PER, SE]
   rank: [A, A2]
 - title: IC2E
@@ -795,17 +791,17 @@
   end: 2026-12-04
   sub: [BC]
 - title: OPODIS
-  year: 2025
-  id: opodis25
+  year: 2026
+  id: opodis26
   full_name: International Conference on Principles of Distributed Systems
-  link: https://conferences.info.uaic.ro/opodis2025/index.html
-  abstract_deadline: '2025-08-22 23:59:59'
-  deadline: '2025-08-29 23:59:59'
+  link: https://opodis26.software.imdea.org/
+  abstract_deadline: '2026-09-07 23:59:59'
+  deadline: '2026-09-10 23:59:59'
   timezone: Europe/Rome
-  place: Iasi, Romania
-  date: December 3-5, 2025
-  start: 2025-12-03
-  end: 2025-12-05
+  place: Madrid, Spain
+  date: December 9-11, 2026
+  start: 2026-12-09
+  end: 2026-12-11
   sub: [DS, BC, ES]
   rank: [B, B2]
 - title: Middleware
@@ -852,32 +848,33 @@
   sub: [CS]
   rank: [A*, A, A1]
 - title: Eurocrypt
-  year: 2026
-  id: eurocrypt26
+  year: 2027
+  id: eurocrypt27
   full_name: Annual International Conference on the Theory and Applications of Cryptographic Techniques (Eurocrypt)
-  link: https://eurocrypt.iacr.org/2026/
-  deadline: '2025-10-02 23:59:59'
+  link: https://eurocrypt.iacr.org/2027/
+  deadline: '2026-09-17 23:59:59'
   timezone: Europe/Rome
-  place: Rome, Italy
-  date: May 10-14, 2026
-  start: 2026-05-10
-  end: 2026-05-14
+  place: Eindhoven, Netherlands
+  date: April 11-15, 2027
+  start: 2027-04-11
+  end: 2027-04-15
   sub: [CS]
   rank: [A*, A, A1]
 - title: SP
-  year: 2026
-  id: secpri26
-  full_name: 47th IEEE Symposium on Security and Privacy
-  link: https://sp2026.ieee-security.org/
-  abstract_deadline: '2025-11-06 23:59:59'
-  deadline: '2025-11-13 23:59:59'
+  year: 2027
+  id: secpri27
+  full_name: 48th IEEE Symposium on Security and Privacy
+  link: https://sp2027.ieee-security.org/
+  abstract_deadline: '2026-11-10 23:59:59'
+  deadline: '2026-11-17 23:59:59'
   timezone: Europe/Rome
-  place: San Francisco, USA
-  date: May 18-21, 2026
-  start: 2026-05-18
-  end: 2026-05-21
+  place: Montreal, Canada
+  date: May 17-20, 2027
+  start: 2027-05-17
+  end: 2027-05-20
   sub: [CS]
   rank: [A*, A, A1]
+  note: Cycle 2
 - title: FOCS
   year: 2026
   id: focs26
@@ -892,57 +889,57 @@
   sub: [CS]
   rank: [A*, A, A1]
 - title: Asiacrypt
-  year: 2025
-  id: asiacrypt25
+  year: 2026
+  id: asiacrypt26
   full_name: Asiacrypt
-  link: https://asiacrypt.iacr.org/2025
-  deadline: '2025-05-16 23:59:59'
+  link: https://asiacrypt.iacr.org/2026/
+  deadline: '2026-05-21 23:59:59'
   timezone: Europe/Rome
-  place: Melbourne, Australia
-  date: December 8-12, 2025
-  start: 2025-12-08
-  end: 2025-12-12
+  place: Hong Kong
+  date: December 7-11, 2026
+  start: 2026-12-07
+  end: 2026-12-11
   sub: [CS]
   rank: [A, A1]
 - title: ACNS
-  year: 2026
-  id: acns26f
+  year: 2027
+  id: acns27f
   full_name: International Conference on Applied Cryptography and Network Security
-  link: https://acns2026.github.io/
-  deadline: '2025-09-26 23:59:59'
+  link: https://acns2027.isg.rhul.ac.uk/
+  deadline: '2026-09-24 23:59:59'
   timezone: Europe/Rome
-  place: New York, USA
-  date: June 22-25, 2026
-  start: 2026-06-22
-  end: 2026-06-25
+  place: Egham, UK
+  date: June 28-July 1, 2027
+  start: 2027-06-28
+  end: 2027-07-01
   sub: [CS]
   rank: [B, B1]
   note: First submission cycle
 - title: ACNS
-  year: 2026
-  id: acns26s
+  year: 2027
+  id: acns27s
   full_name: International Conference on Applied Cryptography and Network Security
-  link: https://acns2026.github.io/
-  deadline: '2026-01-23 23:59:59'
+  link: https://acns2027.isg.rhul.ac.uk/
+  deadline: '2027-01-21 23:59:59'
   timezone: Europe/Rome
-  place: New York, USA
-  date: June 22-25, 2026
-  start: 2026-06-22
-  end: 2026-06-25
+  place: Egham, UK
+  date: June 28-July 1, 2027
+  start: 2027-06-28
+  end: 2027-07-01
   sub: [CS]
   rank: [B, B1]
   note: Second submission cycle
 - title: CANS
-  year: 2025
-  id: cans25
+  year: 2026
+  id: cans26
   full_name: International Conference on Cryptology And Network Security
-  link: https://cy2sec.comm.eng.osaka-u.ac.jp/miyaji-lab/event/cans2025/index.html
-  deadline: '2025-04-17 23:59:59'
+  link: https://uow-ic2.github.io/cans2026/index.html
+  deadline: '2026-06-19 23:59:59'
   timezone: Europe/Rome
-  place: Osaka, Japan
-  date: November 17-20, 2025
-  start: 2025-10-17
-  end: 2025-10-20
+  place: Wollongong, Australia
+  date: November 23-25, 2026
+  start: 2026-11-23
+  end: 2026-11-25
   sub: [CS]
   rank: [B]
 - title: AFT
