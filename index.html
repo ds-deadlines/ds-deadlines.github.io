@@ -114,7 +114,7 @@
                 <div class="meta">
                   Rank:
                   {% for r in conf.rank %}
-                  <span class="conf-rank conf-rank-{{r.source}}" title="{{r.source}} {{r.edition}}">{{r.source}}: {{r.value}}</span>&nbsp;
+                  <span class="conf-rank conf-rank-{{r.source}}" title="{{r.source}} {{r.edition}}">{{r.value}} ({{r.source}})</span>&nbsp;
                   {% endfor %}
                 </div>
                 {% endif %}
