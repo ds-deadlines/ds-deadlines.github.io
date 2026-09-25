@@ -575,19 +575,19 @@
   sub: [DS, ES]
   rank: B2
 - title: ATC
-  year: 2025
-  full_name: USENIX Annual Technical Conference (ATC '25)
-  id: atc25
-  link: https://www.usenix.org/conference/atc25/
-  abstract_deadline: '2025-01-07 23:59:59'
-  deadline: '2025-01-14 23:59:59'
+  year: 2026
+  full_name: ACM SIGOPS Annual Technical Conference (ATC 2026)
+  id: atc26
+  link: https://atc.sigops.org/2026/
+  deadline: '2026-06-10 23:59:59'
   timezone: Europe/Rome
-  place: Boston, MA, USA
-  date: July 7-9, 2025
-  start: 2025-07-07
-  end: 2025-07-09
+  place: Sha Tin, Hong Kong
+  date: November 15-18, 2026
+  start: 2026-11-15
+  end: 2026-11-18
   sub: [DS, SE, PER]
   rank: [A, A1]
+  note: Now organized by ACM SIGOPS, no longer a USENIX conference (USENIX discontinued ATC after 50 years)
 - title: COMPSAC
   year: 2027
   full_name: IEEE International Conference on Computers, Software, and Applications
