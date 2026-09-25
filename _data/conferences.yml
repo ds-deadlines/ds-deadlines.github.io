@@ -1104,4 +1104,145 @@
   start: 2026-10-06
   end: 2026-10-09
   sub: [CS]
+- title: NDSS
+  year: 2027
+  id: ndss27summer
+  full_name: Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss2027/
+  deadline: '2026-05-06 23:59:59'
+  timezone: Europe/Rome
+  place: Seoul, South Korea
+  date: March 22-26, 2027
+  start: 2027-03-22
+  end: 2027-03-26
+  sub: [DS, CS]
+  rank: [A*]
+  note: Summer cycle
+- title: NDSS
+  year: 2027
+  id: ndss27fall
+  full_name: Network and Distributed System Security Symposium
+  link: https://www.ndss-symposium.org/ndss2027/
+  deadline: '2026-08-19 23:59:59'
+  timezone: Europe/Rome
+  place: Seoul, South Korea
+  date: March 22-26, 2027
+  start: 2027-03-22
+  end: 2027-03-26
+  sub: [DS, CS]
+  rank: [A*]
+  note: Fall cycle
+- title: VLDB
+  year: 2027
+  id: vldb27
+  full_name: International Conference on Very Large Data Bases (PVLDB)
+  link: https://vldb.org/2027/
+  abstract_deadline: '2026-08-26 02:00:00'
+  deadline: '2026-09-02 02:00:00'
+  rolling: true
+  rolling_until: '2027-03-02 02:00:00'
+  timezone: Europe/Rome
+  place: Athens, Greece
+  date: August 23-27, 2027
+  start: 2027-08-23
+  end: 2027-08-27
+  sub: [DB]
+  rank: [A*]
+  note: PVLDB uses rolling monthly submissions (abstract due the 25th, paper due the 1st of the following month, 17:00 Pacific Time) through the final March 2027 round; the deadline shown auto-advances to the next monthly round
+- title: ACM CoNEXT
+  year: 2026
+  id: conext26r1
+  full_name: ACM International Conference on emerging Networking EXperiments and Technologies
+  link: https://conferences.sigcomm.org/co-next/2026/
+  abstract_deadline: '2025-12-05 23:59:59'
+  deadline: '2025-12-12 23:59:59'
+  timezone: Europe/Rome
+  place: Utrecht, Netherlands
+  date: December 7-10, 2026
+  start: 2026-12-07
+  end: 2026-12-10
+  sub: [NET]
+  rank: [A]
+  note: December round
+- title: ACM CoNEXT
+  year: 2026
+  id: conext26r2
+  full_name: ACM International Conference on emerging Networking EXperiments and Technologies
+  link: https://conferences.sigcomm.org/co-next/2026/
+  abstract_deadline: '2026-05-29 23:59:59'
+  deadline: '2026-06-05 23:59:59'
+  timezone: Europe/Rome
+  place: Utrecht, Netherlands
+  date: December 7-10, 2026
+  start: 2026-12-07
+  end: 2026-12-10
+  sub: [NET]
+  rank: [A]
+  note: June round
+- title: ASE
+  year: 2026
+  id: ase26
+  full_name: IEEE/ACM International Conference on Automated Software Engineering
+  link: https://conf.researchr.org/home/ase-2026
+  deadline: '2026-03-26 23:59:59'
+  timezone: Europe/Rome
+  place: Munich, Germany
+  date: October 12-16, 2026
+  start: 2026-10-12
+  end: 2026-10-16
+  sub: [SE]
+  rank: [A*]
+- title: ISSTA
+  year: 2027
+  id: issta27
+  full_name: ACM SIGSOFT International Symposium on Software Testing and Analysis
+  link: https://conf.researchr.org/home/issta-2027
+  abstract_deadline: '2027-01-08 23:59:59'
+  deadline: '2027-01-11 23:59:59'
+  timezone: Europe/Rome
+  place: Singapore
+  date: September 7-10, 2027
+  start: 2027-09-07
+  end: 2027-09-10
+  sub: [SE]
+  rank: [A]
+- title: PKC
+  year: 2027
+  id: pkc27
+  full_name: International Conference on Practice and Theory of Public-Key Cryptography
+  link: https://pkc.iacr.org/2027/
+  deadline: '2026-08-16 23:59:59'
+  timezone: Europe/Rome
+  place: Taipei, Taiwan
+  date: March 1-4, 2027
+  start: 2027-03-01
+  end: 2027-03-04
+  sub: [CS]
+  rank: [B]
+- title: TCC
+  year: 2026
+  id: tcc26
+  full_name: Theory of Cryptography Conference
+  link: https://tcc.iacr.org/2026/
+  deadline: '2026-05-19 23:59:59'
+  timezone: Europe/Rome
+  place: New York City, USA
+  date: November 10-13, 2026
+  start: 2026-11-10
+  end: 2026-11-13
+  sub: [CS]
+  rank: [B]
+- title: CIDR
+  year: 2027
+  id: cidr27
+  full_name: Conference on Innovative Data Systems Research
+  link: https://www.cidrdb.org/cidr2027/
+  deadline: '2026-08-05 08:59:00'
+  timezone: Europe/Rome
+  place: Amsterdam, Netherlands
+  date: January 24-27, 2027
+  start: 2027-01-24
+  end: 2027-01-27
+  sub: [DB]
+  rank: [A]
 
