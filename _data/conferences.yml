@@ -14,8 +14,8 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -33,8 +33,8 @@
   sub: [DS, BC]
   rank:
     - source: CORE
-      edition: legacy
-      value: B
+      edition: ICORE2026
+      value: C
 - title: IEEE ACSOS 
   year: 2026
   full_name: IEEE International Conference on Autonomic Computing and Self-Organizing Systems
@@ -63,7 +63,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -82,8 +82,8 @@
   sub: [PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: B
     - source: Qualis
       edition: '2012'
       value: A2
@@ -137,7 +137,7 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -158,7 +158,7 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -178,8 +178,8 @@
   sub: [SE, BC]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A2
@@ -197,6 +197,9 @@
   end: 2026-10-29
   sub: [DS, SE]
   rank:
+    - source: CORE
+      edition: ICORE2026
+      value: C
     - source: Qualis
       edition: '2012'
       value: B2
@@ -214,7 +217,7 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -234,7 +237,7 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -255,7 +258,7 @@
   sub: [DS, CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -279,7 +282,7 @@
   sub: [DS, CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -302,7 +305,7 @@
   sub: [BC, CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
 - title: USENIX NSDI
   year: 2027
@@ -319,8 +322,8 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: B
+      edition: ICORE2026
+      value: 'National: USA'
     - source: Qualis
       edition: '2012'
       value: A1
@@ -340,8 +343,8 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: B
+      edition: ICORE2026
+      value: 'National: USA'
     - source: Qualis
       edition: '2012'
       value: A1
@@ -360,8 +363,8 @@
   sub: [DS, BC, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: B
+      edition: ICORE2026
+      value: Multiconference
     - source: Qualis
       edition: '2012'
       value: A1
@@ -379,8 +382,8 @@
   sub: [SE]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -399,7 +402,7 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -420,7 +423,7 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -440,8 +443,8 @@
   sub: [SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -460,8 +463,8 @@
   sub: [SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -481,8 +484,8 @@
   sub: [PER, SE, DS]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: B
     - source: CCF
       edition: legacy
       value: B
@@ -502,6 +505,10 @@
   start: 2027-05-24
   end: 2027-05-28
   sub: [PER, SE]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: B
 - title: WWW
   year: 2027
   full_name: The Web Conference (WWW)
@@ -517,8 +524,8 @@
   sub: [DS, SE]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -536,8 +543,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -556,8 +563,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -574,6 +581,10 @@
   start: 2027-05-31
   end: 2027-06-04
   sub: [BC]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: C
 - title: IPDPS
   year: 2027
   full_name:  IEEE International Parallel &amp; Distributed Processing Symposium
@@ -589,7 +600,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -609,8 +620,8 @@
   sub: [NET]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -628,7 +639,7 @@
   sub: [SE, BC, DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -648,8 +659,8 @@
   sub: [SE, DS]
   rank:
     - source: CORE
-      edition: legacy
-      value: B
+      edition: ICORE2026
+      value: A
     - source: Qualis
       edition: '2012'
       value: A1
@@ -668,7 +679,7 @@
   sub: [DS, PER]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -688,7 +699,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -709,7 +720,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -730,8 +741,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -751,8 +762,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -772,8 +783,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -793,8 +804,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -814,8 +825,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -835,8 +846,8 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -855,6 +866,9 @@
   end: 2027-06-11
   sub: [PER]
   rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: B4
@@ -873,6 +887,9 @@
   end: 2027-06-11
   sub: [PER]
   rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: B4
@@ -891,6 +908,9 @@
   end: 2027-06-11
   sub: [PER]
   rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: B4
@@ -910,8 +930,8 @@
   sub: [DS, BC]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -930,7 +950,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -966,7 +986,7 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -986,7 +1006,7 @@
   sub: [BC, CS, NET]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: B
 - title: OSDI
   year: 2027
@@ -1003,8 +1023,8 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -1021,6 +1041,10 @@
   start: 2027-07-05
   end: 2027-07-09
   sub: [BC]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A
 - title: DAPPS
   year: 2026
   id: dapps26
@@ -1047,7 +1071,7 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -1066,8 +1090,8 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -1086,7 +1110,7 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1109,7 +1133,7 @@
   sub: [DB]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1132,8 +1156,8 @@
   sub: [DS, PER, SE]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: B
     - source: Qualis
       edition: '2012'
       value: A2
@@ -1150,6 +1174,10 @@
   start: 2026-10-13
   end: 2026-10-16
   sub: [DS, SE]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: B
 - title: CLUSTER
   year: 2026
   id: cluster26
@@ -1165,8 +1193,8 @@
   sub: [DS, SE, PER]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: C
     - source: CCF
       edition: legacy
       value: B
@@ -1188,8 +1216,8 @@
   sub: [DS]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -1209,8 +1237,8 @@
   sub: [BC]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -1230,8 +1258,8 @@
   sub: [BC]
   rank:
     - source: CORE
-      edition: legacy
-      value: A
+      edition: ICORE2026
+      value: A*
     - source: Qualis
       edition: '2012'
       value: A1
@@ -1275,7 +1303,7 @@
   sub: [DS, BC, ES]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: B
     - source: Qualis
       edition: '2012'
@@ -1295,7 +1323,7 @@
   sub: [DS, BC, ES]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -1316,7 +1344,7 @@
   sub: [DS, BC, ES]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -1336,7 +1364,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1358,7 +1386,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1381,7 +1409,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1405,7 +1433,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1428,7 +1456,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A*
     - source: CCF
       edition: legacy
@@ -1450,7 +1478,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: A
     - source: Qualis
       edition: '2012'
@@ -1469,7 +1497,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: B
     - source: Qualis
       edition: '2012'
@@ -1489,7 +1517,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: B
     - source: Qualis
       edition: '2012'
@@ -1509,7 +1537,7 @@
   sub: [CS]
   rank:
     - source: CORE
-      edition: legacy
+      edition: ICORE2026
       value: B
 - title: AFT
   year: 2026
@@ -1524,6 +1552,10 @@
   start: 2026-10-06
   end: 2026-10-09
   sub: [CS]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: B
 - title: NDSS
   year: 2027
   id: ndss27summer
