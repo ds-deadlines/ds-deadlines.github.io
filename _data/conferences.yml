@@ -12,7 +12,13 @@
   start: 2026-09-29
   end: 2026-10-02
   sub: [DS, SE]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: HPCC
   year: 2026
   id: hpcc26
@@ -25,7 +31,10 @@
   start: 2026-10-29
   end: 2026-11-02
   sub: [DS, BC]
-  rank: [B]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
 - title: IEEE ACSOS 
   year: 2026
   full_name: IEEE International Conference on Autonomic Computing and Self-Organizing Systems
@@ -52,7 +61,13 @@
   start: 2026-11-09
   end: 2026-11-13
   sub: [DS]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: MASCOTS 
   year: 2026
   full_name: International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems
@@ -65,7 +80,13 @@
   start: 2026-10-20
   end: 2026-10-22
   sub: [PER]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: SoCC
   year: 2026
   full_name: ACM Symposium on Cloud Computing
@@ -79,7 +100,10 @@
   start: 2026-11-18
   end: 2026-11-20
   sub: [DS, SE]
-  rank: [B2]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B2
   note: First round
 - title: SoCC
   year: 2026
@@ -94,7 +118,10 @@
   start: 2026-11-18
   end: 2026-11-20
   sub: [DS, SE]
-  rank: [B2]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B2
   note: Second round
 - title: ICSOC
   year: 2026
@@ -108,7 +135,13 @@
   start: 2026-12-01
   end: 2026-12-04
   sub: [DS, SE]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Early Round
 - title: ICSOC
   year: 2026
@@ -123,7 +156,13 @@
   start: 2026-12-01
   end: 2026-12-04
   sub: [DS, SE]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Regular Round
 - title: FSE
   year: 2027
@@ -137,7 +176,13 @@
   start: 2027-07-12
   end: 2027-07-16
   sub: [SE, BC]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: CLOUDCOM
   year: 2026
   full_name: IEEE International Conference on Cloud Computing Technology and Science (CLOUDCOM)
@@ -151,7 +196,10 @@
   start: 2026-10-27
   end: 2026-10-29
   sub: [DS, SE]
-  rank: [B2]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B2
 - title: USENIX FAST 
   year: 2027
   full_name: USENIX Conference on File and Storage Technologies
@@ -164,7 +212,13 @@
   start: 2027-02-23
   end: 2027-02-25
   sub: [DS, SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: spring deadline
 - title: USENIX FAST 
   year: 2027
@@ -178,7 +232,13 @@
   start: 2027-02-23
   end: 2027-02-25
   sub: [DS, SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: fall deadline
 - title: USENIX Security
   year: 2027
@@ -193,7 +253,16 @@
   start: 2027-08-11
   end: 2027-08-13
   sub: [DS, CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Cycle 1
 - title: USENIX Security
   year: 2027
@@ -208,7 +277,16 @@
   start: 2027-08-11
   end: 2027-08-13
   sub: [DS, CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Cycle 2
 - title: FC
   year: 2027
@@ -222,7 +300,10 @@
   start: 2027-02-08
   end: 2027-02-12
   sub: [BC, CS]
-  rank: [A]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
 - title: USENIX NSDI
   year: 2027
   full_name: USENIX Symposium on Networked Systems Design and Implementation
@@ -236,7 +317,13 @@
   start: 2027-05-11
   end: 2027-05-13
   sub: [DS, SE, PER]
-  rank: [B, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Spring cycle
 - title: USENIX NSDI
   year: 2027
@@ -251,7 +338,13 @@
   start: 2027-05-11
   end: 2027-05-13
   sub: [DS, SE, PER]
-  rank: [B, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Fall cycle
 - title: SAC
   year: 2027
@@ -265,7 +358,13 @@
   start: 2027-04-05
   end: 2027-04-09
   sub: [DS, BC, SE, PER]
-  rank: [B, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: ACM/IEEE ICSE
   year: 2027
   full_name: ACM/IEEE International Conference on Software Engineering
@@ -278,7 +377,13 @@
   start: 2027-04-25
   end: 2027-05-01
   sub: [SE]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: EuroSys
   year: 2027
   full_name: European Conference on Computer Systems (EuroSys)
@@ -292,7 +397,13 @@
   start: 2027-04-19
   end: 2027-04-24
   sub: [DS, SE]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: spring review cycle
 - title: EuroSys
   year: 2027
@@ -307,7 +418,13 @@
   start: 2027-04-19
   end: 2027-04-24
   sub: [DS, SE]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: fall review cycle
 - title: ASPLOS
   year: 2027
@@ -321,7 +438,13 @@
   start: 2027-04-11
   end: 2027-04-15
   sub: [SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: April review cycle
 - title: ASPLOS
   year: 2027
@@ -335,7 +458,13 @@
   start: 2027-04-11
   end: 2027-04-15
   sub: [SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: September review cycle
 - title: CCGrid
   year: 2027
@@ -350,7 +479,16 @@
   start: 2027-05-24
   end: 2027-05-27
   sub: [PER, SE, DS]
-  rank: [A, A1, B]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: CCF
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: ICPE
   year: 2027
   full_name: ACM/SPEC International Conference on Performance Engineering
@@ -377,7 +515,13 @@
   start: 2027-05-10
   end: 2027-05-14
   sub: [DS, SE]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: IEEE ICDE
   year: 2027
   full_name:  IEEE International Conference on Data Engineering
@@ -390,7 +534,13 @@
   start: 2027-05-17
   end: 2027-05-21
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: first round
 - title: IEEE ICDE
   year: 2027
@@ -404,7 +554,13 @@
   start: 2027-05-17
   end: 2027-05-21
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: second round
 - title: ICBC
   year: 2027
@@ -431,7 +587,13 @@
   start: 2027-06-01
   end: 2027-06-05
   sub: [DS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: INFOCOM
   year: 2027
   full_name:  IEEE International Conference on Computer Communications
@@ -445,7 +607,13 @@
   start: 2027-05-17
   end: 2027-05-20
   sub: [NET]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: CAiSE
   year: 2027
   full_name: 39th International Conference on Advanced Information Systems Engineering (CAiSE'27)
@@ -458,7 +626,13 @@
   start: 2027-06-07
   end: 2027-06-11
   sub: [SE, BC, DS]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: MobiSys
   year: 2027
   full_name: ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)
@@ -472,7 +646,13 @@
   start: 2027-06-21
   end: 2027-06-25
   sub: [SE, DS]
-  rank: [B, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: HPDC
   year: 2026
   full_name: ACM International Symposium on High-Performance Parallel and Distributed Computing (HPDC)
@@ -486,7 +666,13 @@
   start: 2026-07-13
   end: 2026-07-16
   sub: [DS, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: ICS
   year: 2026
   full_name: ACM International Conference on Supercomputing
@@ -500,7 +686,13 @@
   start: 2026-07-06
   end: 2026-07-09
   sub: [DS]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Cycle 1
 - title: ICS
   year: 2026
@@ -515,7 +707,13 @@
   start: 2026-07-06
   end: 2026-07-09
   sub: [DS]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Cycle 2
 - title: SIGMOD/PODS
   year: 2027
@@ -530,7 +728,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: SIGMOD Research Round 1
 - title: SIGMOD/PODS
   year: 2027
@@ -545,7 +749,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: SIGMOD Research Round 2
 - title: SIGMOD/PODS
   year: 2027
@@ -560,7 +770,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: SIGMOD Research Round 3
 - title: SIGMOD/PODS
   year: 2027
@@ -575,7 +791,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: SIGMOD Research Round 4
 - title: SIGMOD/PODS
   year: 2027
@@ -590,7 +812,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: PODS Research Cycle 1
 - title: SIGMOD/PODS
   year: 2027
@@ -605,7 +833,13 @@
   start: 2027-06-13
   end: 2027-06-19
   sub: [DB]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: PODS Research Cycle 2
 - title: SIGMETRICS
   year: 2027
@@ -620,7 +854,10 @@
   start: 2027-06-07
   end: 2027-06-11
   sub: [PER]
-  rank: [B4]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B4
   note: summer submission cycle
 - title: SIGMETRICS
   year: 2027
@@ -635,7 +872,10 @@
   start: 2027-06-07
   end: 2027-06-11
   sub: [PER]
-  rank: [B4]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B4
   note: fall submission cycle
 - title: SIGMETRICS
   year: 2027
@@ -650,7 +890,10 @@
   start: 2027-06-07
   end: 2027-06-11
   sub: [PER]
-  rank: [B4]
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B4
   note: winter submission cycle
 - title: ACM PODC 
   year: 2026
@@ -665,7 +908,13 @@
   start: 2026-06-06
   end: 2026-06-10
   sub: [DS, BC]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: IEEE/IFIP DSN
   year: 2027
   full_name:  IEEE/IFIP International Conference on Dependable Systems and Networks
@@ -679,7 +928,13 @@
   start: 2027-06-22
   end: 2027-06-25
   sub: [DS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: ACM DEBS
   year: 2027
   full_name: ACM International Conference on Distributed and Event-based Systems
@@ -693,7 +948,10 @@
   start: 2027-06-29
   end: 2027-07-01
   sub: [DS, ES]
-  rank: B2
+  rank:
+    - source: Qualis
+      edition: '2012'
+      value: B2
 - title: ATC
   year: 2026
   full_name: ACM SIGOPS Annual Technical Conference (ATC 2026)
@@ -706,7 +964,13 @@
   start: 2026-11-15
   end: 2026-11-18
   sub: [DS, SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Now organized by ACM SIGOPS, no longer a USENIX conference (USENIX discontinued ATC after 50 years)
 - title: COMPSAC
   year: 2027
@@ -720,7 +984,10 @@
   start: 2027-07-13
   end: 2027-07-16
   sub: [BC, CS, NET]
-  rank: [B]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
 - title: OSDI
   year: 2027
   full_name: USENIX Symposium on Operating Systems Design and Implementation (OSDI '27)
@@ -734,7 +1001,13 @@
   start: 2027-07-07
   end: 2027-07-09
   sub: [DS, SE, PER]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: EuroS&amp;P
   year: 2027
   id: eurosp27
@@ -772,7 +1045,13 @@
   start: 2027-07-05
   end: 2027-07-08
   sub: [DS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: SIGCOMM
   year: 2027
   full_name: ACM Special Interest Group on Data Communication
@@ -785,7 +1064,13 @@
   start: 2027-08-08
   end: 2027-08-12
   sub: [DS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: KDD
   year: 2027
   id: kdd27r1
@@ -799,7 +1084,16 @@
   start: 2027-08-01
   end: 2027-08-05
   sub: [DB]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: August submission cycle
 - title: KDD
   year: 2027
@@ -813,7 +1107,16 @@
   start: 2027-08-01
   end: 2027-08-05
   sub: [DB]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: February submission cycle
 - title: Euro-Par
   year: 2027
@@ -827,7 +1130,13 @@
   start: 2027-08-23
   end: 2027-08-27
   sub: [DS, PER, SE]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: IC2E
   year: 2026
   id: ic2e26
@@ -854,7 +1163,16 @@
   start: 2026-09-22
   end: 2026-09-25
   sub: [DS, SE, PER]
-  rank: [A, A2, B]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: CCF
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: A2
 - title: ACM MobiCom
   year: 2026
   full_name: ACM Annual International Conference on Mobile Computing and Networking 
@@ -868,7 +1186,13 @@
   start: 2026-10-26
   end: 2026-10-30
   sub: [DS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: winter review cycle
 - title: CCS
   full_name: ACM Conference on Computer and Communications Security (1st Rev. Cycle)
@@ -883,7 +1207,13 @@
   start: 2026-11-15
   end: 2026-11-19
   sub: [BC]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: First Review Cycle
 - title: CCS
   full_name: ACM Conference on Computer and Communications Security (2nd Rev. Cycle)
@@ -898,7 +1228,13 @@
   start: 2026-11-15
   end: 2026-11-19
   sub: [BC]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Second Review Cycle
 - title: BCCA
   full_name: 8th International Conference on Blockchain Computing and Applications (BCCA 2026)
@@ -937,7 +1273,13 @@
   start: 2026-12-09
   end: 2026-12-11
   sub: [DS, BC, ES]
-  rank: [B, B2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: B2
 - title: Middleware
   year: 2026
   id: middleware26r1
@@ -951,7 +1293,13 @@
   start: 2026-12-14
   end: 2026-12-18
   sub: [DS, BC, ES]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Winter Submission Cycle
 - title: Middleware
   year: 2026
@@ -966,7 +1314,13 @@
   start: 2026-12-14
   end: 2026-12-18
   sub: [DS, BC, ES]
-  rank: [A, A2]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A2
   note: Summer Submission Cycle
 - title: Crypto
   year: 2026
@@ -980,7 +1334,16 @@
   start: 2026-08-17
   end: 2026-08-20
   sub: [CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: Eurocrypt
   year: 2027
   id: eurocrypt27
@@ -993,7 +1356,16 @@
   start: 2027-04-11
   end: 2027-04-15
   sub: [CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: SP
   year: 2027
   id: secpri27c1
@@ -1007,7 +1379,16 @@
   start: 2027-05-17
   end: 2027-05-20
   sub: [CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Cycle 1
 - title: SP
   year: 2027
@@ -1022,7 +1403,16 @@
   start: 2027-05-17
   end: 2027-05-20
   sub: [CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
   note: Cycle 2
 - title: FOCS
   year: 2026
@@ -1036,7 +1426,16 @@
   start: 2026-11-08
   end: 2026-11-11
   sub: [CS]
-  rank: [A*, A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A*
+    - source: CCF
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: Asiacrypt
   year: 2026
   id: asiacrypt26
@@ -1049,7 +1448,13 @@
   start: 2026-12-07
   end: 2026-12-11
   sub: [CS]
-  rank: [A, A1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: A
+    - source: Qualis
+      edition: '2012'
+      value: A1
 - title: ACNS
   year: 2027
   id: acns27f
@@ -1062,7 +1467,13 @@
   start: 2027-06-28
   end: 2027-07-01
   sub: [CS]
-  rank: [B, B1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: B1
   note: First submission cycle
 - title: ACNS
   year: 2027
@@ -1076,7 +1487,13 @@
   start: 2027-06-28
   end: 2027-07-01
   sub: [CS]
-  rank: [B, B1]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
+    - source: Qualis
+      edition: '2012'
+      value: B1
   note: Second submission cycle
 - title: CANS
   year: 2026
@@ -1090,7 +1507,10 @@
   start: 2026-11-23
   end: 2026-11-25
   sub: [CS]
-  rank: [B]
+  rank:
+    - source: CORE
+      edition: legacy
+      value: B
 - title: AFT
   year: 2026
   id: aft26
@@ -1116,7 +1536,10 @@
   start: 2027-03-22
   end: 2027-03-26
   sub: [DS, CS]
-  rank: [A*]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
   note: Summer cycle
 - title: NDSS
   year: 2027
@@ -1130,7 +1553,10 @@
   start: 2027-03-22
   end: 2027-03-26
   sub: [DS, CS]
-  rank: [A*]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
   note: Fall cycle
 - title: VLDB
   year: 2027
@@ -1147,7 +1573,10 @@
   start: 2027-08-23
   end: 2027-08-27
   sub: [DB]
-  rank: [A*]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
   note: PVLDB uses rolling monthly submissions (abstract due the 25th, paper due the 1st of the following month, 17:00 Pacific Time) through the final March 2027 round; the deadline shown auto-advances to the next monthly round
 - title: ACM CoNEXT
   year: 2026
@@ -1162,7 +1591,10 @@
   start: 2026-12-07
   end: 2026-12-10
   sub: [NET]
-  rank: [A]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A
   note: December round
 - title: ACM CoNEXT
   year: 2026
@@ -1177,7 +1609,10 @@
   start: 2026-12-07
   end: 2026-12-10
   sub: [NET]
-  rank: [A]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A
   note: June round
 - title: ASE
   year: 2026
@@ -1191,7 +1626,10 @@
   start: 2026-10-12
   end: 2026-10-16
   sub: [SE]
-  rank: [A*]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A*
 - title: ISSTA
   year: 2027
   id: issta27
@@ -1205,7 +1643,10 @@
   start: 2027-09-07
   end: 2027-09-10
   sub: [SE]
-  rank: [A]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A
 - title: PKC
   year: 2027
   id: pkc27
@@ -1218,7 +1659,10 @@
   start: 2027-03-01
   end: 2027-03-04
   sub: [CS]
-  rank: [B]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: B
 - title: TCC
   year: 2026
   id: tcc26
@@ -1231,7 +1675,10 @@
   start: 2026-11-10
   end: 2026-11-13
   sub: [CS]
-  rank: [B]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: B
 - title: CIDR
   year: 2027
   id: cidr27
@@ -1244,5 +1691,8 @@
   start: 2027-01-24
   end: 2027-01-27
   sub: [DB]
-  rank: [A]
+  rank:
+    - source: CORE
+      edition: ICORE2026
+      value: A
 
