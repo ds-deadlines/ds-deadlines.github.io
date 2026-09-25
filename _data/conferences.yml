@@ -183,7 +183,22 @@
 - title: USENIX Security
   year: 2027
   full_name: USENIX Security Symposium
-  id: security27
+  id: security27c1
+  link: https://www.usenix.org/conference/usenixsecurity27
+  abstract_deadline: '2026-08-18 23:59:59'
+  deadline: '2026-08-25 23:59:59'
+  timezone: Europe/Rome
+  place: Denver, CO, USA
+  date: August 11-13, 2027
+  start: 2027-08-11
+  end: 2027-08-13
+  sub: [DS, CS]
+  rank: [A*, A, A1]
+  note: Cycle 1
+- title: USENIX Security
+  year: 2027
+  full_name: USENIX Security Symposium
+  id: security27c2
   link: https://www.usenix.org/conference/usenixsecurity27
   abstract_deadline: '2027-01-19 23:59:59'
   deadline: '2027-01-26 23:59:59'
@@ -211,7 +226,22 @@
 - title: USENIX NSDI
   year: 2027
   full_name: USENIX Symposium on Networked Systems Design and Implementation
-  id: nsdi27
+  id: nsdi27spring
+  link: https://www.usenix.org/conference/nsdi27/
+  abstract_deadline: '2026-04-17 05:59:59'
+  deadline: '2026-04-24 05:59:59'
+  timezone: Europe/Rome
+  place: Providence, RI, USA
+  date: May 11-13, 2027
+  start: 2027-05-11
+  end: 2027-05-13
+  sub: [DS, SE, PER]
+  rank: [B, A1]
+  note: Spring cycle
+- title: USENIX NSDI
+  year: 2027
+  full_name: USENIX Symposium on Networked Systems Design and Implementation
+  id: nsdi27fall
   link: https://www.usenix.org/conference/nsdi27/
   abstract_deadline: '2026-09-11 05:59:59'
   deadline: '2026-09-18 05:59:59'
@@ -490,7 +520,52 @@
 - title: SIGMOD/PODS
   year: 2027
   full_name: ACM SIGMOD/PODS International Conference on Management of Data
-  id: sigmod27
+  id: sigmod27r1
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-01-10 23:59:59'
+  deadline: '2026-01-17 23:59:59'
+  timezone: Europe/Rome
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
+  sub: [DB]
+  rank: [A, A1]
+  note: SIGMOD Research Round 1
+- title: SIGMOD/PODS
+  year: 2027
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod27r2
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-04-10 23:59:59'
+  deadline: '2026-04-17 23:59:59'
+  timezone: Europe/Rome
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
+  sub: [DB]
+  rank: [A, A1]
+  note: SIGMOD Research Round 2
+- title: SIGMOD/PODS
+  year: 2027
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod27r3
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-07-10 23:59:59'
+  deadline: '2026-07-17 23:59:59'
+  timezone: Europe/Rome
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
+  sub: [DB]
+  rank: [A, A1]
+  note: SIGMOD Research Round 3
+- title: SIGMOD/PODS
+  year: 2027
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod27r4
   link: https://2027.sigmod.org
   abstract_deadline: '2026-10-10 23:59:59'
   deadline: '2026-10-17 23:59:59'
@@ -502,6 +577,51 @@
   sub: [DB]
   rank: [A, A1]
   note: SIGMOD Research Round 4
+- title: SIGMOD/PODS
+  year: 2027
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod27pods1
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-05-23 23:59:59'
+  deadline: '2026-05-30 23:59:59'
+  timezone: Europe/Rome
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
+  sub: [DB]
+  rank: [A, A1]
+  note: PODS Research Cycle 1
+- title: SIGMOD/PODS
+  year: 2027
+  full_name: ACM SIGMOD/PODS International Conference on Management of Data
+  id: sigmod27pods2
+  link: https://2027.sigmod.org
+  abstract_deadline: '2026-12-03 23:59:59'
+  deadline: '2026-12-10 23:59:59'
+  timezone: Europe/Rome
+  place: Huntington Beach, CA, USA
+  date: June 13-19, 2027
+  start: 2027-06-13
+  end: 2027-06-19
+  sub: [DB]
+  rank: [A, A1]
+  note: PODS Research Cycle 2
+- title: SIGMETRICS
+  year: 2027
+  full_name: ACM SIGMETRICS
+  id: sigper27s
+  link: https://www.sigmetrics.org/sigmetrics2027/
+  abstract_deadline: '2026-07-03 23:59:59'
+  deadline: '2026-07-10 23:59:59'
+  timezone: Europe/Rome
+  place: Atlanta, GA, USA
+  date: June 7-11, 2027
+  start: 2027-06-07
+  end: 2027-06-11
+  sub: [PER]
+  rank: [B4]
+  note: summer submission cycle
 - title: SIGMETRICS
   year: 2027
   full_name: ACM SIGMETRICS
@@ -681,6 +801,20 @@
   sub: [DB]
   rank: [A*, A, A1]
   note: August submission cycle
+- title: KDD
+  year: 2027
+  id: kdd27r2
+  full_name: ACM SIGKDD Conference on Knowledge Discovery and Data Mining
+  link: https://kdd2027.kdd.org/
+  deadline: 'TBA'
+  timezone: Europe/Rome
+  place: San Jose, CA, USA
+  date: August 1-5, 2027
+  start: 2027-08-01
+  end: 2027-08-05
+  sub: [DB]
+  rank: [A*, A, A1]
+  note: February submission cycle
 - title: Euro-Par
   year: 2027
   full_name: International European Conference on Parallel and Distributed Computing
@@ -862,7 +996,22 @@
   rank: [A*, A, A1]
 - title: SP
   year: 2027
-  id: secpri27
+  id: secpri27c1
+  full_name: 48th IEEE Symposium on Security and Privacy
+  link: https://sp2027.ieee-security.org/
+  abstract_deadline: '2026-06-04 23:59:59'
+  deadline: '2026-06-11 23:59:59'
+  timezone: Europe/Rome
+  place: Montreal, Canada
+  date: May 17-20, 2027
+  start: 2027-05-17
+  end: 2027-05-20
+  sub: [CS]
+  rank: [A*, A, A1]
+  note: Cycle 1
+- title: SP
+  year: 2027
+  id: secpri27c2
   full_name: 48th IEEE Symposium on Security and Privacy
   link: https://sp2027.ieee-security.org/
   abstract_deadline: '2026-11-10 23:59:59'
