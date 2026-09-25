@@ -112,9 +112,9 @@
                 </div>
                 {% if conf.rank %}
                 <div class="meta">
-                  Rank: 
-                  {% for rank in conf.rank  %}
-                  <span class="conf-rank {{rank}}-rank">{{rank}}</span>&nbsp;
+                  Rank:
+                  {% for r in conf.rank %}
+                  <span class="conf-rank conf-rank-{{r.source}}" title="{{r.source}} {{r.edition}}">{{r.source}}: {{r.value}}</span>&nbsp;
                   {% endfor %}
                 </div>
                 {% endif %}

@@ -100,7 +100,6 @@ function load_conference_list() {
       date: "{{conf.date}}",
       hindex: "{{conf.hindex}}",
       subject: "{{conf.sub}}",
-      rank: "{{conf.rank}}",
       startDate: deadlineTs_{{conf.id}},
       endDate: deadlineTs_{{conf.id}},
     });
@@ -123,7 +122,6 @@ function load_conference_list() {
         date: "{{conf.date}}",
         hindex: "{{conf.hindex}}",
         subject: "{{conf.sub}}",
-        rank: "{{conf.rank}}",
         startDate: Date.parse("{{conf.start}}"),
         endDate: Date.parse("{{conf.end}}"),
       });
