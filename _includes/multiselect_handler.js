@@ -1,3 +1,25 @@
+// Shared buttonText renderer for all three filter dropdowns below: shows
+// "All" instead of every single label joined together (which gets very wide
+// once there are more than a handful of options, e.g. the rank filter).
+function multiselectButtonText(options, select) {
+  var total = $(select).find("option").length;
+  if (options.length === 0) {
+    return "None selected";
+  } else if (options.length === total) {
+    return "All";
+  } else {
+    var labels = [];
+    options.each(function () {
+      if ($(this).attr("value") !== undefined) {
+        labels.push($(this).attr("value"));
+      } else {
+        labels.push($(this).html());
+      }
+    });
+    return labels.join(", ") + "";
+  }
+}
+
 // Multi-select handler
 $("#subject-select").multiselect({
   includeSelectAllOption: true,
@@ -24,21 +46,7 @@ $("#subject-select").multiselect({
     subs = [];
     update_filtering({ subs: subs });
   },
-  buttonText: function (options, select) {
-    if (options.length === 0) {
-      return "None selected";
-    } else {
-      var labels = [];
-      options.each(function () {
-        if ($(this).attr("value") !== undefined) {
-          labels.push($(this).attr("value"));
-        } else {
-          labels.push($(this).html());
-        }
-      });
-      return labels.join(", ") + "";
-    }
-  },
+  buttonText: multiselectButtonText,
   buttonTitle: function (options, select) {
     return "";
   },
@@ -70,21 +78,7 @@ $("#rank-select").multiselect({
     ranks = [];
     update_filtering({ ranks: ranks });
   },
-  buttonText: function (options, select) {
-    if (options.length === 0) {
-      return "None selected";
-    } else {
-      var labels = [];
-      options.each(function () {
-        if ($(this).attr("value") !== undefined) {
-          labels.push($(this).attr("value"));
-        } else {
-          labels.push($(this).html());
-        }
-      });
-      return labels.join(", ") + "";
-    }
-  },
+  buttonText: multiselectButtonText,
   buttonTitle: function (options, select) {
     return "";
   },
@@ -112,21 +106,7 @@ $("#continent-select").multiselect({
     continents = [];
     update_filtering({ continents: continents });
   },
-  buttonText: function (options, select) {
-    if (options.length === 0) {
-      return "None selected";
-    } else {
-      var labels = [];
-      options.each(function () {
-        if ($(this).attr("value") !== undefined) {
-          labels.push($(this).attr("value"));
-        } else {
-          labels.push($(this).html());
-        }
-      });
-      return labels.join(", ") + "";
-    }
-  },
+  buttonText: multiselectButtonText,
   buttonTitle: function (options, select) {
     return "";
   },
