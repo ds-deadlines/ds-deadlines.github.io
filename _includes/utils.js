@@ -128,23 +128,33 @@ function deriveContinent(place) {
 
 // Faceted filtering: a conference is shown when it matches AT LEAST ONE
 // selected value in EVERY facet that's actually wired up (subs, and
-// continents/ranks once their globals exist - see load_data.js). Selecting
-// "everything" in a facet is a no-op for it, same as never narrowing it.
-// A conference with no data at all in a given facet (e.g. no rank source
-// rated it) can only match once that facet is narrowed away from "select
-// all" - same as it would in any other faceted search.
+// continents/ranks once their globals exist - see load_data.js) - i.e. AND
+// across facets, OR within one, so "Blockchain" + "Europe" + a top rank
+// narrows to their intersection, not their union. Selecting "everything" in
+// a facet is a no-op for it, same as never narrowing it. A conference with
+// no data at all in a given facet (e.g. no rank source rated it) can only
+// match once that facet is narrowed away from "select all" - same as it
+// would in any other faceted search.
+//
+// Each caller only passes the ONE facet it actually just changed (e.g. the
+// continent dropdown's handler passes {continents: [...]}), so the other two
+// must keep whatever they were already set to - assigning straight to
+// subs/continents/ranks (no `var`) updates those shared, module-level
+// variables (declared in load_data.js / handle_url_retrieval.js) in place,
+// instead of shadowing them with a same-named local that forgets the
+// previous state the moment this call returns.
 function update_filtering(data) {
   var page_url = "{{site.baseurl}}";
 
-  var subs = data.subs || all_subs;
+  if (data.subs) subs = data.subs;
   store.set("{{site.domain}}-subs", subs);
 
   var hasContinents = typeof all_continents !== "undefined";
-  var continents = hasContinents ? (data.continents || all_continents) : null;
+  if (hasContinents && data.continents) continents = data.continents;
   if (hasContinents) store.set("{{site.domain}}-continents", continents);
 
   var hasRanks = typeof all_ranks !== "undefined";
-  var ranks = hasRanks ? (data.ranks || all_ranks) : null;
+  if (hasRanks && data.ranks) ranks = data.ranks;
   if (hasRanks) store.set("{{site.domain}}-ranks", ranks);
 
   $(".ConfItem").each(function () {
