@@ -47,6 +47,29 @@
                     </div>
                   </div>
                 </div>
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="continent-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                        Continent Filter:
+                      </label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="continent-select"
+                        name="continent-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for continent in site.data.continents %}
+                        <option value="{{continent.code}}" id="{{continent.code}}-checkbox">
+                          {{continent.name}} ({{continent.code}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
               </form>
             </div>
             <div class="row">
@@ -66,7 +89,7 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}" data-subs="{{conf.sub | join: ','}}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
@@ -183,6 +206,7 @@
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
+        $('#{{conf.id}}').attr('data-continent', {% if conf.continent %}"{{conf.continent}}"{% else %}deriveContinent("{{conf.place}}"){% endif %});
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
@@ -263,7 +287,7 @@
             subs = [csub];
             $("#subject-select").multiselect('deselect', all_subs);
             $("#subject-select").multiselect('select', subs);
-            update_filtering({ subs: subs, all_subs: all_subs});
+            update_filtering({ subs: subs });
         });
 
     });

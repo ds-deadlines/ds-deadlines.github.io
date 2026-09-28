@@ -12,4 +12,17 @@ if (subs == undefined) {
   subs = all_subs;
 }
 $("#subject-select").multiselect("select", subs);
-update_filtering({ subs: subs, all_subs: all_subs });
+
+// Get continents from URL/Cache, same pattern as subjects.
+continents = url.searchParams.get("continent");
+if (continents == undefined) {
+  continents = store.get("{{site.domain}}-continents");
+} else {
+  continents = continents.toUpperCase().split(",");
+}
+if (continents == undefined) {
+  continents = all_continents;
+}
+$("#continent-select").multiselect("select", continents);
+
+update_filtering({ subs: subs, continents: continents });

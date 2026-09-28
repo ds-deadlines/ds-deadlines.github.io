@@ -11,3 +11,14 @@ for (var i = 0; i < conf_type_data.length; i++) {
 }
 const all_subs = _all_subs;
 
+var continents = [];
+var _all_continents = [];
+// Get all continents
+var continent_data = {{ site.data.continents | jsonify}};
+var continent2name = {};
+for (var i = 0; i < continent_data.length; i++) {
+    _all_continents[i] = continent_data[i]['code'];
+    continent2name[continent_data[i]['code']] = continent_data[i]['name'];
+}
+const all_continents = _all_continents;
+
