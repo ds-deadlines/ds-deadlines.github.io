@@ -44,6 +44,52 @@ $("#subject-select").multiselect({
   },
 });
 
+// Same pattern as #subject-select, for the rank facet. Options are every
+// distinct (source, value) pair actually present in conferences.yml - shown
+// as e.g. "A (CORE)" / "A (CCF)" - rather than picking one source to filter
+// on, since different sources use overlapping-looking scales and only the
+// visitor knows which one they care about.
+$("#rank-select").multiselect({
+  includeSelectAllOption: true,
+  numberDisplayed: 3,
+  onChange: function (option, checked, select) {
+    var crank = $(option).val();
+    if (checked == true) {
+      if (ranks.indexOf(crank) < 0) ranks.push(crank);
+    } else {
+      var idx = ranks.indexOf(crank);
+      if (idx >= 0) ranks.splice(idx, 1);
+    }
+    update_filtering({ ranks: ranks });
+  },
+  onSelectAll: function (options) {
+    ranks = all_ranks;
+    update_filtering({ ranks: ranks });
+  },
+  onDeselectAll: function (options) {
+    ranks = [];
+    update_filtering({ ranks: ranks });
+  },
+  buttonText: function (options, select) {
+    if (options.length === 0) {
+      return "None selected";
+    } else {
+      var labels = [];
+      options.each(function () {
+        if ($(this).attr("value") !== undefined) {
+          labels.push($(this).attr("value"));
+        } else {
+          labels.push($(this).html());
+        }
+      });
+      return labels.join(", ") + "";
+    }
+  },
+  buttonTitle: function (options, select) {
+    return "";
+  },
+});
+
 // Same pattern as #subject-select, for the continent facet.
 $("#continent-select").multiselect({
   includeSelectAllOption: true,

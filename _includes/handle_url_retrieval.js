@@ -25,4 +25,21 @@ if (continents == undefined) {
 }
 $("#continent-select").multiselect("select", continents);
 
-update_filtering({ subs: subs, continents: continents });
+// Get ranks from URL/Cache, same pattern as subjects - but only on pages
+// that actually compute all_ranks (currently just the main list), since
+// unlike subs/continents it isn't backed by a small static data file.
+var ranks = [];
+if (typeof all_ranks !== "undefined") {
+  ranks = url.searchParams.get("rank");
+  if (ranks == undefined) {
+    ranks = store.get("{{site.domain}}-ranks");
+  } else {
+    ranks = decodeURIComponent(ranks).split(";;;");
+  }
+  if (ranks == undefined) {
+    ranks = all_ranks;
+  }
+  $("#rank-select").multiselect("select", ranks);
+}
+
+update_filtering({ subs: subs, continents: continents, ranks: ranks });

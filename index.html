@@ -1,6 +1,12 @@
 ---
 ---
-
+{% assign rank_key_str = "" %}
+{% for conf in site.data.conferences %}
+  {% for r in conf.rank %}
+    {% assign rank_key_str = rank_key_str | append: r.source | append: "|||" | append: r.value | append: ";;;" %}
+  {% endfor %}
+{% endfor %}
+{% assign rank_keys = rank_key_str | split: ";;;" | uniq | sort %}
 
 <html>
   <head>
@@ -70,6 +76,30 @@
                     </div>
                   </div>
                 </div>
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="rank-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                        Rank Filter:
+                      </label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="rank-select"
+                        name="rank-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for key in rank_keys %}
+                        {% assign rank_parts = key | split: "|||" %}
+                        <option value="{{key}}">
+                          {{rank_parts[1]}} ({{rank_parts[0]}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
               </form>
             </div>
             <div class="row">
@@ -89,7 +119,7 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}" data-subs="{{conf.sub | join: ','}}">
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}" data-subs="{{conf.sub | join: ','}}" data-ranks="{% for r in conf.rank %}{{r.source}}|||{{r.value}}{% unless forloop.last %};;;{% endunless %}{% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
@@ -190,6 +220,9 @@
         
         {% include load_data.js %}
         {% include utils.js %}
+
+        const all_ranks = {{ rank_keys | jsonify }};
+
         {% include multiselect_handler.js %}
 
         addUtcTimeZones();
