@@ -150,18 +150,24 @@ function update_filtering(data) {
   $(".ConfItem").each(function () {
     var el = $(this);
     var confSubs = (el.attr("data-subs") || "").split(",").filter(Boolean);
-    var subMatch = confSubs.some(function (s) { return subs.indexOf(s) > -1; });
+    // An empty selection is treated the same as "everything selected" (no
+    // constraint from this facet), not "matches nothing" - both because a
+    // deliberate "show zero conferences" state is never useful, and because
+    // the "select all" checkbox is a toggle: clicking it while everything is
+    // already selected (its default state) deselects everything instead of
+    // being a no-op, which is an easy, non-obvious way to end up here.
+    var subMatch = subs.length === 0 || confSubs.some(function (s) { return subs.indexOf(s) > -1; });
 
     var continentMatch = true;
     if (hasContinents) {
       var confContinent = el.attr("data-continent") || "XX";
-      continentMatch = continents.indexOf(confContinent) > -1;
+      continentMatch = continents.length === 0 || continents.indexOf(confContinent) > -1;
     }
 
     var rankMatch = true;
     if (hasRanks) {
       var confRanks = (el.attr("data-ranks") || "").split(";;;").filter(Boolean);
-      rankMatch = ranks.length >= all_ranks.length || confRanks.some(function (r) { return ranks.indexOf(r) > -1; });
+      rankMatch = ranks.length === 0 || ranks.length >= all_ranks.length || confRanks.some(function (r) { return ranks.indexOf(r) > -1; });
     }
 
     el.toggle(subMatch && continentMatch && rankMatch);
