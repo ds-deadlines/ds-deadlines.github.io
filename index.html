@@ -1,6 +1,12 @@
 ---
 ---
-
+{% assign rank_key_str = "" %}
+{% for conf in site.data.conferences %}
+  {% for r in conf.rank %}
+    {% assign rank_key_str = rank_key_str | append: r.source | append: "|||" | append: r.value | append: ";;;" %}
+  {% endfor %}
+{% endfor %}
+{% assign rank_keys = rank_key_str | split: ";;;" | uniq | sort %}
 
 <html>
   <head>
@@ -39,8 +45,73 @@
                         style="display: none"
                       >
                         {% for type in site.data.types %}
+                        {% assign sub_count = 0 %}
+                        {% for conf in site.data.conferences %}
+                          {% if conf.sub contains type.sub %}
+                            {% assign sub_count = sub_count | plus: 1 %}
+                          {% endif %}
+                        {% endfor %}
                         <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-                          {{type.name}} ({{type.sub}})
+                          {{type.name}} ({{type.sub}}) - ({{sub_count}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="continent-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                        Continent Filter:
+                      </label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="continent-select"
+                        name="continent-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for continent in site.data.continents %}
+                        <option value="{{continent.code}}" id="{{continent.code}}-checkbox">
+                          {{continent.name}} ({{continent.code}})
+                        </option>
+                        {% endfor %}
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="row align-items-md-center col-12 col-10-md">
+                    <div class="col-12 col-md-5 filter-label">
+                      <label for="rank-select" class="align-center" style="margin-bottom: 0px; line-height: 1.5;">
+                        Rank Filter:
+                      </label>
+                    </div>
+                    <div class="col-12 col-md-6">
+                      <select
+                        id="rank-select"
+                        name="rank-select"
+                        multiple="multiple"
+                        style="display: none"
+                      >
+                        {% for key in rank_keys %}
+                        {% assign rank_parts = key | split: "|||" %}
+                        {% assign rank_count = 0 %}
+                        {% for conf in site.data.conferences %}
+                          {% assign has_this_rank = false %}
+                          {% for r in conf.rank %}
+                            {% if r.source == rank_parts[0] and r.value == rank_parts[1] %}
+                              {% assign has_this_rank = true %}
+                            {% endif %}
+                          {% endfor %}
+                          {% if has_this_rank %}
+                            {% assign rank_count = rank_count | plus: 1 %}
+                          {% endif %}
+                        {% endfor %}
+                        <option value="{{key}}">
+                          {{rank_parts[1]}} ({{rank_parts[0]}}) - ({{rank_count}})
                         </option>
                         {% endfor %}
                       </select>
@@ -66,7 +137,7 @@
         <div id="confs">
         <div id="coming_confs">
           {% for conf in site.data.conferences %}
-          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}">
+          <div id="{{conf.id}}" class="ConfItem {% for sub in conf.sub %} {{sub}}-conf {% endfor %}" data-subs="{{conf.sub | join: ','}}" data-ranks="{% for r in conf.rank %}{{r.source}}|||{{r.value}}{% unless forloop.last %};;;{% endunless %}{% endfor %}">
             <div class="row conf-row">
                 <div class="col-6">
                   <span class="conf-title">
@@ -167,6 +238,9 @@
         
         {% include load_data.js %}
         {% include utils.js %}
+
+        const all_ranks = {{ rank_keys | jsonify }};
+
         {% include multiselect_handler.js %}
 
         addUtcTimeZones();
@@ -183,6 +257,7 @@
         {% for sub in conf.sub %}
         $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
         {% endfor %}
+        $('#{{conf.id}}').attr('data-continent', {% if conf.continent %}"{{conf.continent}}"{% else %}deriveContinent("{{conf.place}}"){% endif %});
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
           $('#{{conf.id}} .deadline-time').html("TBA");
@@ -238,6 +313,21 @@
         {% endif %}
         {% endfor %}
 
+        // Continent is only known once every conference's data-continent
+        // attribute has been set above (it's derived client-side), so its
+        // option counts can only be computed now - append them and force the
+        // already-initialized widget to redraw from the updated <option>
+        // text (subject/rank counts, by contrast, are baked in at build
+        // time in the HTML above, since they don't need this).
+        {% for continent in site.data.continents %}
+        (function () {
+          var cnt = $('.ConfItem[data-continent="{{continent.code}}"]').length;
+          var el = $('#{{continent.code}}-checkbox');
+          el.text(el.text().trim() + ' - (' + cnt + ')');
+        })();
+        {% endfor %}
+        $('#continent-select').multiselect('rebuild');
+
         // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
           return $(b).attr('diff') - $(a).attr('diff');
@@ -263,7 +353,7 @@
             subs = [csub];
             $("#subject-select").multiselect('deselect', all_subs);
             $("#subject-select").multiselect('select', subs);
-            update_filtering({ subs: subs, all_subs: all_subs});
+            update_filtering({ subs: subs });
         });
 
     });
