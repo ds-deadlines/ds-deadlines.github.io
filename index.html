@@ -45,8 +45,14 @@
                         style="display: none"
                       >
                         {% for type in site.data.types %}
+                        {% assign sub_count = 0 %}
+                        {% for conf in site.data.conferences %}
+                          {% if conf.sub contains type.sub %}
+                            {% assign sub_count = sub_count | plus: 1 %}
+                          {% endif %}
+                        {% endfor %}
                         <option value="{{type.sub}}" id="{{type.sub}}-checkbox">
-                          {{type.name}} ({{type.sub}})
+                          {{type.name}} ({{type.sub}}) - ({{sub_count}})
                         </option>
                         {% endfor %}
                       </select>
@@ -92,8 +98,20 @@
                       >
                         {% for key in rank_keys %}
                         {% assign rank_parts = key | split: "|||" %}
+                        {% assign rank_count = 0 %}
+                        {% for conf in site.data.conferences %}
+                          {% assign has_this_rank = false %}
+                          {% for r in conf.rank %}
+                            {% if r.source == rank_parts[0] and r.value == rank_parts[1] %}
+                              {% assign has_this_rank = true %}
+                            {% endif %}
+                          {% endfor %}
+                          {% if has_this_rank %}
+                            {% assign rank_count = rank_count | plus: 1 %}
+                          {% endif %}
+                        {% endfor %}
                         <option value="{{key}}">
-                          {{rank_parts[1]}} ({{rank_parts[0]}})
+                          {{rank_parts[1]}} ({{rank_parts[0]}}) - ({{rank_count}})
                         </option>
                         {% endfor %}
                       </select>
@@ -294,6 +312,21 @@
           }
         {% endif %}
         {% endfor %}
+
+        // Continent is only known once every conference's data-continent
+        // attribute has been set above (it's derived client-side), so its
+        // option counts can only be computed now - append them and force the
+        // already-initialized widget to redraw from the updated <option>
+        // text (subject/rank counts, by contrast, are baked in at build
+        // time in the HTML above, since they don't need this).
+        {% for continent in site.data.continents %}
+        (function () {
+          var cnt = $('.ConfItem[data-continent="{{continent.code}}"]').length;
+          var el = $('#{{continent.code}}-checkbox');
+          el.text(el.text().trim() + ' - (' + cnt + ')');
+        })();
+        {% endfor %}
+        $('#continent-select').multiselect('rebuild');
 
         // Sort coming_confs and past_confs
         $("#coming_confs .ConfItem").sort(function (a, b) {
